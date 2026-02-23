@@ -43,4 +43,5 @@ jobs:
             exit 0
           fi
           git commit -m "aviation_data: update from FAA cycle (automated)"
+          git remote set-url origin "https://x:${PAT}@github.com/nolmscheid/ReadbackCorrect.git"
           git push
