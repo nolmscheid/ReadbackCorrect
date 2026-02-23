@@ -13,11 +13,14 @@ from pathlib import Path
 OUT_DIR = Path(__file__).resolve().parent / "out"
 OUT_FILE = OUT_DIR / "airports.json"
 
-# Same FAA ArcGIS server as Designated Points
-FAA_US_AIRPORT_URL = (
+# Same FAA ArcGIS server as Designated Points. Server caps per-request size; we paginate.
+FAA_US_AIRPORT_BASE = (
     "https://services6.arcgis.com/ssFJjBXIUyZDrSYZ/arcgis/rest/services/US_Airport/FeatureServer/0/query"
-    "?where=1%3D1&outFields=IDENT,NAME,SERVCITY,STATE&returnGeometry=false&f=json&resultRecordCount=25000"
+    "?where=1%3D1&outFields=IDENT,NAME,SERVCITY,STATE&returnGeometry=false&f=json"
+    "&orderByFields=STATE,IDENT&resultRecordCount={count}&resultOffset={offset}"
 )
+# This service returns at most 1000 records per request; we paginate to get all.
+PAGE_SIZE = 1000
 
 
 def normalize_id(s: str | None) -> str | None:
@@ -57,31 +60,40 @@ def build_from_csv(path: Path) -> list[dict]:
 
 
 def build_from_faa_api() -> list[dict] | None:
-    try:
-        import urllib.request
-        req = urllib.request.Request(
-            FAA_US_AIRPORT_URL,
-            headers={"User-Agent": "ReadBack/1.0 (aviation data build)"},
-        )
-        with urllib.request.urlopen(req, timeout=120) as resp:
-            data = json.load(resp)
-    except Exception as e:
-        print("FAA US_Airport fetch failed:", e, file=sys.stderr)
-        return None
-    features = data.get("features") or []
+    import urllib.request
     rows: list[dict] = []
     seen: set[str] = set()
-    for f in features:
-        att = f.get("attributes") or {}
-        aid = normalize_id(att.get("IDENT") or att.get("ident") or "")
-        if not aid or aid in seen:
-            continue
-        seen.add(aid)
-        # ArcGIS can return keys in different case (NAME, name, Name)
-        name = (att.get("NAME") or att.get("name") or att.get("Name") or "").strip() or None
-        city = (att.get("SERVCITY") or att.get("servcity") or att.get("city") or att.get("City") or "").strip() or None
-        state = (att.get("STATE") or att.get("state") or att.get("State") or "").strip() or None
-        rows.append({"id": aid, "name": name, "city": city, "state": state})
+    offset = 0
+    while True:
+        url = FAA_US_AIRPORT_BASE.format(count=PAGE_SIZE, offset=offset)
+        try:
+            req = urllib.request.Request(
+                url,
+                headers={"User-Agent": "ReadBack/1.0 (aviation data build)"},
+            )
+            with urllib.request.urlopen(req, timeout=120) as resp:
+                data = json.load(resp)
+        except Exception as e:
+            print(f"FAA US_Airport fetch failed (offset={offset}): {e}", file=sys.stderr)
+            if offset == 0:
+                return None
+            break
+        features = data.get("features") or []
+        for f in features:
+            att = f.get("attributes") or {}
+            aid = normalize_id(att.get("IDENT") or att.get("ident") or "")
+            if not aid or aid in seen:
+                continue
+            seen.add(aid)
+            # ArcGIS can return keys in different case (NAME, name, Name)
+            name = (att.get("NAME") or att.get("name") or att.get("Name") or "").strip() or None
+            city = (att.get("SERVCITY") or att.get("servcity") or att.get("city") or att.get("City") or "").strip() or None
+            state = (att.get("STATE") or att.get("state") or att.get("State") or "").strip() or None
+            rows.append({"id": aid, "name": name, "city": city, "state": state})
+        if len(features) < PAGE_SIZE:
+            break
+        offset += PAGE_SIZE
+        print(f"Fetched {len(rows)} airports so far...", file=sys.stderr)
     return rows if rows else None
 
 
