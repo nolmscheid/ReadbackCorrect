@@ -77,9 +77,10 @@ def build_from_faa_api() -> list[dict] | None:
         if not aid or aid in seen:
             continue
         seen.add(aid)
-        name = (att.get("NAME") or att.get("name") or "").strip() or None
-        city = (att.get("SERVCITY") or att.get("city") or "").strip() or None
-        state = (att.get("STATE") or att.get("state") or "").strip() or None
+        # ArcGIS can return keys in different case (NAME, name, Name)
+        name = (att.get("NAME") or att.get("name") or att.get("Name") or "").strip() or None
+        city = (att.get("SERVCITY") or att.get("servcity") or att.get("city") or att.get("City") or "").strip() or None
+        state = (att.get("STATE") or att.get("state") or att.get("State") or "").strip() or None
         rows.append({"id": aid, "name": name, "city": city, "state": state})
     return rows if rows else None
 
