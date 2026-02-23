@@ -69,10 +69,12 @@ def get_manifest_cycle() -> str | None:
 
 
 def set_manifest_cycle(cycle: str) -> bool:
-    """Write aviation_manifest.json with given cycle and standard files."""
+    """Write aviation_manifest.json with given cycle, optional updated (ISO) timestamp, and standard files."""
+    import datetime
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     manifest = {
         "cycle": cycle,
+        "updated": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
         "files": {
             "airports": "airports.json",
             "victor_airways": "victor_airways.json",
