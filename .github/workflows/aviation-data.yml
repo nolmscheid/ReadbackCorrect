@@ -1,18 +1,21 @@
-# Build FAA aviation data and push to ReadbackCorrect so the app stays current.
-# Runs weekly and on manual trigger. Requires secret READBACK_CORRECT_PAT in this repo.
+# Use this workflow IN the ReadbackCorrect repo (not ReadBack).
+# 1. Copy this file to ReadbackCorrect as .github/workflows/aviation-data.yml
+# 2. Copy the scripts/ folder from ReadBack into ReadbackCorrect (build_*.py, check_faa_cycle.py, build_all_and_update_manifest.sh)
+# No PAT needed — the job pushes to the same repo using GITHUB_TOKEN.
 name: Aviation data
 
 on:
   schedule:
-    # Every Monday at 09:00 UTC
     - cron: "0 9 * * 1"
   workflow_dispatch:
 
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Checkout ReadBack
+      - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -23,25 +26,16 @@ jobs:
       - name: Build waypoints, airports, victor airways, and set manifest
         run: bash scripts/build_all_and_update_manifest.sh
 
-      - name: Push to ReadbackCorrect
-        env:
-          PAT: ${{ secrets.READBACK_CORRECT_PAT }}
+      - name: Commit and push aviation_data
         run: |
-          if [ -z "$PAT" ]; then
-            echo "READBACK_CORRECT_PAT not set; skipping push. Add it in repo Settings → Secrets for automatic updates."
-            exit 0
-          fi
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
-          git clone --depth 1 "https://x:${PAT}@github.com/nolmscheid/ReadbackCorrect.git" data-repo
-          cd data-repo
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
           mkdir -p aviation_data
-          cp ../scripts/out/aviation_manifest.json ../scripts/out/airports.json ../scripts/out/waypoints.json ../scripts/out/victor_airways.json aviation_data/
+          cp scripts/out/aviation_manifest.json scripts/out/airports.json scripts/out/waypoints.json scripts/out/victor_airways.json aviation_data/
           git add aviation_data/
           if git diff --staged --quiet; then
             echo "No changes to aviation_data."
             exit 0
           fi
           git commit -m "aviation_data: update from FAA cycle (automated)"
-          git remote set-url origin "https://x:${PAT}@github.com/nolmscheid/ReadbackCorrect.git"
           git push
