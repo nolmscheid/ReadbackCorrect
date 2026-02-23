@@ -15,14 +15,13 @@ from pathlib import Path
 OUT_DIR = Path(__file__).resolve().parent / "out"
 OUT_FILE = OUT_DIR / "waypoints.json"
 
-# FAA ArcGIS Open Data: Designated Points (fix/waypoint identifiers).
-# Server caps per-request size (typically 1000); we paginate to get all.
-# Fallback if CSV not provided and network fails: use bundled list of common US waypoint IDs.
+# FAA ArcGIS: DesignatedPoints (plural), path uses ArcGIS (capital G). Layer has IDENT + REMARKS (no NAME).
+# Server maxRecordCount=1000; we paginate to get all. Fallback if network fails: bundled list.
 FAA_DESIGNATED_POINTS_BASE = (
-    "https://services6.arcgis.com/ssFJjBXIUyZDrSYZ/arcgis/rest/services"
-    "/Designated_Points/FeatureServer/0/query"
-    "?where=1%3D1&outFields=IDENT,NAME&returnGeometry=false&f=json"
-    "&orderByFields=IDENT&resultRecordCount={count}&resultOffset={offset}"
+    "https://services6.arcgis.com/ssFJjBXIUyZDrSYZ/ArcGIS/rest/services"
+    "/DesignatedPoints/FeatureServer/0/query"
+    "?where=1%3D1&outFields=IDENT,REMARKS&returnGeometry=false&f=json"
+    "&resultRecordCount={count}&resultOffset={offset}"
 )
 PAGE_SIZE = 1000
 
@@ -113,12 +112,17 @@ def build_from_faa_api() -> list[dict] | None:
             if not wid or wid in seen:
                 continue
             seen.add(wid)
-            name = (att.get("NAME") or att.get("name") or "").strip() or None
+            # Layer uses REMARKS (not NAME) for description
+            name = (att.get("REMARKS") or att.get("remarks") or att.get("NAME") or att.get("name") or "").strip() or None
+            if name and name.strip() in ("", "|", "||", " || "):
+                name = None
             rows.append({"id": wid, "name": name})
         if len(features) < PAGE_SIZE:
             break
         offset += PAGE_SIZE
         print(f"Fetched {len(rows)} waypoints so far...", file=sys.stderr)
+    if rows:
+        print(f"FAA Designated Points total: {len(rows)} waypoints", file=sys.stderr)
     return rows if rows else None
 
 
