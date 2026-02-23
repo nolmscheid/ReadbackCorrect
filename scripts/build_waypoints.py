@@ -15,13 +15,16 @@ from pathlib import Path
 OUT_DIR = Path(__file__).resolve().parent / "out"
 OUT_FILE = OUT_DIR / "waypoints.json"
 
-# FAA ArcGIS Open Data: Designated Points (fix/waypoint identifiers)
+# FAA ArcGIS Open Data: Designated Points (fix/waypoint identifiers).
+# Server caps per-request size (typically 1000); we paginate to get all.
 # Fallback if CSV not provided and network fails: use bundled list of common US waypoint IDs.
-FAA_DESIGNATED_POINTS_URL = (
+FAA_DESIGNATED_POINTS_BASE = (
     "https://services6.arcgis.com/ssFJjBXIUyZDrSYZ/arcgis/rest/services"
     "/Designated_Points/FeatureServer/0/query"
-    "?where=1%3D1&outFields=IDENT,NAME&returnGeometry=false&f=json&resultRecordCount=50000"
+    "?where=1%3D1&outFields=IDENT,NAME&returnGeometry=false&f=json"
+    "&orderByFields=IDENT&resultRecordCount={count}&resultOffset={offset}"
 )
+PAGE_SIZE = 1000
 
 # Common US waypoint IDs (fallback when no CSV and no network) — subset for bundle/offline use.
 FALLBACK_WAYPOINT_IDS = [
@@ -85,28 +88,37 @@ def build_from_csv(path: Path) -> list[dict]:
 
 
 def build_from_faa_api() -> list[dict] | None:
-    try:
-        import urllib.request
-        req = urllib.request.Request(
-            FAA_DESIGNATED_POINTS_URL,
-            headers={"User-Agent": "ReadBack/1.0 (aviation data build)"},
-        )
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            data = json.load(resp)
-    except Exception as e:
-        print("FAA API fetch failed:", e, file=sys.stderr)
-        return None
-    features = data.get("features") or []
+    import urllib.request
     rows: list[dict] = []
     seen: set[str] = set()
-    for f in features:
-        att = f.get("attributes") or {}
-        wid = normalize_id(att.get("IDENT") or att.get("ident") or "")
-        if not wid or wid in seen:
-            continue
-        seen.add(wid)
-        name = (att.get("NAME") or att.get("name") or "").strip() or None
-        rows.append({"id": wid, "name": name})
+    offset = 0
+    while True:
+        url = FAA_DESIGNATED_POINTS_BASE.format(count=PAGE_SIZE, offset=offset)
+        try:
+            req = urllib.request.Request(
+                url,
+                headers={"User-Agent": "ReadBack/1.0 (aviation data build)"},
+            )
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                data = json.load(resp)
+        except Exception as e:
+            print(f"FAA Designated Points fetch failed (offset={offset}): {e}", file=sys.stderr)
+            if offset == 0:
+                return None
+            break
+        features = data.get("features") or []
+        for f in features:
+            att = f.get("attributes") or {}
+            wid = normalize_id(att.get("IDENT") or att.get("ident") or "")
+            if not wid or wid in seen:
+                continue
+            seen.add(wid)
+            name = (att.get("NAME") or att.get("name") or "").strip() or None
+            rows.append({"id": wid, "name": name})
+        if len(features) < PAGE_SIZE:
+            break
+        offset += PAGE_SIZE
+        print(f"Fetched {len(rows)} waypoints so far...", file=sys.stderr)
     return rows if rows else None
 
 
