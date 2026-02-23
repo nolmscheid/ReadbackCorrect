@@ -21,7 +21,7 @@ jobs:
           python-version: "3.11"
 
       - name: Build waypoints, airports, victor airways, and set manifest
-        run: ./scripts/build_all_and_update_manifest.sh
+        run: bash scripts/build_all_and_update_manifest.sh
 
       - name: Push to ReadbackCorrect
         env:
