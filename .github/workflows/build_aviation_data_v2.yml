@@ -9,6 +9,9 @@ on:
     - cron: "0 9 * * 1"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
@@ -24,25 +27,15 @@ jobs:
       - name: Build aviation_data_v2 and set manifest
         run: bash scripts_v2/build_all_and_update_manifest.sh
 
-      - name: Push to ReadbackCorrect
-        env:
-          PAT: ${{ secrets.READBACK_CORRECT_PAT }}
+      - name: Push aviation_data_v2
         run: |
-          if [ -z "$PAT" ]; then
-            echo "READBACK_CORRECT_PAT not set; skipping push. Add it in repo Settings → Secrets for automatic updates."
-            exit 0
-          fi
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-          git clone --depth 1 "https://x:${PAT}@github.com/nolmscheid/ReadbackCorrect.git" data-repo
-          cd data-repo
-          mkdir -p aviation_data_v2
-          cp ../aviation_data_v2/aviation_manifest.json ../aviation_data_v2/airports.json ../aviation_data_v2/navaids.json ../aviation_data_v2/fixes.json aviation_data_v2/
+          git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
           git add aviation_data_v2/
           if git diff --staged --quiet; then
             echo "No changes to aviation_data_v2."
             exit 0
           fi
           git commit -m "aviation_data_v2: update from FAA cycle (automated)"
-          git remote set-url origin "https://x:${PAT}@github.com/nolmscheid/ReadbackCorrect.git"
           git push
