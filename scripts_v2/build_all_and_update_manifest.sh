@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Build aviation_data_v2 and set manifest from current FAA cycle.
-# Uses same FAA cycle detection as scripts/check_faa_cycle.py.
+# Build aviation_data_v2 from FAA NASR 28-day data: download zip, extract CSVs, run build scripts, write manifest.
+# Uses same FAA cycle logic as scripts/check_faa_cycle.py (v1). Fails if any required CSV is missing or output is empty.
 # Run from repo root. Output: aviation_data_v2/
 
 set -e
@@ -8,30 +8,29 @@ REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$REPO_ROOT"
 mkdir -p aviation_data_v2
 
-# Get current FAA NASR cycle (same logic as scripts/check_faa_cycle.py)
-echo "Fetching FAA NASR cycle..."
-CYCLE=$(python3 -c "
-import sys
-sys.path.insert(0, 'scripts')
-from check_faa_cycle import fetch_current_cycle
-c = fetch_current_cycle()
-print(c or '')
-" 2>/dev/null || true)
+# Download NASR zip and locate Airport.csv, Navaid.csv, Fix.csv (exits non-zero if cycle/download/CSV missing)
+source "$REPO_ROOT/scripts_v2/download_nasr.sh"
 
-if [ -z "$CYCLE" ]; then
-  echo "Could not fetch FAA cycle; using fallback date." >&2
-  CYCLE=$(date -u +%Y-%m-%d)
-fi
-echo "FAA cycle: $CYCLE"
+echo "Building airports.json..."
+python3 scripts_v2/build_airports.py --airport-csv "$AIRPORT_CSV" -o aviation_data_v2/airports.json
 
-# Ensure JSON files exist so build_manifest can count (empty if no NASR CSVs provided)
-for f in airports.json navaids.json fixes.json; do
-  if [ ! -f "aviation_data_v2/$f" ]; then
-    echo '[]' > "aviation_data_v2/$f"
+echo "Building navaids.json..."
+python3 scripts_v2/build_navaids.py --csv "$NAVAID_CSV" -o aviation_data_v2/navaids.json
+
+echo "Building fixes.json..."
+python3 scripts_v2/build_fixes.py --csv "$FIX_CSV" -o aviation_data_v2/fixes.json
+
+# Fail if any output is empty (would publish empty arrays)
+for f in aviation_data_v2/airports.json aviation_data_v2/navaids.json aviation_data_v2/fixes.json; do
+  count=$(python3 -c "import json; d=json.load(open('$f')); print(len(d) if isinstance(d,list) else 0)")
+  if [ "$count" -eq 0 ]; then
+    echo "ERROR: Generated file is empty: $f (would publish empty data)." >&2
+    exit 1
   fi
+  echo "$f: $count records"
 done
 
-# Write manifest with cycle and counts from aviation_data_v2
+echo "Writing manifest..."
 python3 scripts_v2/build_manifest.py --faa-cycle "$CYCLE" -o aviation_data_v2/aviation_manifest.json
 
 echo "Done. Output in aviation_data_v2/"
