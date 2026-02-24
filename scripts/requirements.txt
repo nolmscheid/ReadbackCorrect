@@ -1,0 +1,2 @@
+# Optional: for build_waypoints.py when using FAA API (Python stdlib works for --csv and --no-network)
+# requests>=2.28.0
