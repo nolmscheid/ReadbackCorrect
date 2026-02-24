@@ -1,0 +1,48 @@
+# Build FAA aviation data (Phase 2) and push to ReadbackCorrect.
+# Runs in parallel with Aviation data workflow. Uses scripts_v2 and aviation_data_v2.
+# Same cron and FAA cycle logic. Commits only if aviation_data_v2 files change.
+name: Aviation data v2
+
+on:
+  schedule:
+    # Every Monday at 09:00 UTC (same as existing aviation data workflow)
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout ReadBack
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build aviation_data_v2 and set manifest
+        run: bash scripts_v2/build_all_and_update_manifest.sh
+
+      - name: Push to ReadbackCorrect
+        env:
+          PAT: ${{ secrets.READBACK_CORRECT_PAT }}
+        run: |
+          if [ -z "$PAT" ]; then
+            echo "READBACK_CORRECT_PAT not set; skipping push. Add it in repo Settings → Secrets for automatic updates."
+            exit 0
+          fi
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git clone --depth 1 "https://x:${PAT}@github.com/nolmscheid/ReadbackCorrect.git" data-repo
+          cd data-repo
+          mkdir -p aviation_data_v2
+          cp ../aviation_data_v2/aviation_manifest.json ../aviation_data_v2/airports.json ../aviation_data_v2/navaids.json ../aviation_data_v2/fixes.json aviation_data_v2/
+          git add aviation_data_v2/
+          if git diff --staged --quiet; then
+            echo "No changes to aviation_data_v2."
+            exit 0
+          fi
+          git commit -m "aviation_data_v2: update from FAA cycle (automated)"
+          git remote set-url origin "https://x:${PAT}@github.com/nolmscheid/ReadbackCorrect.git"
+          git push
