@@ -1,0 +1,41 @@
+# Use this workflow IN the ReadbackCorrect repo (not ReadBack).
+# 1. Copy this file to ReadbackCorrect as .github/workflows/aviation-data.yml
+# 2. Copy the scripts/ folder from ReadBack into ReadbackCorrect (build_*.py, check_faa_cycle.py, build_all_and_update_manifest.sh)
+# No PAT needed — the job pushes to the same repo using GITHUB_TOKEN.
+name: Aviation data
+
+on:
+  schedule:
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build waypoints, airports, victor airways, and set manifest
+        run: bash scripts/build_all_and_update_manifest.sh
+
+      - name: Commit and push aviation_data
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          mkdir -p aviation_data
+          cp scripts/out/aviation_manifest.json scripts/out/airports.json scripts/out/waypoints.json scripts/out/victor_airways.json aviation_data/
+          git add aviation_data/
+          if git diff --staged --quiet; then
+            echo "No changes to aviation_data."
+            exit 0
+          fi
+          git commit -m "aviation_data: update from FAA cycle (automated)"
+          git push
