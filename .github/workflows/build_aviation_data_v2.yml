@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       target_branch:
-        description: "Branch to commit generated aviation_data_v2 files into"
+        description: "Branch to commit generated aviation_data_v2 files into (leave blank to use the selected branch)"
         required: false
         default: ""
 
@@ -21,14 +21,12 @@ jobs:
       - name: Resolve target branch
         id: vars
         run: |
-          # If user didn't provide an input, default to the branch this workflow run is for.
-          # For workflow_dispatch, github.ref_name is the selected branch in the UI.
           if [ -n "${{ github.event.inputs.target_branch }}" ]; then
             echo "TARGET_BRANCH=${{ github.event.inputs.target_branch }}" >> "$GITHUB_OUTPUT"
           else
             echo "TARGET_BRANCH=${{ github.ref_name }}" >> "$GITHUB_OUTPUT"
           fi
-          echo "Using TARGET_BRANCH=$(cat $GITHUB_OUTPUT | cut -d= -f2)"
+          echo "Target branch: ${{ steps.vars.outputs.TARGET_BRANCH }}"
 
       - name: Checkout target branch
         uses: actions/checkout@v4
@@ -43,32 +41,34 @@ jobs:
           python-version: "3.11"
 
       - name: Build aviation_data_v2 and set manifest
-        run: bash scripts_v2/build_all_and_update_manifest.sh
+        run: |
+          bash scripts_v2/build_all_and_update_manifest.sh
+          echo ""
+          echo "Generated files:"
+          ls -lah aviation_data_v2 || true
 
-      - name: Commit and push aviation_data_v2 to target branch
+      - name: Commit and push aviation_data_v2 JSON outputs
         env:
           TARGET_BRANCH: ${{ steps.vars.outputs.TARGET_BRANCH }}
         run: |
           set -e
 
-          echo "Committing to branch: $TARGET_BRANCH"
-
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Make sure we're on the right branch locally
           git checkout "$TARGET_BRANCH"
 
-          # Stage outputs
-          git add aviation_data_v2/
+          # IMPORTANT: JSON outputs are ignored in this repo, so we must force-add them.
+          git add -f aviation_data_v2/*.json
 
-          # No changes? Exit cleanly
+          echo ""
+          echo "Staged changes:"
+          git status --porcelain
+
           if git diff --staged --quiet; then
-            echo "No changes to aviation_data_v2. Nothing to commit."
+            echo "No changes to aviation_data_v2 JSON outputs. Nothing to commit."
             exit 0
           fi
 
           git commit -m "aviation_data_v2: update from FAA cycle (automated)"
-
-          # Push explicitly to the target branch
           git push origin "HEAD:refs/heads/$TARGET_BRANCH"
