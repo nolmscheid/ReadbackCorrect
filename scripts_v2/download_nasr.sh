@@ -60,27 +60,82 @@ else
   echo "WARNING: CSV_Data/ not found under $NASR_WORK_DIR (will try to locate base CSVs directly)." >&2
 fi
 
-# Locate APT_BASE/NAV_BASE/FIX_BASE CSVs recursively under NASR_WORK_DIR
+# Locate all required CSVs recursively under NASR_WORK_DIR
 AIRPORT_CSV=$(find "$NASR_WORK_DIR" -type f -iname "APT_BASE.csv" -print -quit || true)
 NAVAID_CSV=$(find "$NASR_WORK_DIR" -type f -iname "NAV_BASE.csv" -print -quit || true)
 FIX_CSV=$(find "$NASR_WORK_DIR" -type f -iname "FIX_BASE.csv" -print -quit || true)
+APT_RWY_CSV=$(find "$NASR_WORK_DIR" -type f -iname "APT_RWY.csv" -print -quit || true)
+APT_RWY_END_CSV=$(find "$NASR_WORK_DIR" -type f -iname "APT_RWY_END.csv" -print -quit || true)
+FRQ_CSV=$(find "$NASR_WORK_DIR" -type f -iname "FRQ.csv" -print -quit || true)
+COM_CSV=$(find "$NASR_WORK_DIR" -type f -iname "COM.csv" -print -quit || true)
+AWY_BASE_CSV=$(find "$NASR_WORK_DIR" -type f -iname "AWY_BASE.csv" -print -quit || true)
+AWY_SEG_ALT_CSV=$(find "$NASR_WORK_DIR" -type f -iname "AWY_SEG_ALT.csv" -print -quit || true)
+DP_BASE_CSV=$(find "$NASR_WORK_DIR" -type f -iname "DP_BASE.csv" -print -quit || true)
+DP_RTE_CSV=$(find "$NASR_WORK_DIR" -type f -iname "DP_RTE.csv" -print -quit || true)
+DP_APT_CSV=$(find "$NASR_WORK_DIR" -type f -iname "DP_APT.csv" -print -quit || true)
+STAR_BASE_CSV=$(find "$NASR_WORK_DIR" -type f -iname "STAR_BASE.csv" -print -quit || true)
+STAR_RTE_CSV=$(find "$NASR_WORK_DIR" -type f -iname "STAR_RTE.csv" -print -quit || true)
+STAR_APT_CSV=$(find "$NASR_WORK_DIR" -type f -iname "STAR_APT.csv" -print -quit || true)
+ILS_BASE_CSV=$(find "$NASR_WORK_DIR" -type f -iname "ILS_BASE.csv" -print -quit || true)
+ILS_DME_CSV=$(find "$NASR_WORK_DIR" -type f -iname "ILS_DME.csv" -print -quit || true)
+ILS_GS_CSV=$(find "$NASR_WORK_DIR" -type f -iname "ILS_GS.csv" -print -quit || true)
+ILS_MKR_CSV=$(find "$NASR_WORK_DIR" -type f -iname "ILS_MKR.csv" -print -quit || true)
 
-if [ -z "$AIRPORT_CSV" ] || [ -z "$NAVAID_CSV" ] || [ -z "$FIX_CSV" ]; then
-  if [ -z "$nested_zip" ]; then
-    echo "ERROR: NASR CSV bundle zip not found under $CSV_DATA and base CSVs (APT_BASE/NAV_BASE/FIX_BASE) not found under $NASR_WORK_DIR." >&2
-  else
-    echo "ERROR: Base CSVs (APT_BASE/NAV_BASE/FIX_BASE) not found under $NASR_WORK_DIR after extracting $nested_zip." >&2
-  fi
+MISSING=""
+[ -z "$AIRPORT_CSV" ] && MISSING="${MISSING} APT_BASE.csv"
+[ -z "$NAVAID_CSV" ] && MISSING="${MISSING} NAV_BASE.csv"
+[ -z "$FIX_CSV" ] && MISSING="${MISSING} FIX_BASE.csv"
+[ -z "$APT_RWY_CSV" ] && MISSING="${MISSING} APT_RWY.csv"
+[ -z "$APT_RWY_END_CSV" ] && MISSING="${MISSING} APT_RWY_END.csv"
+[ -z "$FRQ_CSV" ] && MISSING="${MISSING} FRQ.csv"
+[ -z "$COM_CSV" ] && MISSING="${MISSING} COM.csv"
+[ -z "$AWY_BASE_CSV" ] && MISSING="${MISSING} AWY_BASE.csv"
+[ -z "$AWY_SEG_ALT_CSV" ] && MISSING="${MISSING} AWY_SEG_ALT.csv"
+[ -z "$DP_BASE_CSV" ] && MISSING="${MISSING} DP_BASE.csv"
+[ -z "$DP_RTE_CSV" ] && MISSING="${MISSING} DP_RTE.csv"
+[ -z "$DP_APT_CSV" ] && MISSING="${MISSING} DP_APT.csv"
+[ -z "$STAR_BASE_CSV" ] && MISSING="${MISSING} STAR_BASE.csv"
+[ -z "$STAR_RTE_CSV" ] && MISSING="${MISSING} STAR_RTE.csv"
+[ -z "$STAR_APT_CSV" ] && MISSING="${MISSING} STAR_APT.csv"
+[ -z "$ILS_BASE_CSV" ] && MISSING="${MISSING} ILS_BASE.csv"
+[ -z "$ILS_DME_CSV" ] && MISSING="${MISSING} ILS_DME.csv"
+[ -z "$ILS_GS_CSV" ] && MISSING="${MISSING} ILS_GS.csv"
+[ -z "$ILS_MKR_CSV" ] && MISSING="${MISSING} ILS_MKR.csv"
+
+if [ -n "$MISSING" ]; then
+  echo "ERROR: Required CSV(s) not found under $NASR_WORK_DIR:$MISSING" >&2
   exit 1
 fi
 
 echo "APT_BASE=$AIRPORT_CSV"
 echo "NAV_BASE=$NAVAID_CSV"
 echo "FIX_BASE=$FIX_CSV"
+echo "APT_RWY=$APT_RWY_CSV" && echo "APT_RWY_END=$APT_RWY_END_CSV"
+echo "FRQ=$FRQ_CSV" && echo "COM=$COM_CSV"
+echo "AWY_BASE=$AWY_BASE_CSV" && echo "AWY_SEG_ALT=$AWY_SEG_ALT_CSV"
+echo "DP_BASE=$DP_BASE_CSV" && echo "DP_RTE=$DP_RTE_CSV" && echo "DP_APT=$DP_APT_CSV"
+echo "STAR_BASE=$STAR_BASE_CSV" && echo "STAR_RTE=$STAR_RTE_CSV" && echo "STAR_APT=$STAR_APT_CSV"
+echo "ILS_BASE=$ILS_BASE_CSV" && echo "ILS_DME=$ILS_DME_CSV" && echo "ILS_GS=$ILS_GS_CSV" && echo "ILS_MKR=$ILS_MKR_CSV"
 
 export AIRPORT_CSV="$AIRPORT_CSV"
 export NAVAID_CSV="$NAVAID_CSV"
 export FIX_CSV="$FIX_CSV"
+export APT_RWY_CSV="$APT_RWY_CSV"
+export APT_RWY_END_CSV="$APT_RWY_END_CSV"
+export FRQ_CSV="$FRQ_CSV"
+export COM_CSV="$COM_CSV"
+export AWY_BASE_CSV="$AWY_BASE_CSV"
+export AWY_SEG_ALT_CSV="$AWY_SEG_ALT_CSV"
+export DP_BASE_CSV="$DP_BASE_CSV"
+export DP_RTE_CSV="$DP_RTE_CSV"
+export DP_APT_CSV="$DP_APT_CSV"
+export STAR_BASE_CSV="$STAR_BASE_CSV"
+export STAR_RTE_CSV="$STAR_RTE_CSV"
+export STAR_APT_CSV="$STAR_APT_CSV"
+export ILS_BASE_CSV="$ILS_BASE_CSV"
+export ILS_DME_CSV="$ILS_DME_CSV"
+export ILS_GS_CSV="$ILS_GS_CSV"
+export ILS_MKR_CSV="$ILS_MKR_CSV"
 export CYCLE="$CYCLE"
 export NASR_WORK_DIR="$NASR_WORK_DIR"
 

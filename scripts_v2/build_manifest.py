@@ -15,8 +15,30 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 AVIATION_DATA = SCRIPT_DIR.parent / "aviation_data_v2"
 MANIFEST_FILE = AVIATION_DATA / "aviation_manifest.json"
 
-FILES = ("airports.json", "navaids.json", "fixes.json")
-COUNT_KEYS = ("airports", "navaids", "fixes")
+FILES = (
+    "airports.json",
+    "navaids.json",
+    "fixes.json",
+    "runways.json",
+    "frequencies.json",
+    "comms.json",
+    "airways.json",
+    "departures.json",
+    "arrivals.json",
+    "ils.json",
+)
+COUNT_KEYS = (
+    "airports",
+    "navaids",
+    "fixes",
+    "runways",
+    "frequencies",
+    "comms",
+    "airways",
+    "departures",
+    "arrivals",
+    "ils",
+)
 
 
 def get_count(path: Path) -> int:
@@ -56,7 +78,13 @@ def main() -> None:
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with open(args.output, "w", encoding="utf-8") as f:
         json.dump(manifest, f, separators=(",", ":"), ensure_ascii=False)
-    print(f"Wrote manifest to {args.output} (airports={counts['airports']}, navaids={counts['navaids']}, fixes={counts['fixes']})", file=sys.stderr)
+    print(
+        f"Wrote manifest to {args.output} "
+        f"(airports={counts['airports']}, navaids={counts['navaids']}, fixes={counts['fixes']}, "
+        f"runways={counts['runways']}, frequencies={counts['frequencies']}, comms={counts['comms']}, "
+        f"airways={counts['airways']}, departures={counts['departures']}, arrivals={counts['arrivals']}, ils={counts['ils']})",
+        file=sys.stderr,
+    )
 
 
 if __name__ == "__main__":
