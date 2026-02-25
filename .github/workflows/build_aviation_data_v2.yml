@@ -1,7 +1,7 @@
 # Build FAA aviation data (Phase 2) and push to ReadbackCorrect.
 # Runs in parallel with Aviation data workflow. Uses scripts_v2 and aviation_data_v2.
 # Same cron and FAA cycle logic. Commits only if aviation_data_v2 files change.
-name: Aviation data v2
+name: Aviation data v2 (NASR CSV)
 
 on:
   schedule:
