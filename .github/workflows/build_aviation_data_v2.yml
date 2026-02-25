@@ -1,11 +1,8 @@
-# Build FAA aviation data (Phase 2) and push to ReadbackCorrect.
-# Runs in parallel with Aviation data workflow. Uses scripts_v2 and aviation_data_v2.
-# Same cron and FAA cycle logic. Commits only if aviation_data_v2 files change.
+# Build FAA aviation data (Phase 2) and push updates to this repo.
 name: Aviation data v2
 
 on:
   schedule:
-    # Every Monday at 09:00 UTC (same as existing aviation data workflow)
     - cron: "0 9 * * 1"
   workflow_dispatch:
 
@@ -16,12 +13,23 @@ jobs:
   build-and-push:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout ReadBack
+      - name: Checkout aviation-data-v2
         uses: actions/checkout@v4
         with:
-          token: ${{ github.token }}
-          persist-credentials: true
+          ref: aviation-data-v2
           fetch-depth: 0
+          persist-credentials: true
+
+      - name: Debug: confirm branch + script versions
+        run: |
+          echo "HEAD ref:"
+          git rev-parse --abbrev-ref HEAD
+          echo "HEAD commit:"
+          git rev-parse HEAD
+          echo "First 40 lines of scripts_v2/download_nasr.sh:"
+          sed -n '1,40p' scripts_v2/download_nasr.sh
+          echo "First 40 lines of scripts_v2/build_all_and_update_manifest.sh:"
+          sed -n '1,40p' scripts_v2/build_all_and_update_manifest.sh
 
       - name: Set up Python
         uses: actions/setup-python@v5
