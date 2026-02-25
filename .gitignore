@@ -10,3 +10,5 @@ xcuserdata/
 
 # macOS
 .DS_Store
+
+aviation_data_v2/*.json

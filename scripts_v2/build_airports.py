@@ -107,27 +107,93 @@ def build_airports(
 ) -> list[dict]:
     rows: list[dict] = []
     by_id: dict[str, dict] = {}
+    # Diagnostics
+    rows_read = 0
+    written = 0
+    skipped_missing_ident = 0
+    skipped_missing_latlon = 0
+    skipped_missing_name = 0
+    skipped_filtered = 0
+    skipped_parse_errors = 0
+    used_default_latlon = 0
+    used_default_name = 0
+    used_default_state = 0
+    wrote_samples = 0
 
     with open(airport_csv, newline="", encoding="utf-8", errors="replace") as f:
         reader = csv.DictReader(f)
         fieldnames = list(reader.fieldnames or [])
-        for row in reader:
-            aid = normalize_id(_pick(row, ID_COLS))
-            if not aid:
-                continue
-            if should_exclude_airport(row, fieldnames):
-                continue
-            lat = _float(row, LAT_COLS)
-            lon = _float(row, LON_COLS)
-            if lat is None or lon is None:
-                continue
-            name = (_pick(row, NAME_COLS) or "").strip() or ""
-            city = (_pick(row, CITY_COLS) or "").strip() or ""
-            state = (_pick(row, STATE_COLS) or "").strip() or ""
-            elev = _int(row, ELEV_COLS)
+        print("APT_BASE headers:", fieldnames, file=sys.stderr)
 
-            by_id[aid] = {
-                "identifier": aid,
+        def resolve(required: str, *alts: str) -> str:
+            if required in fieldnames:
+                return required
+            for a in alts:
+                if a in fieldnames:
+                    return a
+            # case-insensitive fallback
+            upper_map = {h.upper(): h for h in fieldnames}
+            for name in (required, *alts):
+                if name.upper() in upper_map:
+                    return upper_map[name.upper()]
+            print(
+                f"ERROR: Required column '{required}' not found in APT_BASE headers. "
+                f"Available: {fieldnames}",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+
+        col_arpt_id = resolve("ARPT_ID")
+        col_icao_id = resolve("ICAO_ID", "ICAO")
+        col_name = resolve("ARPT_NAME", "NAME")
+        col_city = resolve("CITY")
+        col_state = resolve("STATE_CODE")
+        col_lat = resolve("LAT_DECIMAL")
+        col_lon = resolve("LONG_DECIMAL")
+        col_elev = resolve("ELEV")
+
+        for row in reader:
+            rows_read += 1
+            # Primary identifier: ARPT_ID (LID); ICAO_ID is optional and stored separately.
+            lid = (row.get(col_arpt_id) or "").strip().upper()
+            icao = (row.get(col_icao_id) or "").strip().upper()
+            if not lid:
+                skipped_missing_ident += 1
+                continue
+            identifier = lid
+            # Use APT_BASE decimal degrees; require both LAT_DECIMAL and LONG_DECIMAL
+            lat_raw = (row.get(col_lat) or "").strip()
+            lon_raw = (row.get(col_lon) or "").strip()
+            if not lat_raw or not lon_raw:
+                skipped_missing_latlon += 1
+                continue
+            try:
+                lat = float(lat_raw)
+                lon = float(lon_raw)
+            except (ValueError, TypeError):
+                skipped_parse_errors += 1
+                continue
+            name_src = (row.get(col_name) or "").strip()
+            if not name_src:
+                used_default_name += 1
+            name = name_src or ""
+            city = (row.get(col_city) or "").strip() or ""
+            state_src = (row.get(col_state) or "").strip()
+            if not state_src:
+                used_default_state += 1
+            state = state_src or ""
+            elev_raw = (row.get(col_elev) or "").strip()
+            elev = None
+            if elev_raw:
+                try:
+                    elev = int(round(float(elev_raw)))
+                except (ValueError, TypeError):
+                    skipped_parse_errors += 1
+                    elev = None
+
+            by_id[identifier] = {
+                "identifier": identifier,
+                "icao_id": icao or None,
                 "name": name.upper() if name else "",
                 "city": city.upper() if city else "",
                 "state": state.upper() if state else "",
@@ -137,6 +203,10 @@ def build_airports(
                 "runways": [],
                 "frequencies": {},
             }
+            written += 1
+            if wrote_samples < 3:
+                print("WROTE sample row:", row, file=sys.stderr)
+                wrote_samples += 1
 
     # Runways: ARPT_ID, RWY_ID (or RUNWAY_ID, BASE_RWY, etc.)
     if runway_csv and runway_csv.exists():
@@ -178,6 +248,15 @@ def build_airports(
     for rec in by_id.values():
         rec["runways"] = sorted(rec["runways"])
         rec["frequencies"] = {k: v for k, v in rec["frequencies"].items() if v}
+
+    # Summary diagnostics
+    print(
+        f"Airports summary: rows={rows_read} written={written} "
+        f"skippedMissingIdent={skipped_missing_ident} "
+        f"skippedMissingLatLon={skipped_missing_latlon} "
+        f"skippedMissingParseErrors={skipped_parse_errors}",
+        file=sys.stderr,
+    )
 
     return [by_id[k] for k in sorted(by_id.keys())]
 
