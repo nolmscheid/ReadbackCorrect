@@ -1,15 +1,10 @@
-# Build FAA aviation data (Phase 2, NASR CSV) and commit aviation_data_v2 outputs to a chosen branch.
+# Build FAA aviation data (Phase 2, NASR CSV) and commit aviation_data_v2 outputs into aviation-data-v2 branch.
 name: Aviation data v2 (NASR CSV)
 
 on:
   schedule:
     - cron: "0 9 * * 1"
   workflow_dispatch:
-    inputs:
-      target_branch:
-        description: "Branch to commit generated aviation_data_v2 files into (leave blank to use the selected branch)"
-        required: false
-        default: ""
 
 permissions:
   contents: write
@@ -18,22 +13,18 @@ jobs:
   build-and-push:
     runs-on: ubuntu-latest
     steps:
-      - name: Resolve target branch
-        id: vars
-        run: |
-          if [ -n "${{ github.event.inputs.target_branch }}" ]; then
-            echo "TARGET_BRANCH=${{ github.event.inputs.target_branch }}" >> "$GITHUB_OUTPUT"
-          else
-            echo "TARGET_BRANCH=${{ github.ref_name }}" >> "$GITHUB_OUTPUT"
-          fi
-          echo "Target branch: ${{ steps.vars.outputs.TARGET_BRANCH }}"
-
-      - name: Checkout target branch
+      - name: Checkout aviation-data-v2 branch (target for commit)
         uses: actions/checkout@v4
         with:
-          ref: ${{ steps.vars.outputs.TARGET_BRANCH }}
+          ref: aviation-data-v2
           fetch-depth: 0
           persist-credentials: true
+
+      - name: Show branch + repo state (debug)
+        run: |
+          echo "github.ref_name=${{ github.ref_name }}"
+          git branch --show-current
+          git status --porcelain || true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -47,18 +38,14 @@ jobs:
           echo "Generated files:"
           ls -lah aviation_data_v2 || true
 
-      - name: Commit and push aviation_data_v2 JSON outputs
-        env:
-          TARGET_BRANCH: ${{ steps.vars.outputs.TARGET_BRANCH }}
+      - name: Commit and push aviation_data_v2 JSON outputs (force-add ignored)
         run: |
           set -e
 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git checkout "$TARGET_BRANCH"
-
-          # IMPORTANT: JSON outputs are ignored in this repo, so we must force-add them.
+          # IMPORTANT: outputs are ignored in repo, so force-add
           git add -f aviation_data_v2/*.json
 
           echo ""
@@ -71,4 +58,4 @@ jobs:
           fi
 
           git commit -m "aviation_data_v2: update from FAA cycle (automated)"
-          git push origin "HEAD:refs/heads/$TARGET_BRANCH"
+          git push origin HEAD:aviation-data-v2
