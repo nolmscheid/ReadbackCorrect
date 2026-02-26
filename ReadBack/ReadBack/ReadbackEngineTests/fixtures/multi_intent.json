@@ -1,0 +1,10 @@
+{
+  "transcript": "climb and maintain one zero thousand contact departure on one two four point five",
+  "gps": { "lat": 44.88, "lon": -93.22 },
+  "expectedNormalizedContains": ["10000", "124.5"],
+  "expectedIntents": [
+    { "kind": "altitude", "verb": "climb", "altitudeFt": 10000 },
+    { "kind": "frequencyChange", "frequencyMHz": 124.5 }
+  ],
+  "minOverallConfidence": 0.5
+}

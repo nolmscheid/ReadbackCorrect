@@ -60,6 +60,16 @@ else
   echo "WARNING: CSV_Data/ not found under $NASR_WORK_DIR (will try to locate base CSVs directly)." >&2
 fi
 
+# Diagnostic: list top-level contents when running in CI (helps debug zip structure changes)
+if [ -n "${CI:-}" ] || [ -n "${GITHUB_ACTIONS:-}" ]; then
+  echo "Contents of NASR_WORK_DIR (top-level):" >&2
+  ls -la "$NASR_WORK_DIR" 2>/dev/null || true
+  if [ -d "$CSV_DATA" ]; then
+    echo "Contents of CSV_Data/:" >&2
+    ls -la "$CSV_DATA" 2>/dev/null || true
+  fi
+fi
+
 # Locate all required CSVs recursively under NASR_WORK_DIR
 AIRPORT_CSV=$(find "$NASR_WORK_DIR" -type f -iname "APT_BASE.csv" -print -quit || true)
 NAVAID_CSV=$(find "$NASR_WORK_DIR" -type f -iname "NAV_BASE.csv" -print -quit || true)
@@ -104,6 +114,11 @@ MISSING=""
 
 if [ -n "$MISSING" ]; then
   echo "ERROR: Required CSV(s) not found under $NASR_WORK_DIR:$MISSING" >&2
+  echo "This workflow expects the NASR 28-day subscription zip to contain CSV_Data/<cycle>_CSV.zip with APT_BASE, NAV_BASE, FIX_BASE, etc." >&2
+  if [ -d "$NASR_WORK_DIR" ]; then
+    echo "Directory listing (recursive, first 50 lines):" >&2
+    find "$NASR_WORK_DIR" -type f -name "*.csv" 2>/dev/null | head -50
+  fi
   exit 1
 fi
 

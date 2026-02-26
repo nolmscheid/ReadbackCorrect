@@ -1,0 +1,9 @@
+{
+  "transcript": "climb and maintain three thousand",
+  "gps": { "lat": 44.88, "lon": -93.22 },
+  "expectedNormalizedContains": ["3000"],
+  "expectedIntents": [
+    { "kind": "altitude", "verb": "climb", "altitudeFt": 3000 }
+  ],
+  "minOverallConfidence": 0.5
+}

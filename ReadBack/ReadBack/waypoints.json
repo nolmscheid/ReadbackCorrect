@@ -1,0 +1,962 @@
+[
+  {
+    "id": "ABE",
+    "name": null
+  },
+  {
+    "id": "ABQ",
+    "name": null
+  },
+  {
+    "id": "ABY",
+    "name": null
+  },
+  {
+    "id": "ACT",
+    "name": null
+  },
+  {
+    "id": "ACY",
+    "name": null
+  },
+  {
+    "id": "AGC",
+    "name": null
+  },
+  {
+    "id": "AGS",
+    "name": null
+  },
+  {
+    "id": "AHN",
+    "name": null
+  },
+  {
+    "id": "ALB",
+    "name": null
+  },
+  {
+    "id": "AMA",
+    "name": null
+  },
+  {
+    "id": "AND",
+    "name": null
+  },
+  {
+    "id": "ANE",
+    "name": null
+  },
+  {
+    "id": "ATL",
+    "name": null
+  },
+  {
+    "id": "ATW",
+    "name": null
+  },
+  {
+    "id": "AUS",
+    "name": null
+  },
+  {
+    "id": "AUW",
+    "name": null
+  },
+  {
+    "id": "AVL",
+    "name": null
+  },
+  {
+    "id": "AVP",
+    "name": null
+  },
+  {
+    "id": "AXN",
+    "name": null
+  },
+  {
+    "id": "AZO",
+    "name": null
+  },
+  {
+    "id": "BDF",
+    "name": null
+  },
+  {
+    "id": "BDL",
+    "name": null
+  },
+  {
+    "id": "BDN",
+    "name": null
+  },
+  {
+    "id": "BDR",
+    "name": null
+  },
+  {
+    "id": "BEE",
+    "name": null
+  },
+  {
+    "id": "BFI",
+    "name": null
+  },
+  {
+    "id": "BGM",
+    "name": null
+  },
+  {
+    "id": "BJI",
+    "name": null
+  },
+  {
+    "id": "BKW",
+    "name": null
+  },
+  {
+    "id": "BLF",
+    "name": null
+  },
+  {
+    "id": "BLI",
+    "name": null
+  },
+  {
+    "id": "BMI",
+    "name": null
+  },
+  {
+    "id": "BNA",
+    "name": null
+  },
+  {
+    "id": "BOI",
+    "name": null
+  },
+  {
+    "id": "BOS",
+    "name": null
+  },
+  {
+    "id": "BPT",
+    "name": null
+  },
+  {
+    "id": "BQK",
+    "name": null
+  },
+  {
+    "id": "BRD",
+    "name": null
+  },
+  {
+    "id": "BWI",
+    "name": null
+  },
+  {
+    "id": "Bellingham",
+    "name": null
+  },
+  {
+    "id": "CAE",
+    "name": null
+  },
+  {
+    "id": "CEU",
+    "name": null
+  },
+  {
+    "id": "CHA",
+    "name": null
+  },
+  {
+    "id": "CHO",
+    "name": null
+  },
+  {
+    "id": "CHS",
+    "name": null
+  },
+  {
+    "id": "CKB",
+    "name": null
+  },
+  {
+    "id": "CLM",
+    "name": null
+  },
+  {
+    "id": "CLT",
+    "name": null
+  },
+  {
+    "id": "CMH",
+    "name": null
+  },
+  {
+    "id": "CMI",
+    "name": null
+  },
+  {
+    "id": "CNU",
+    "name": null
+  },
+  {
+    "id": "CPR",
+    "name": null
+  },
+  {
+    "id": "CRE",
+    "name": null
+  },
+  {
+    "id": "CRW",
+    "name": null
+  },
+  {
+    "id": "CVG",
+    "name": null
+  },
+  {
+    "id": "CWA",
+    "name": null
+  },
+  {
+    "id": "CXO",
+    "name": null
+  },
+  {
+    "id": "CYS",
+    "name": null
+  },
+  {
+    "id": "D01",
+    "name": null
+  },
+  {
+    "id": "DAB",
+    "name": null
+  },
+  {
+    "id": "DAL",
+    "name": null
+  },
+  {
+    "id": "DAY",
+    "name": null
+  },
+  {
+    "id": "DCA",
+    "name": null
+  },
+  {
+    "id": "DDC",
+    "name": null
+  },
+  {
+    "id": "DEN",
+    "name": null
+  },
+  {
+    "id": "DET",
+    "name": null
+  },
+  {
+    "id": "DFW",
+    "name": null
+  },
+  {
+    "id": "DLH",
+    "name": null
+  },
+  {
+    "id": "DTW",
+    "name": null
+  },
+  {
+    "id": "DUJ",
+    "name": null
+  },
+  {
+    "id": "EAU",
+    "name": null
+  },
+  {
+    "id": "ECP",
+    "name": null
+  },
+  {
+    "id": "EFD",
+    "name": null
+  },
+  {
+    "id": "EKN",
+    "name": null
+  },
+  {
+    "id": "ELM",
+    "name": null
+  },
+  {
+    "id": "EUG",
+    "name": null
+  },
+  {
+    "id": "EVV",
+    "name": null
+  },
+  {
+    "id": "EWN",
+    "name": null
+  },
+  {
+    "id": "FAY",
+    "name": null
+  },
+  {
+    "id": "FCM",
+    "name": null
+  },
+  {
+    "id": "FHR",
+    "name": null
+  },
+  {
+    "id": "FLG",
+    "name": null
+  },
+  {
+    "id": "FLL",
+    "name": null
+  },
+  {
+    "id": "FMY",
+    "name": null
+  },
+  {
+    "id": "FNT",
+    "name": null
+  },
+  {
+    "id": "FOE",
+    "name": null
+  },
+  {
+    "id": "FSM",
+    "name": null
+  },
+  {
+    "id": "FTW",
+    "name": null
+  },
+  {
+    "id": "FTY",
+    "name": null
+  },
+  {
+    "id": "FWA",
+    "name": null
+  },
+  {
+    "id": "GCK",
+    "name": null
+  },
+  {
+    "id": "GCN",
+    "name": null
+  },
+  {
+    "id": "GDC",
+    "name": null
+  },
+  {
+    "id": "GEP",
+    "name": null
+  },
+  {
+    "id": "GFK",
+    "name": null
+  },
+  {
+    "id": "GGG",
+    "name": null
+  },
+  {
+    "id": "GMU",
+    "name": null
+  },
+  {
+    "id": "GNV",
+    "name": null
+  },
+  {
+    "id": "GON",
+    "name": null
+  },
+  {
+    "id": "GRB",
+    "name": null
+  },
+  {
+    "id": "GRF",
+    "name": null
+  },
+  {
+    "id": "GRR",
+    "name": null
+  },
+  {
+    "id": "GSO",
+    "name": null
+  },
+  {
+    "id": "GSP",
+    "name": null
+  },
+  {
+    "id": "GTU",
+    "name": null
+  },
+  {
+    "id": "HAR",
+    "name": null
+  },
+  {
+    "id": "HIO",
+    "name": null
+  },
+  {
+    "id": "HKY",
+    "name": null
+  },
+  {
+    "id": "HOP",
+    "name": null
+  },
+  {
+    "id": "HOU",
+    "name": null
+  },
+  {
+    "id": "HPN",
+    "name": null
+  },
+  {
+    "id": "HTS",
+    "name": null
+  },
+  {
+    "id": "HVN",
+    "name": null
+  },
+  {
+    "id": "HIB",
+    "name": null
+  },
+  {
+    "id": "IAD",
+    "name": null
+  },
+  {
+    "id": "IAH",
+    "name": null
+  },
+  {
+    "id": "ICT",
+    "name": null
+  },
+  {
+    "id": "IDA",
+    "name": null
+  },
+  {
+    "id": "ILG",
+    "name": null
+  },
+  {
+    "id": "ILM",
+    "name": null
+  },
+  {
+    "id": "IND",
+    "name": null
+  },
+  {
+    "id": "INL",
+    "name": null
+  },
+  {
+    "id": "INT",
+    "name": null
+  },
+  {
+    "id": "IPT",
+    "name": null
+  },
+  {
+    "id": "ITH",
+    "name": null
+  },
+  {
+    "id": "JAC",
+    "name": null
+  },
+  {
+    "id": "JAX",
+    "name": null
+  },
+  {
+    "id": "JLN",
+    "name": null
+  },
+  {
+    "id": "JOT",
+    "name": null
+  },
+  {
+    "id": "JST",
+    "name": null
+  },
+  {
+    "id": "LAF",
+    "name": null
+  },
+  {
+    "id": "LAR",
+    "name": null
+  },
+  {
+    "id": "LBB",
+    "name": null
+  },
+  {
+    "id": "LBE",
+    "name": null
+  },
+  {
+    "id": "LCK",
+    "name": null
+  },
+  {
+    "id": "LFK",
+    "name": null
+  },
+  {
+    "id": "LIT",
+    "name": null
+  },
+  {
+    "id": "LMT",
+    "name": null
+  },
+  {
+    "id": "LNS",
+    "name": null
+  },
+  {
+    "id": "LSE",
+    "name": null
+  },
+  {
+    "id": "LVN",
+    "name": null
+  },
+  {
+    "id": "LWB",
+    "name": null
+  },
+  {
+    "id": "LYH",
+    "name": null
+  },
+  {
+    "id": "MBS",
+    "name": null
+  },
+  {
+    "id": "MCI",
+    "name": null
+  },
+  {
+    "id": "MCN",
+    "name": null
+  },
+  {
+    "id": "MCO",
+    "name": null
+  },
+  {
+    "id": "MDT",
+    "name": null
+  },
+  {
+    "id": "MDW",
+    "name": null
+  },
+  {
+    "id": "MEM",
+    "name": null
+  },
+  {
+    "id": "MFR",
+    "name": null
+  },
+  {
+    "id": "MGR",
+    "name": null
+  },
+  {
+    "id": "MHK",
+    "name": null
+  },
+  {
+    "id": "MIA",
+    "name": null
+  },
+  {
+    "id": "MIC",
+    "name": null
+  },
+  {
+    "id": "MKC",
+    "name": null
+  },
+  {
+    "id": "MKE",
+    "name": null
+  },
+  {
+    "id": "MLB",
+    "name": null
+  },
+  {
+    "id": "MSN",
+    "name": null
+  },
+  {
+    "id": "MSP",
+    "name": null
+  },
+  {
+    "id": "MTN",
+    "name": null
+  },
+  {
+    "id": "MYR",
+    "name": null
+  },
+  {
+    "id": "NQA",
+    "name": null
+  },
+  {
+    "id": "OAJ",
+    "name": null
+  },
+  {
+    "id": "OCN",
+    "name": null
+  },
+  {
+    "id": "OKC",
+    "name": null
+  },
+  {
+    "id": "OLM",
+    "name": null
+  },
+  {
+    "id": "ORD",
+    "name": null
+  },
+  {
+    "id": "ORF",
+    "name": null
+  },
+  {
+    "id": "ORH",
+    "name": null
+  },
+  {
+    "id": "ORS",
+    "name": null
+  },
+  {
+    "id": "PAE",
+    "name": null
+  },
+  {
+    "id": "PBI",
+    "name": null
+  },
+  {
+    "id": "PDK",
+    "name": null
+  },
+  {
+    "id": "PDX",
+    "name": null
+  },
+  {
+    "id": "PFN",
+    "name": null
+  },
+  {
+    "id": "PHF",
+    "name": null
+  },
+  {
+    "id": "PHL",
+    "name": null
+  },
+  {
+    "id": "PHX",
+    "name": null
+  },
+  {
+    "id": "PIA",
+    "name": null
+  },
+  {
+    "id": "PIE",
+    "name": null
+  },
+  {
+    "id": "PIH",
+    "name": null
+  },
+  {
+    "id": "PIT",
+    "name": null
+  },
+  {
+    "id": "PKB",
+    "name": null
+  },
+  {
+    "id": "PNE",
+    "name": null
+  },
+  {
+    "id": "POU",
+    "name": null
+  },
+  {
+    "id": "PRC",
+    "name": null
+  },
+  {
+    "id": "PVD",
+    "name": null
+  },
+  {
+    "id": "PWT",
+    "name": null
+  },
+  {
+    "id": "RDG",
+    "name": null
+  },
+  {
+    "id": "RDM",
+    "name": null
+  },
+  {
+    "id": "RDU",
+    "name": null
+  },
+  {
+    "id": "RFD",
+    "name": null
+  },
+  {
+    "id": "RHI",
+    "name": null
+  },
+  {
+    "id": "RIC",
+    "name": null
+  },
+  {
+    "id": "RKS",
+    "name": null
+  },
+  {
+    "id": "ROA",
+    "name": null
+  },
+  {
+    "id": "RST",
+    "name": null
+  },
+  {
+    "id": "RSW",
+    "name": null
+  },
+  {
+    "id": "RWI",
+    "name": null
+  },
+  {
+    "id": "SAF",
+    "name": null
+  },
+  {
+    "id": "SAT",
+    "name": null
+  },
+  {
+    "id": "SAV",
+    "name": null
+  },
+  {
+    "id": "SBN",
+    "name": null
+  },
+  {
+    "id": "SBY",
+    "name": null
+  },
+  {
+    "id": "SCH",
+    "name": null
+  },
+  {
+    "id": "SEA",
+    "name": null
+  },
+  {
+    "id": "SFB",
+    "name": null
+  },
+  {
+    "id": "SGF",
+    "name": null
+  },
+  {
+    "id": "SGR",
+    "name": null
+  },
+  {
+    "id": "SHD",
+    "name": null
+  },
+  {
+    "id": "SHN",
+    "name": null
+  },
+  {
+    "id": "SLN",
+    "name": null
+  },
+  {
+    "id": "SPA",
+    "name": null
+  },
+  {
+    "id": "SRQ",
+    "name": null
+  },
+  {
+    "id": "SSI",
+    "name": null
+  },
+  {
+    "id": "STC",
+    "name": null
+  },
+  {
+    "id": "STJ",
+    "name": null
+  },
+  {
+    "id": "STL",
+    "name": null
+  },
+  {
+    "id": "STP",
+    "name": null
+  },
+  {
+    "id": "SUN",
+    "name": null
+  },
+  {
+    "id": "SWF",
+    "name": null
+  },
+  {
+    "id": "SYR",
+    "name": null
+  },
+  {
+    "id": "TCM",
+    "name": null
+  },
+  {
+    "id": "TLH",
+    "name": null
+  },
+  {
+    "id": "TOL",
+    "name": null
+  },
+  {
+    "id": "TOP",
+    "name": null
+  },
+  {
+    "id": "TPA",
+    "name": null
+  },
+  {
+    "id": "TRI",
+    "name": null
+  },
+  {
+    "id": "TTD",
+    "name": null
+  },
+  {
+    "id": "TUL",
+    "name": null
+  },
+  {
+    "id": "TUS",
+    "name": null
+  },
+  {
+    "id": "TVF",
+    "name": null
+  },
+  {
+    "id": "TWF",
+    "name": null
+  },
+  {
+    "id": "TYR",
+    "name": null
+  },
+  {
+    "id": "TYS",
+    "name": null
+  },
+  {
+    "id": "UZA",
+    "name": null
+  },
+  {
+    "id": "VLD",
+    "name": null
+  },
+  {
+    "id": "Wichita",
+    "name": null
+  },
+  {
+    "id": "XNA",
+    "name": null
+  }
+]

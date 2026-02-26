@@ -1,0 +1,3596 @@
+[
+  {
+    "id": "KDEN",
+    "name": "Denver International",
+    "city": "Denver",
+    "state": "CO"
+  },
+  {
+    "id": "KCRQ",
+    "name": "McClellan-Palomar",
+    "city": "Carlsbad",
+    "state": "CA"
+  },
+  {
+    "id": "KRAL",
+    "name": "Riverside Municipal",
+    "city": "Riverside",
+    "state": "CA"
+  },
+  {
+    "id": "KORD",
+    "name": "Chicago O'Hare International",
+    "city": "Chicago",
+    "state": "IL"
+  },
+  {
+    "id": "KLAX",
+    "name": "Los Angeles International",
+    "city": "Los Angeles",
+    "state": "CA"
+  },
+  {
+    "id": "KJFK",
+    "name": "John F Kennedy International",
+    "city": "New York",
+    "state": "NY"
+  },
+  {
+    "id": "KATL",
+    "name": "Hartsfield-Jackson Atlanta International",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "id": "KDFW",
+    "name": "Dallas Fort Worth International",
+    "city": "Dallas",
+    "state": "TX"
+  },
+  {
+    "id": "KSFO",
+    "name": "San Francisco International",
+    "city": "San Francisco",
+    "state": "CA"
+  },
+  {
+    "id": "KSEA",
+    "name": "Seattle-Tacoma International",
+    "city": "Seattle",
+    "state": "WA"
+  },
+  {
+    "id": "KPHX",
+    "name": "Phoenix Sky Harbor International",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  {
+    "id": "KIAH",
+    "name": "George Bush Intercontinental",
+    "city": "Houston",
+    "state": "TX"
+  },
+  {
+    "id": "KLGA",
+    "name": "LaGuardia",
+    "city": "New York",
+    "state": "NY"
+  },
+  {
+    "id": "KBOS",
+    "name": "General Edward Lawrence Logan International",
+    "city": "Boston",
+    "state": "MA"
+  },
+  {
+    "id": "KDCA",
+    "name": "Ronald Reagan Washington National",
+    "city": "Washington",
+    "state": "DC"
+  },
+  {
+    "id": "KIAD",
+    "name": "Washington Dulles International",
+    "city": "Washington",
+    "state": "DC"
+  },
+  {
+    "id": "KMIA",
+    "name": "Miami International",
+    "city": "Miami",
+    "state": "FL"
+  },
+  {
+    "id": "KMDW",
+    "name": "Chicago Midway International",
+    "city": "Chicago",
+    "state": "IL"
+  },
+  {
+    "id": "KPHL",
+    "name": "Philadelphia International",
+    "city": "Philadelphia",
+    "state": "PA"
+  },
+  {
+    "id": "KSAN",
+    "name": "San Diego International",
+    "city": "San Diego",
+    "state": "CA"
+  },
+  {
+    "id": "KPDX",
+    "name": "Portland International",
+    "city": "Portland",
+    "state": "OR"
+  },
+  {
+    "id": "KDTW",
+    "name": "Detroit Metropolitan Wayne County",
+    "city": "Detroit",
+    "state": "MI"
+  },
+  {
+    "id": "KSTL",
+    "name": "St Louis Lambert International",
+    "city": "St Louis",
+    "state": "MO"
+  },
+  {
+    "id": "KMCO",
+    "name": "Orlando International",
+    "city": "Orlando",
+    "state": "FL"
+  },
+  {
+    "id": "KCLT",
+    "name": "Charlotte Douglas International",
+    "city": "Charlotte",
+    "state": "NC"
+  },
+  {
+    "id": "KEWR",
+    "name": "Newark Liberty International",
+    "city": "Newark",
+    "state": "NJ"
+  },
+  {
+    "id": "KLAS",
+    "name": "Harry Reid International",
+    "city": "Las Vegas",
+    "state": "NV"
+  },
+  {
+    "id": "KTPA",
+    "name": "Tampa International",
+    "city": "Tampa",
+    "state": "FL"
+  },
+  {
+    "id": "KFLL",
+    "name": "Fort Lauderdale Hollywood International",
+    "city": "Fort Lauderdale",
+    "state": "FL"
+  },
+  {
+    "id": "KBWI",
+    "name": "Baltimore Washington International",
+    "city": "Baltimore",
+    "state": "MD"
+  },
+  {
+    "id": "KSLC",
+    "name": "Salt Lake City International",
+    "city": "Salt Lake City",
+    "state": "UT"
+  },
+  {
+    "id": "KDAL",
+    "name": "Dallas Love Field",
+    "city": "Dallas",
+    "state": "TX"
+  },
+  {
+    "id": "KAUS",
+    "name": "Austin-Bergstrom International",
+    "city": "Austin",
+    "state": "TX"
+  },
+  {
+    "id": "KSAT",
+    "name": "San Antonio International",
+    "city": "San Antonio",
+    "state": "TX"
+  },
+  {
+    "id": "KMSY",
+    "name": "Louis Armstrong New Orleans International",
+    "city": "New Orleans",
+    "state": "LA"
+  },
+  {
+    "id": "KMCI",
+    "name": "Kansas City International",
+    "city": "Kansas City",
+    "state": "MO"
+  },
+  {
+    "id": "KCVG",
+    "name": "Cincinnati Northern Kentucky International",
+    "city": "Cincinnati",
+    "state": "OH"
+  },
+  {
+    "id": "KCLE",
+    "name": "Cleveland Hopkins International",
+    "city": "Cleveland",
+    "state": "OH"
+  },
+  {
+    "id": "KPIT",
+    "name": "Pittsburgh International",
+    "city": "Pittsburgh",
+    "state": "PA"
+  },
+  {
+    "id": "KIND",
+    "name": "Indianapolis International",
+    "city": "Indianapolis",
+    "state": "IN"
+  },
+  {
+    "id": "KCMH",
+    "name": "John Glenn Columbus International",
+    "city": "Columbus",
+    "state": "OH"
+  },
+  {
+    "id": "KBNA",
+    "name": "Nashville International",
+    "city": "Nashville",
+    "state": "TN"
+  },
+  {
+    "id": "KMEM",
+    "name": "Memphis International",
+    "city": "Memphis",
+    "state": "TN"
+  },
+  {
+    "id": "KRDU",
+    "name": "Raleigh Durham International",
+    "city": "Raleigh",
+    "state": "NC"
+  },
+  {
+    "id": "KJAX",
+    "name": "Jacksonville International",
+    "city": "Jacksonville",
+    "state": "FL"
+  },
+  {
+    "id": "KRSW",
+    "name": "Southwest Florida International",
+    "city": "Fort Myers",
+    "state": "FL"
+  },
+  {
+    "id": "KPBI",
+    "name": "Palm Beach International",
+    "city": "West Palm Beach",
+    "state": "FL"
+  },
+  {
+    "id": "KMKE",
+    "name": "Milwaukee Mitchell International",
+    "city": "Milwaukee",
+    "state": "WI"
+  },
+  {
+    "id": "KDSM",
+    "name": "Des Moines International",
+    "city": "Des Moines",
+    "state": "IA"
+  },
+  {
+    "id": "KOMA",
+    "name": "Eppley Airfield",
+    "city": "Omaha",
+    "state": "NE"
+  },
+  {
+    "id": "KOKC",
+    "name": "Will Rogers World",
+    "city": "Oklahoma City",
+    "state": "OK"
+  },
+  {
+    "id": "KTUL",
+    "name": "Tulsa International",
+    "city": "Tulsa",
+    "state": "OK"
+  },
+  {
+    "id": "KABQ",
+    "name": "Albuquerque International Sunport",
+    "city": "Albuquerque",
+    "state": "NM"
+  },
+  {
+    "id": "KELP",
+    "name": "El Paso International",
+    "city": "El Paso",
+    "state": "TX"
+  },
+  {
+    "id": "KTUS",
+    "name": "Tucson International",
+    "city": "Tucson",
+    "state": "AZ"
+  },
+  {
+    "id": "KCOS",
+    "name": "Colorado Springs",
+    "city": "Colorado Springs",
+    "state": "CO"
+  },
+  {
+    "id": "KBOI",
+    "name": "Boise Air Terminal",
+    "city": "Boise",
+    "state": "ID"
+  },
+  {
+    "id": "KGEG",
+    "name": "Spokane International",
+    "city": "Spokane",
+    "state": "WA"
+  },
+  {
+    "id": "KSMF",
+    "name": "Sacramento International",
+    "city": "Sacramento",
+    "state": "CA"
+  },
+  {
+    "id": "KOAK",
+    "name": "Oakland International",
+    "city": "Oakland",
+    "state": "CA"
+  },
+  {
+    "id": "KSJC",
+    "name": "Norman Y Mineta San Jose International",
+    "city": "San Jose",
+    "state": "CA"
+  },
+  {
+    "id": "KONT",
+    "name": "Ontario International",
+    "city": "Ontario",
+    "state": "CA"
+  },
+  {
+    "id": "KBUR",
+    "name": "Hollywood Burbank",
+    "city": "Burbank",
+    "state": "CA"
+  },
+  {
+    "id": "KSNA",
+    "name": "John Wayne Orange County",
+    "city": "Santa Ana",
+    "state": "CA"
+  },
+  {
+    "id": "KABI",
+    "name": "Abilene Regional",
+    "city": "Abilene",
+    "state": "TX"
+  },
+  {
+    "id": "KAMA",
+    "name": "Rick Husband Amarillo International",
+    "city": "Amarillo",
+    "state": "TX"
+  },
+  {
+    "id": "KICT",
+    "name": "Wichita Dwight D Eisenhower National",
+    "city": "Wichita",
+    "state": "KS"
+  },
+  {
+    "id": "KSUX",
+    "name": "Sioux Gateway",
+    "city": "Sioux City",
+    "state": "IA"
+  },
+  {
+    "id": "KFSD",
+    "name": "Sioux Falls Regional",
+    "city": "Sioux Falls",
+    "state": "SD"
+  },
+  {
+    "id": "KRAP",
+    "name": "Rapid City Regional",
+    "city": "Rapid City",
+    "state": "SD"
+  },
+  {
+    "id": "KBIH",
+    "name": "Eastern Sierra Regional",
+    "city": "Bishop",
+    "state": "CA"
+  },
+  {
+    "id": "KMMH",
+    "name": "Mammoth Yosemite",
+    "city": "Mammoth Lakes",
+    "state": "CA"
+  },
+  {
+    "id": "KASE",
+    "name": "Aspen Pitkin County Sardy Field",
+    "city": "Aspen",
+    "state": "CO"
+  },
+  {
+    "id": "KEGE",
+    "name": "Eagle County Regional",
+    "city": "Eagle",
+    "state": "CO"
+  },
+  {
+    "id": "KHDN",
+    "name": "Yampa Valley",
+    "city": "Hayden",
+    "state": "CO"
+  },
+  {
+    "id": "KGJT",
+    "name": "Grand Junction Regional",
+    "city": "Grand Junction",
+    "state": "CO"
+  },
+  {
+    "id": "KMTJ",
+    "name": "Montrose Regional",
+    "city": "Montrose",
+    "state": "CO"
+  },
+  {
+    "id": "KDRO",
+    "name": "Durango La Plata County",
+    "city": "Durango",
+    "state": "CO"
+  },
+  {
+    "id": "KSAF",
+    "name": "Santa Fe Regional",
+    "city": "Santa Fe",
+    "state": "NM"
+  },
+  {
+    "id": "KALB",
+    "name": "Albany International",
+    "city": "Albany",
+    "state": "NY"
+  },
+  {
+    "id": "KBUF",
+    "name": "Buffalo Niagara International",
+    "city": "Buffalo",
+    "state": "NY"
+  },
+  {
+    "id": "KSYR",
+    "name": "Syracuse Hancock International",
+    "city": "Syracuse",
+    "state": "NY"
+  },
+  {
+    "id": "KROC",
+    "name": "Frederick Douglass Greater Rochester International",
+    "city": "Rochester",
+    "state": "NY"
+  },
+  {
+    "id": "KBDL",
+    "name": "Bradley International",
+    "city": "Hartford",
+    "state": "CT"
+  },
+  {
+    "id": "KPVD",
+    "name": "Rhode Island T F Green International",
+    "city": "Providence",
+    "state": "RI"
+  },
+  {
+    "id": "KMHT",
+    "name": "Manchester Boston Regional",
+    "city": "Manchester",
+    "state": "NH"
+  },
+  {
+    "id": "KBTV",
+    "name": "Burlington International",
+    "city": "Burlington",
+    "state": "VT"
+  },
+  {
+    "id": "KRIC",
+    "name": "Richmond International",
+    "city": "Richmond",
+    "state": "VA"
+  },
+  {
+    "id": "KORF",
+    "name": "Norfolk International",
+    "city": "Norfolk",
+    "state": "VA"
+  },
+  {
+    "id": "KCHS",
+    "name": "Charleston International",
+    "city": "Charleston",
+    "state": "SC"
+  },
+  {
+    "id": "KSAV",
+    "name": "Savannah Hilton Head International",
+    "city": "Savannah",
+    "state": "GA"
+  },
+  {
+    "id": "KHSV",
+    "name": "Huntsville International",
+    "city": "Huntsville",
+    "state": "AL"
+  },
+  {
+    "id": "KBHM",
+    "name": "Birmingham Shuttlesworth International",
+    "city": "Birmingham",
+    "state": "AL"
+  },
+  {
+    "id": "KMGM",
+    "name": "Montgomery Regional",
+    "city": "Montgomery",
+    "state": "AL"
+  },
+  {
+    "id": "KMSN",
+    "name": "Dane County Regional",
+    "city": "Madison",
+    "state": "WI"
+  },
+  {
+    "id": "KGRR",
+    "name": "Gerald R Ford International",
+    "city": "Grand Rapids",
+    "state": "MI"
+  },
+  {
+    "id": "KTVC",
+    "name": "Cherry Capital",
+    "city": "Traverse City",
+    "state": "MI"
+  },
+  {
+    "id": "KLAN",
+    "name": "Capital Region International",
+    "city": "Lansing",
+    "state": "MI"
+  },
+  {
+    "id": "KFNT",
+    "name": "Bishop International",
+    "city": "Flint",
+    "state": "MI"
+  },
+  {
+    "id": "KSBN",
+    "name": "South Bend International",
+    "city": "South Bend",
+    "state": "IN"
+  },
+  {
+    "id": "KSDF",
+    "name": "Louisville Muhammad Ali International",
+    "city": "Louisville",
+    "state": "KY"
+  },
+  {
+    "id": "KLEX",
+    "name": "Blue Grass",
+    "city": "Lexington",
+    "state": "KY"
+  },
+  {
+    "id": "KTYS",
+    "name": "McGhee Tyson",
+    "city": "Knoxville",
+    "state": "TN"
+  },
+  {
+    "id": "KCHA",
+    "name": "Chattanooga Metropolitan",
+    "city": "Chattanooga",
+    "state": "TN"
+  },
+  {
+    "id": "KAVL",
+    "name": "Asheville Regional",
+    "city": "Asheville",
+    "state": "NC"
+  },
+  {
+    "id": "KGSO",
+    "name": "Piedmont Triad International",
+    "city": "Greensboro",
+    "state": "NC"
+  },
+  {
+    "id": "KILM",
+    "name": "Wilmington International",
+    "city": "Wilmington",
+    "state": "NC"
+  },
+  {
+    "id": "KMYR",
+    "name": "Myrtle Beach International",
+    "city": "Myrtle Beach",
+    "state": "SC"
+  },
+  {
+    "id": "KCAE",
+    "name": "Columbia Metropolitan",
+    "city": "Columbia",
+    "state": "SC"
+  },
+  {
+    "id": "KGPT",
+    "name": "Gulfport Biloxi International",
+    "city": "Gulfport",
+    "state": "MS"
+  },
+  {
+    "id": "KJAN",
+    "name": "Jackson Medgar Wiley Evers International",
+    "city": "Jackson",
+    "state": "MS"
+  },
+  {
+    "id": "KLIT",
+    "name": "Bill and Hillary Clinton National",
+    "city": "Little Rock",
+    "state": "AR"
+  },
+  {
+    "id": "KXNA",
+    "name": "Northwest Arkansas National",
+    "city": "Fayetteville",
+    "state": "AR"
+  },
+  {
+    "id": "KSHV",
+    "name": "Shreveport Regional",
+    "city": "Shreveport",
+    "state": "LA"
+  },
+  {
+    "id": "KMLU",
+    "name": "Monroe Regional",
+    "city": "Monroe",
+    "state": "LA"
+  },
+  {
+    "id": "KBRW",
+    "name": "Wiley Post Will Rogers Memorial",
+    "city": "Barrow",
+    "state": "AK"
+  },
+  {
+    "id": "KANC",
+    "name": "Ted Stevens Anchorage International",
+    "city": "Anchorage",
+    "state": "AK"
+  },
+  {
+    "id": "KFAI",
+    "name": "Fairbanks International",
+    "city": "Fairbanks",
+    "state": "AK"
+  },
+  {
+    "id": "KJNU",
+    "name": "Juneau International",
+    "city": "Juneau",
+    "state": "AK"
+  },
+  {
+    "id": "PHNL",
+    "name": "Daniel K Inouye International",
+    "city": "Honolulu",
+    "state": "HI"
+  },
+  {
+    "id": "PHOG",
+    "name": "Kahului",
+    "city": "Kahului",
+    "state": "HI"
+  },
+  {
+    "id": "TJSJ",
+    "name": "Luis Munoz Marin International",
+    "city": "San Juan",
+    "state": "PR"
+  },
+  {
+    "id": "00MN",
+    "name": "BATTLE LAKE MUNI",
+    "city": "BATTLE LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "01MN",
+    "name": "BARNES",
+    "city": "COOK",
+    "state": "MN"
+  },
+  {
+    "id": "02MN",
+    "name": "GREGORY",
+    "city": "CAMBRIDGE",
+    "state": "MN"
+  },
+  {
+    "id": "03MN",
+    "name": "NAUERTH LAND RANCH",
+    "city": "LAKEFIELD",
+    "state": "MN"
+  },
+  {
+    "id": "04MN",
+    "name": "HELBLAD",
+    "city": "KELLIHER",
+    "state": "MN"
+  },
+  {
+    "id": "04W",
+    "name": "FIELD OF DREAMS",
+    "city": "HINCKLEY",
+    "state": "MN"
+  },
+  {
+    "id": "04Y",
+    "name": "HAWLEY MUNI",
+    "city": "HAWLEY",
+    "state": "MN"
+  },
+  {
+    "id": "05MN",
+    "name": "NORTHERN PINES MEDICAL CENTER",
+    "city": "AURORA",
+    "state": "MN"
+  },
+  {
+    "id": "05Y",
+    "name": "HENNING MUNI",
+    "city": "HENNING",
+    "state": "MN"
+  },
+  {
+    "id": "06MN",
+    "name": "CUTFOOT SIOUX",
+    "city": "DEER RIVER",
+    "state": "MN"
+  },
+  {
+    "id": "06Y",
+    "name": "HERMAN MUNI",
+    "city": "HERMAN",
+    "state": "MN"
+  },
+  {
+    "id": "07MN",
+    "name": "SLEEPY EYE MEDICAL CENTER",
+    "city": "SLEEPY EYE",
+    "state": "MN"
+  },
+  {
+    "id": "07Y",
+    "name": "HILL CITY/QUADNA MOUNTAIN",
+    "city": "HILL CITY",
+    "state": "MN"
+  },
+  {
+    "id": "08MN",
+    "name": "CHRISTENSON POINT",
+    "city": "CHISHOLM/HIBBING",
+    "state": "MN"
+  },
+  {
+    "id": "09I",
+    "name": "INTL FALLS",
+    "city": "INTERNATIONAL FALLS",
+    "state": "MN"
+  },
+  {
+    "id": "09MN",
+    "name": "SALISBURY",
+    "city": "WHITE BEAR TOWNSHIP",
+    "state": "MN"
+  },
+  {
+    "id": "09Y",
+    "name": "WIPLINE",
+    "city": "INVER GROVE HGTS",
+    "state": "MN"
+  },
+  {
+    "id": "0G5",
+    "name": "GRAND MARAIS/COOK COUNTY",
+    "city": "GRAND MARAIS",
+    "state": "MN"
+  },
+  {
+    "id": "0MN0",
+    "name": "WINNER'S LANDING",
+    "city": "ST PAUL PARK",
+    "state": "MN"
+  },
+  {
+    "id": "0MN1",
+    "name": "MAYO CLINIC HEALTH SYSTEM - NEW PRAGUE",
+    "city": "NEW PRAGUE",
+    "state": "MN"
+  },
+  {
+    "id": "0MN2",
+    "name": "GRINDSTONE LAKE",
+    "city": "SANDSTONE",
+    "state": "MN"
+  },
+  {
+    "id": "0MN3",
+    "name": "LOWER HAY LAKE",
+    "city": "JENKINS",
+    "state": "MN"
+  },
+  {
+    "id": "0MN4",
+    "name": "PAUL'S",
+    "city": "NISSWA",
+    "state": "MN"
+  },
+  {
+    "id": "0MN5",
+    "name": "SANFORD TRACY",
+    "city": "TRACY",
+    "state": "MN"
+  },
+  {
+    "id": "0MN6",
+    "name": "GILLESPIE",
+    "city": "CROSSLAKE",
+    "state": "MN"
+  },
+  {
+    "id": "0MN7",
+    "name": "ELY BLOOMENSON COMMUNITY HOSPITAL",
+    "city": "ELY",
+    "state": "MN"
+  },
+  {
+    "id": "10D",
+    "name": "WINSTED MUNI",
+    "city": "WINSTED",
+    "state": "MN"
+  },
+  {
+    "id": "11MN",
+    "name": "POINT",
+    "city": "ORONO",
+    "state": "MN"
+  },
+  {
+    "id": "12D",
+    "name": "TOWER MUNI",
+    "city": "TOWER",
+    "state": "MN"
+  },
+  {
+    "id": "12MN",
+    "name": "LILY LAKE",
+    "city": "GRAND RAPIDS",
+    "state": "MN"
+  },
+  {
+    "id": "12Y",
+    "name": "LE SUEUR MUNI",
+    "city": "LE SUEUR",
+    "state": "MN"
+  },
+  {
+    "id": "13MN",
+    "name": "RIDGEVIEW MEDICAL CENTER",
+    "city": "WACONIA",
+    "state": "MN"
+  },
+  {
+    "id": "13Y",
+    "name": "LITTLEFORK MUNI/HANOVER",
+    "city": "LITTLEFORK",
+    "state": "MN"
+  },
+  {
+    "id": "14MN",
+    "name": "RIVERWOOD HEALTHCARE CENTER",
+    "city": "AITKIN",
+    "state": "MN"
+  },
+  {
+    "id": "14Y",
+    "name": "TODD FLD",
+    "city": "LONG PRAIRIE",
+    "state": "MN"
+  },
+  {
+    "id": "15MN",
+    "name": "TYLER FARMS",
+    "city": "WATKINS",
+    "state": "MN"
+  },
+  {
+    "id": "16D",
+    "name": "PERHAM MUNI",
+    "city": "PERHAM",
+    "state": "MN"
+  },
+  {
+    "id": "16MN",
+    "name": "CITY OF REMER",
+    "city": "REMER",
+    "state": "MN"
+  },
+  {
+    "id": "17MN",
+    "name": "AVERA MARSHALL RGNL MEDICAL CENTER",
+    "city": "MARSHALL",
+    "state": "MN"
+  },
+  {
+    "id": "18MN",
+    "name": "HINES FARM",
+    "city": "MOTLEY",
+    "state": "MN"
+  },
+  {
+    "id": "18Y",
+    "name": "MILACA MUNI",
+    "city": "MILACA",
+    "state": "MN"
+  },
+  {
+    "id": "19MN",
+    "name": "GRESETH",
+    "city": "BUFFALO",
+    "state": "MN"
+  },
+  {
+    "id": "1D6",
+    "name": "HECTOR MUNI",
+    "city": "HECTOR",
+    "state": "MN"
+  },
+  {
+    "id": "1MN0",
+    "name": "WETHERBEE FARM",
+    "city": "TENNEY",
+    "state": "MN"
+  },
+  {
+    "id": "1MN1",
+    "name": "FAIRVIEW RIDGES HOSPITAL",
+    "city": "BURNSVILLE",
+    "state": "MN"
+  },
+  {
+    "id": "1MN2",
+    "name": "HAY ACRES",
+    "city": "AKELEY",
+    "state": "MN"
+  },
+  {
+    "id": "1MN3",
+    "name": "NORTHERN ITASCA HEALTH CARE CENTER",
+    "city": "BIGFORK",
+    "state": "MN"
+  },
+  {
+    "id": "1MN4",
+    "name": "WILDHURST PINES",
+    "city": "EXCELSIOR",
+    "state": "MN"
+  },
+  {
+    "id": "1MN5",
+    "name": "MOLNAU AIRPARK",
+    "city": "WACONIA",
+    "state": "MN"
+  },
+  {
+    "id": "1MN6",
+    "name": "COOK HOSPITAL",
+    "city": "COOK",
+    "state": "MN"
+  },
+  {
+    "id": "1MN7",
+    "name": "CUYUNA RGNL MEDICAL CENTER",
+    "city": "CROSBY",
+    "state": "MN"
+  },
+  {
+    "id": "1MN8",
+    "name": "SKY HARBOR RESIDENTIAL AIRPARK",
+    "city": "WEBSTER",
+    "state": "MN"
+  },
+  {
+    "id": "1MN9",
+    "name": "SANFORD JACKSON MEDICAL CENTER",
+    "city": "JACKSON",
+    "state": "MN"
+  },
+  {
+    "id": "1MY1",
+    "name": "CARLSON AG",
+    "city": "WENDELL",
+    "state": "MN"
+  },
+  {
+    "id": "20MN",
+    "name": "MAPLE GROVE HOSPITAL",
+    "city": "MAPLE GROVE",
+    "state": "MN"
+  },
+  {
+    "id": "21D",
+    "name": "LAKE ELMO",
+    "city": "ST PAUL",
+    "state": "MN"
+  },
+  {
+    "id": "21MN",
+    "name": "CLEARWATER",
+    "city": "LEONARD",
+    "state": "MN"
+  },
+  {
+    "id": "22MN",
+    "name": "LITTLE SAND",
+    "city": "OSLUND",
+    "state": "MN"
+  },
+  {
+    "id": "23D",
+    "name": "KARLSTAD MUNI",
+    "city": "KARLSTAD",
+    "state": "MN"
+  },
+  {
+    "id": "23MN",
+    "name": "HIGH GROVE",
+    "city": "PRESTON",
+    "state": "MN"
+  },
+  {
+    "id": "25D",
+    "name": "FOREST LAKE",
+    "city": "FOREST LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "25MN",
+    "name": "SHIRT LAKE",
+    "city": "DEERWOOD",
+    "state": "MN"
+  },
+  {
+    "id": "25MY",
+    "name": "CHILDRENS HOSPITAL/MINNEAPOLIS",
+    "city": "MINNEAPOLIS",
+    "state": "MN"
+  },
+  {
+    "id": "26MN",
+    "name": "CHRISTIANSON FLD",
+    "city": "HALSTAD",
+    "state": "MN"
+  },
+  {
+    "id": "27MN",
+    "name": "LAKE BRONSON",
+    "city": "LAKE BRONSON",
+    "state": "MN"
+  },
+  {
+    "id": "28MN",
+    "name": "RIVER RIDGE RANCH",
+    "city": "WELCH",
+    "state": "MN"
+  },
+  {
+    "id": "29MN",
+    "name": "WETENKAMP",
+    "city": "TINTAH",
+    "state": "MN"
+  },
+  {
+    "id": "2MN0",
+    "name": "PRIBBS FLD",
+    "city": "EAST GRAND FORKS",
+    "state": "MN"
+  },
+  {
+    "id": "2MN2",
+    "name": "DREAMCATCHER",
+    "city": "JACOBSON",
+    "state": "MN"
+  },
+  {
+    "id": "2MN3",
+    "name": "CCM HEALTH",
+    "city": "MONTEVIDEO",
+    "state": "MN"
+  },
+  {
+    "id": "2MN4",
+    "name": "CORNFIELD CANYON",
+    "city": "BLUE EARTH",
+    "state": "MN"
+  },
+  {
+    "id": "2MN5",
+    "name": "EMMA'S BAY",
+    "city": "PEQUOT LAKES",
+    "state": "MN"
+  },
+  {
+    "id": "2MN6",
+    "name": "VAN NORMANS",
+    "city": "ST CHARLES",
+    "state": "MN"
+  },
+  {
+    "id": "2MN7",
+    "name": "FUSSY",
+    "city": "NORTH PRAIRIE",
+    "state": "MN"
+  },
+  {
+    "id": "2MN8",
+    "name": "MED-CITY AVIATION",
+    "city": "ROCHESTER",
+    "state": "MN"
+  },
+  {
+    "id": "2MN9",
+    "name": "NORTH VALLEY HEALTH CENTER",
+    "city": "WARREN",
+    "state": "MN"
+  },
+  {
+    "id": "2MY2",
+    "name": "ZARN",
+    "city": "AMBOY",
+    "state": "MN"
+  },
+  {
+    "id": "2MY3",
+    "name": "CAMBRIDGE MEDICAL CENTER",
+    "city": "CAMBRIDGE",
+    "state": "MN"
+  },
+  {
+    "id": "2MY5",
+    "name": "SEVCIK FARMS",
+    "city": "FARIBAULT",
+    "state": "MN"
+  },
+  {
+    "id": "30MN",
+    "name": "MAYO CLINIC HEALTH SYSTEM/ALBERT LEA",
+    "city": "ALBERT LEA",
+    "state": "MN"
+  },
+  {
+    "id": "31MN",
+    "name": "KRUGER AVIATION",
+    "city": "PINE ISLAND",
+    "state": "MN"
+  },
+  {
+    "id": "32MN",
+    "name": "DON'S LANDING FLD",
+    "city": "WATKINS",
+    "state": "MN"
+  },
+  {
+    "id": "33MN",
+    "name": "ZENITH LANDING",
+    "city": "HINKLEY",
+    "state": "MN"
+  },
+  {
+    "id": "34MN",
+    "name": "LAKEWOOD HEALTH CENTER",
+    "city": "BAUDETTE",
+    "state": "MN"
+  },
+  {
+    "id": "35MN",
+    "name": "WIPLINE",
+    "city": "INVER GROVE HEIGHTS",
+    "state": "MN"
+  },
+  {
+    "id": "36MN",
+    "name": "BACKSTROM",
+    "city": "NEW TRIER",
+    "state": "MN"
+  },
+  {
+    "id": "37MN",
+    "name": "CARRIS HEALTH REDWOOD FALLS",
+    "city": "REDWOOD FALLS",
+    "state": "MN"
+  },
+  {
+    "id": "38MN",
+    "name": "ROOT BEERS FLOAT",
+    "city": "DELANO",
+    "state": "MN"
+  },
+  {
+    "id": "3G2",
+    "name": "GRYGLA MUNI - MEL WILKENS FLD",
+    "city": "GRYGLA",
+    "state": "MN"
+  },
+  {
+    "id": "3MN0",
+    "name": "SHADDUCK",
+    "city": "ANNANDALE",
+    "state": "MN"
+  },
+  {
+    "id": "3MN1",
+    "name": "SILVER CREEK MEADOW",
+    "city": "PRINCETON",
+    "state": "MN"
+  },
+  {
+    "id": "3MN2",
+    "name": "MERCY HOSPITAL",
+    "city": "MOOSE LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "3MN3",
+    "name": "APPLETON MUNI HOSPITAL",
+    "city": "APPLETON",
+    "state": "MN"
+  },
+  {
+    "id": "3MN4",
+    "name": "ROLLING HILLS",
+    "city": "WESTBROOK",
+    "state": "MN"
+  },
+  {
+    "id": "3MN5",
+    "name": "SUNNYSIDE",
+    "city": "HACKENSACK",
+    "state": "MN"
+  },
+  {
+    "id": "3MN6",
+    "name": "MAYO CLINIC HEALTH SYSTEM/MANKATO",
+    "city": "MANKATO",
+    "state": "MN"
+  },
+  {
+    "id": "3MN7",
+    "name": "BLUE SKY",
+    "city": "SABIN",
+    "state": "MN"
+  },
+  {
+    "id": "3MN8",
+    "name": "CANNON FALLS MEDICAL CENTER",
+    "city": "CANNON FALLS",
+    "state": "MN"
+  },
+  {
+    "id": "3N8",
+    "name": "MAHNOMEN COUNTY",
+    "city": "MAHNOMEN",
+    "state": "MN"
+  },
+  {
+    "id": "40MN",
+    "name": "TURNER FLD",
+    "city": "BINGHAM LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "41MN",
+    "name": "ST FRANCIS RGNL MEDICAL CENTER",
+    "city": "SHAKOPEE",
+    "state": "MN"
+  },
+  {
+    "id": "42MN",
+    "name": "KRAL'S PERSONAL USE LANDING FLD",
+    "city": "CORCORAN",
+    "state": "MN"
+  },
+  {
+    "id": "43MN",
+    "name": "SUPERIOR AERO ESTATES",
+    "city": "SAGINAW",
+    "state": "MN"
+  },
+  {
+    "id": "43Y",
+    "name": "NORTHOME MUNI",
+    "city": "NORTHOME",
+    "state": "MN"
+  },
+  {
+    "id": "44MN",
+    "name": "MADELIA HELIPAD",
+    "city": "MADELIA",
+    "state": "MN"
+  },
+  {
+    "id": "46MN",
+    "name": "PERHAM HOSPITAL",
+    "city": "PERHAM",
+    "state": "MN"
+  },
+  {
+    "id": "47MN",
+    "name": "SONS PRIVATE-COMMERCIAL",
+    "city": "NORWOOD",
+    "state": "MN"
+  },
+  {
+    "id": "47Y",
+    "name": "PELICAN RAPIDS MUNI-LYON'S FLD",
+    "city": "PELICAN RAPIDS",
+    "state": "MN"
+  },
+  {
+    "id": "48MN",
+    "name": "NORTHFIELD HOSPITAL",
+    "city": "NORTHFIELD",
+    "state": "MN"
+  },
+  {
+    "id": "48MY",
+    "name": "BOSCH FARM",
+    "city": "MONTEVIDEO",
+    "state": "MN"
+  },
+  {
+    "id": "49MN",
+    "name": "WILLOW RIDGE",
+    "city": "HASTINGS",
+    "state": "MN"
+  },
+  {
+    "id": "49MY",
+    "name": "DELONG SEAPLANE/SKIPLANE BASE",
+    "city": "FOREST LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "4MN0",
+    "name": "CRANE LAKE VOLUNTEER FIRE DEPARTMENT",
+    "city": "CRANE LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "4MN1",
+    "name": "HINTZMAN",
+    "city": "NEW YORK MILLS",
+    "state": "MN"
+  },
+  {
+    "id": "4MN2",
+    "name": "OAK",
+    "city": "ANGLE INLET",
+    "state": "MN"
+  },
+  {
+    "id": "4MN3",
+    "name": "LEXINGTON",
+    "city": "HAM LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "4MN6",
+    "name": "SANFORD WESTBROOK CLINIC",
+    "city": "WESTBROOK",
+    "state": "MN"
+  },
+  {
+    "id": "4MN7",
+    "name": "ADAMS",
+    "city": "REMER",
+    "state": "MN"
+  },
+  {
+    "id": "4MN8",
+    "name": "DKPA LANDING",
+    "city": "WEBSTER",
+    "state": "MN"
+  },
+  {
+    "id": "4MN9",
+    "name": "RED LAKE HOSPITAL",
+    "city": "RED LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "4MY2",
+    "name": "LAKEWOOD HOSPITAL",
+    "city": "STAPLES",
+    "state": "MN"
+  },
+  {
+    "id": "50MN",
+    "name": "ORTONVILLE HOSPITAL",
+    "city": "ORTONVILLE",
+    "state": "MN"
+  },
+  {
+    "id": "51MY",
+    "name": "AB SQUARED",
+    "city": "TOWER",
+    "state": "MN"
+  },
+  {
+    "id": "52MN",
+    "name": "ANDERSON FLD",
+    "city": "KENNEDY",
+    "state": "MN"
+  },
+  {
+    "id": "52MY",
+    "name": "MHEALTH FAIRVIEW LAKES",
+    "city": "WYOMING",
+    "state": "MN"
+  },
+  {
+    "id": "52Y",
+    "name": "REMER MUNI",
+    "city": "REMER",
+    "state": "MN"
+  },
+  {
+    "id": "54MN",
+    "name": "SANFORD BEMIDJI MEDICAL CENTER",
+    "city": "BEMIDJI",
+    "state": "MN"
+  },
+  {
+    "id": "55MN",
+    "name": "BRITZ",
+    "city": "BUCKMAN",
+    "state": "MN"
+  },
+  {
+    "id": "55Y",
+    "name": "RUSHFORD MUNI/ROBERT W BUNKE FLD",
+    "city": "RUSHFORD",
+    "state": "MN"
+  },
+  {
+    "id": "56MN",
+    "name": "LOTHERT'S FARM STRIP",
+    "city": "MORTON",
+    "state": "MN"
+  },
+  {
+    "id": "58MN",
+    "name": "IVERSON",
+    "city": "ANNANDALE",
+    "state": "MN"
+  },
+  {
+    "id": "59MN",
+    "name": "COX-COYOUR MEML FLD",
+    "city": "ROOSEVELT",
+    "state": "MN"
+  },
+  {
+    "id": "5MN1",
+    "name": "NARY NTL-SHEFLAND FLD",
+    "city": "NARY",
+    "state": "MN"
+  },
+  {
+    "id": "5MN2",
+    "name": "HOILAND FLD",
+    "city": "BAGLEY",
+    "state": "MN"
+  },
+  {
+    "id": "5MN3",
+    "name": "RANGE RGNL MEDICAL CENTER",
+    "city": "HIBBING",
+    "state": "MN"
+  },
+  {
+    "id": "5MN5",
+    "name": "BARNES",
+    "city": "LINDSTROM",
+    "state": "MN"
+  },
+  {
+    "id": "5MN6",
+    "name": "NORTHBOUND",
+    "city": "GRAND PAPIDS",
+    "state": "MN"
+  },
+  {
+    "id": "5MN8",
+    "name": "IDEAL FIRE STATION 2",
+    "city": "PINE RIVER",
+    "state": "MN"
+  },
+  {
+    "id": "5MN9",
+    "name": "CHANLIN FLD",
+    "city": "MIDDLE RIVER",
+    "state": "MN"
+  },
+  {
+    "id": "60MN",
+    "name": "FUHR FLYING SVC",
+    "city": "SEAFORTH",
+    "state": "MN"
+  },
+  {
+    "id": "62MN",
+    "name": "TAYLORS FALLS",
+    "city": "TAYLORS FALLS",
+    "state": "MN"
+  },
+  {
+    "id": "63MN",
+    "name": "WEIDEMAN INTL",
+    "city": "TWO HARBORS",
+    "state": "MN"
+  },
+  {
+    "id": "63Y",
+    "name": "TYLER MUNI",
+    "city": "TYLER",
+    "state": "MN"
+  },
+  {
+    "id": "64MN",
+    "name": "BABY LAKE",
+    "city": "HACKENSACK",
+    "state": "MN"
+  },
+  {
+    "id": "65MN",
+    "name": "RICKS FLD",
+    "city": "WENDELL",
+    "state": "MN"
+  },
+  {
+    "id": "66MN",
+    "name": "HOWARD'S",
+    "city": "CLARA CITY",
+    "state": "MN"
+  },
+  {
+    "id": "67MN",
+    "name": "PAGEL'S FLD",
+    "city": "ATWATER",
+    "state": "MN"
+  },
+  {
+    "id": "68MN",
+    "name": "STANTON HILL AERODROME",
+    "city": "ATWATER",
+    "state": "MN"
+  },
+  {
+    "id": "68Y",
+    "name": "WELLS MUNI",
+    "city": "WELLS",
+    "state": "MN"
+  },
+  {
+    "id": "69MN",
+    "name": "YAGGIE PVT",
+    "city": "BRECKENRIDGE",
+    "state": "MN"
+  },
+  {
+    "id": "69MY",
+    "name": "HALL",
+    "city": "FARMINGTON",
+    "state": "MN"
+  },
+  {
+    "id": "6D1",
+    "name": "BROOTEN MUNI/JOHN O BOHMER FLD",
+    "city": "BROOTEN",
+    "state": "MN"
+  },
+  {
+    "id": "6MN0",
+    "name": "SKY BLUE AIRFIELD",
+    "city": "PONSFORD",
+    "state": "MN"
+  },
+  {
+    "id": "6MN1",
+    "name": "SIBLEY MEDICAL CENTER",
+    "city": "ARLINGTON",
+    "state": "MN"
+  },
+  {
+    "id": "6MN3",
+    "name": "MCKEEN",
+    "city": "HOWARD LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "6MN5",
+    "name": "GALE'S",
+    "city": "FRENCH LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "6MN6",
+    "name": "GOOSE LAKE",
+    "city": "WACONIA",
+    "state": "MN"
+  },
+  {
+    "id": "6MN7",
+    "name": "SODBUSTER STRIP",
+    "city": "GOODHUE",
+    "state": "MN"
+  },
+  {
+    "id": "6MN9",
+    "name": "BENSON",
+    "city": "WHITE BEAR TOWNSHIP",
+    "state": "MN"
+  },
+  {
+    "id": "6MY2",
+    "name": "PINE MEDICAL CENTER",
+    "city": "SANDSTONE",
+    "state": "MN"
+  },
+  {
+    "id": "6MY8",
+    "name": "USFS",
+    "city": "ELY",
+    "state": "MN"
+  },
+  {
+    "id": "70MN",
+    "name": "LUCKYS",
+    "city": "PARK RAPIDS",
+    "state": "MN"
+  },
+  {
+    "id": "71MN",
+    "name": "HUTCHINSON HEALTH",
+    "city": "HUTCHINSON",
+    "state": "MN"
+  },
+  {
+    "id": "72MN",
+    "name": "JMHS HOSPITAL",
+    "city": "DAWSON",
+    "state": "MN"
+  },
+  {
+    "id": "73MN",
+    "name": "EAGLES NEST 4",
+    "city": "ELY",
+    "state": "MN"
+  },
+  {
+    "id": "74MN",
+    "name": "HURLEY MEML SEAPORT",
+    "city": "ROUND LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "75MN",
+    "name": "GALLER'S",
+    "city": "ELYSIAN",
+    "state": "MN"
+  },
+  {
+    "id": "76MN",
+    "name": "HEMMINGSEN",
+    "city": "ERSKINE",
+    "state": "MN"
+  },
+  {
+    "id": "76MY",
+    "name": "SECLUSION POINT",
+    "city": "AUDUBON",
+    "state": "MN"
+  },
+  {
+    "id": "77MN",
+    "name": "KLAMAR FLD",
+    "city": "GATZKE",
+    "state": "MN"
+  },
+  {
+    "id": "78MN",
+    "name": "HAGENS",
+    "city": "GATZKE",
+    "state": "MN"
+  },
+  {
+    "id": "79MN",
+    "name": "PAUL FLD",
+    "city": "GATZKE",
+    "state": "MN"
+  },
+  {
+    "id": "7MN0",
+    "name": "CORMORANT COVE",
+    "city": "AUDUBON",
+    "state": "MN"
+  },
+  {
+    "id": "7MN1",
+    "name": "REGIONS HOSPITAL",
+    "city": "ST PAUL",
+    "state": "MN"
+  },
+  {
+    "id": "7MN3",
+    "name": "CALDBECK FLD",
+    "city": "SPRING VALLEY",
+    "state": "MN"
+  },
+  {
+    "id": "7MN4",
+    "name": "MILLE LACS LAKE",
+    "city": "GARRISON",
+    "state": "MN"
+  },
+  {
+    "id": "7MN5",
+    "name": "LIFECARE MEDICAL CENTER",
+    "city": "ROSEAU",
+    "state": "MN"
+  },
+  {
+    "id": "7MN6",
+    "name": "JOHNSON",
+    "city": "ARGYLE",
+    "state": "MN"
+  },
+  {
+    "id": "7MN7",
+    "name": "ESSENTIAL HEALTH - ADA",
+    "city": "ADA",
+    "state": "MN"
+  },
+  {
+    "id": "7MN8",
+    "name": "WILLIS",
+    "city": "THIEF RIVER FALLS",
+    "state": "MN"
+  },
+  {
+    "id": "7MY4",
+    "name": "BEAVERS LAIR",
+    "city": "PARK RAPIDS",
+    "state": "MN"
+  },
+  {
+    "id": "7MY6",
+    "name": "ASTERA HEALTH",
+    "city": "WADENA",
+    "state": "MN"
+  },
+  {
+    "id": "7MY9",
+    "name": "PETES",
+    "city": "DEXTER",
+    "state": "MN"
+  },
+  {
+    "id": "7Y3",
+    "name": "BACKUS MUNI",
+    "city": "BACKUS",
+    "state": "MN"
+  },
+  {
+    "id": "7Y4",
+    "name": "BAGLEY MUNI",
+    "city": "BAGLEY",
+    "state": "MN"
+  },
+  {
+    "id": "7Y9",
+    "name": "BIG FALLS MUNI",
+    "city": "BIG FALLS",
+    "state": "MN"
+  },
+  {
+    "id": "80MN",
+    "name": "NORTH SHORE HEALTH",
+    "city": "GRAND MARAIS",
+    "state": "MN"
+  },
+  {
+    "id": "81MN",
+    "name": "EWEN LANDING FLD",
+    "city": "JEFFERS",
+    "state": "MN"
+  },
+  {
+    "id": "82MN",
+    "name": "MAYO CLINIC HEALTH SYSTEM/LAKE CITY",
+    "city": "LAKE CITY",
+    "state": "MN"
+  },
+  {
+    "id": "83MN",
+    "name": "LOON LAKE",
+    "city": "GRAND MARAIS",
+    "state": "MN"
+  },
+  {
+    "id": "83MY",
+    "name": "LEOS LANDING",
+    "city": "CHAMPLIN",
+    "state": "MN"
+  },
+  {
+    "id": "86MN",
+    "name": "SANFORD BAGLEY",
+    "city": "BAGLEY",
+    "state": "MN"
+  },
+  {
+    "id": "87MN",
+    "name": "ERICKSON",
+    "city": "ROOSEVELT",
+    "state": "MN"
+  },
+  {
+    "id": "89MN",
+    "name": "ST GABRIELS HOSPITAL",
+    "city": "LITTLE FALLS",
+    "state": "MN"
+  },
+  {
+    "id": "8MN1",
+    "name": "AVERA TYLER HOSPITAL",
+    "city": "TYLER",
+    "state": "MN"
+  },
+  {
+    "id": "8MN2",
+    "name": "ASLESEN",
+    "city": "HALSTAD",
+    "state": "MN"
+  },
+  {
+    "id": "8MN3",
+    "name": "BREEZY POINT",
+    "city": "BREEZY POINT",
+    "state": "MN"
+  },
+  {
+    "id": "8MN4",
+    "name": "LIGHTFOOT FARMS",
+    "city": "VESTA",
+    "state": "MN"
+  },
+  {
+    "id": "8MN6",
+    "name": "MINSKE FLD",
+    "city": "PRINCETON",
+    "state": "MN"
+  },
+  {
+    "id": "8MN7",
+    "name": "ST ELIZABETH HOSPITAL",
+    "city": "WABASHA",
+    "state": "MN"
+  },
+  {
+    "id": "8MN8",
+    "name": "CASS LAKE INDIAN HEALTH SERVICES",
+    "city": "CASS LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "8MN9",
+    "name": "CENTRACARE HEALTH-LONG PRAIRIE",
+    "city": "LONG PRAIRIE",
+    "state": "MN"
+  },
+  {
+    "id": "8MY9",
+    "name": "MINGLEWOOD",
+    "city": "ALEXANDRIA",
+    "state": "MN"
+  },
+  {
+    "id": "8Y4",
+    "name": "SURFSIDE",
+    "city": "LINO LAKES",
+    "state": "MN"
+  },
+  {
+    "id": "8Y5",
+    "name": "CLARISSA MUNI",
+    "city": "CLARISSA",
+    "state": "MN"
+  },
+  {
+    "id": "8Y6",
+    "name": "LEADERS CLEAR LAKE",
+    "city": "CLEAR LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "90MN",
+    "name": "BISHMAN",
+    "city": "PRINCETON",
+    "state": "MN"
+  },
+  {
+    "id": "91MN",
+    "name": "SANFORD CANBY MEDICAL CENTER",
+    "city": "CANBY",
+    "state": "MN"
+  },
+  {
+    "id": "92MN",
+    "name": "BRUTLAG FARMS",
+    "city": "WENDELL",
+    "state": "MN"
+  },
+  {
+    "id": "93MN",
+    "name": "HOPPE SKY RANCH",
+    "city": "MANKATO",
+    "state": "MN"
+  },
+  {
+    "id": "94MN",
+    "name": "AG SPRAY INC",
+    "city": "BARNESVILLE",
+    "state": "MN"
+  },
+  {
+    "id": "95MN",
+    "name": "MAYO CLINIC HEALTH SYSTEM/FAIRMONT",
+    "city": "FAIRMONT",
+    "state": "MN"
+  },
+  {
+    "id": "96MN",
+    "name": "PIPESTONE COUNTY MEDICAL CENTER",
+    "city": "PIPESTONE",
+    "state": "MN"
+  },
+  {
+    "id": "97MN",
+    "name": "MAYO CLINIC HEALTH SYSTEM/RED WING",
+    "city": "RED WING",
+    "state": "MN"
+  },
+  {
+    "id": "98MN",
+    "name": "UP YONDER",
+    "city": "BEMIDJI",
+    "state": "MN"
+  },
+  {
+    "id": "99MN",
+    "name": "MAYO CLINIC ST MARYS HOSPITAL",
+    "city": "ROCHESTER",
+    "state": "MN"
+  },
+  {
+    "id": "9MN0",
+    "name": "CAREY LAKE",
+    "city": "HIBBING",
+    "state": "MN"
+  },
+  {
+    "id": "9MN1",
+    "name": "TROLL FARM",
+    "city": "CAMBRIDGE",
+    "state": "MN"
+  },
+  {
+    "id": "9MN2",
+    "name": "WABANA",
+    "city": "GRAND RAPIDS",
+    "state": "MN"
+  },
+  {
+    "id": "9MN3",
+    "name": "BARNESVILLE MUNI",
+    "city": "BARNESVILLE",
+    "state": "MN"
+  },
+  {
+    "id": "9MN4",
+    "name": "FAIRVIEW RIVERSIDE MEDICAL CENTER",
+    "city": "MINNEAPOLIS",
+    "state": "MN"
+  },
+  {
+    "id": "9MN5",
+    "name": "JANSSEN",
+    "city": "BARNESVILLE",
+    "state": "MN"
+  },
+  {
+    "id": "9MN6",
+    "name": "MERILL L HARRIS FLD",
+    "city": "JORDAN",
+    "state": "MN"
+  },
+  {
+    "id": "9MN7",
+    "name": "ST JAMES MEDICAL CENTER",
+    "city": "ST JAMES",
+    "state": "MN"
+  },
+  {
+    "id": "9MN9",
+    "name": "HENNEPIN COUNTY MEDICAL CENTER",
+    "city": "MINNEAPOLIS",
+    "state": "MN"
+  },
+  {
+    "id": "9MY7",
+    "name": "MIKES AERODROME",
+    "city": "ALBANY",
+    "state": "MN"
+  },
+  {
+    "id": "9Y0",
+    "name": "BOWSTRING",
+    "city": "BOWSTRING",
+    "state": "MN"
+  },
+  {
+    "id": "9Y2",
+    "name": "EAST GULL LAKE",
+    "city": "EAST GULL LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "9Y5",
+    "name": "SKY HARBOR",
+    "city": "EVELETH",
+    "state": "MN"
+  },
+  {
+    "id": "ACQ",
+    "name": "WASECA MUNI/MAYNARD RICHARD STENSRUD FLD",
+    "city": "WASECA",
+    "state": "MN"
+  },
+  {
+    "id": "ADC",
+    "name": "WADENA MUNI",
+    "city": "WADENA",
+    "state": "MN"
+  },
+  {
+    "id": "AEL",
+    "name": "ALBERT LEA MUNI",
+    "city": "ALBERT LEA",
+    "state": "MN"
+  },
+  {
+    "id": "AIT",
+    "name": "AITKIN MUNI/STEVE KURTZ FLD",
+    "city": "AITKIN",
+    "state": "MN"
+  },
+  {
+    "id": "ANE",
+    "name": "ANOKA COUNTY/BLAINE (JANES FLD)",
+    "city": "MINNEAPOLIS",
+    "state": "MN"
+  },
+  {
+    "id": "AQP",
+    "name": "APPLETON MUNI",
+    "city": "APPLETON",
+    "state": "MN"
+  },
+  {
+    "id": "AUM",
+    "name": "AUSTIN MUNI",
+    "city": "AUSTIN",
+    "state": "MN"
+  },
+  {
+    "id": "AXN",
+    "name": "ALEXANDRIA RGNL/CHANDLER FLD",
+    "city": "ALEXANDRIA",
+    "state": "MN"
+  },
+  {
+    "id": "BBB",
+    "name": "BENSON MUNI",
+    "city": "BENSON",
+    "state": "MN"
+  },
+  {
+    "id": "BDE",
+    "name": "BAUDETTE INTL",
+    "city": "BAUDETTE",
+    "state": "MN"
+  },
+  {
+    "id": "BDH",
+    "name": "WILLMAR MUNI/JOHN L RICE FLD",
+    "city": "WILLMAR",
+    "state": "MN"
+  },
+  {
+    "id": "BFW",
+    "name": "SILVER BAY MUNI",
+    "city": "SILVER BAY",
+    "state": "MN"
+  },
+  {
+    "id": "BJI",
+    "name": "BEMIDJI RGNL",
+    "city": "BEMIDJI",
+    "state": "MN"
+  },
+  {
+    "id": "BRD",
+    "name": "BRAINERD LAKES RGNL",
+    "city": "BRAINERD",
+    "state": "MN"
+  },
+  {
+    "id": "CBG",
+    "name": "CAMBRIDGE MUNI",
+    "city": "CAMBRIDGE",
+    "state": "MN"
+  },
+  {
+    "id": "CDD",
+    "name": "SCOTTS",
+    "city": "CRANE LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "CFE",
+    "name": "BUFFALO MUNI",
+    "city": "BUFFALO",
+    "state": "MN"
+  },
+  {
+    "id": "CHU",
+    "name": "HOUSTON COUNTY",
+    "city": "CALEDONIA",
+    "state": "MN"
+  },
+  {
+    "id": "CKC",
+    "name": "GRAND MARAIS/COOK COUNTY",
+    "city": "GRAND MARAIS",
+    "state": "MN"
+  },
+  {
+    "id": "CKN",
+    "name": "CROOKSTON MUNI/KIRKWOOD FLD",
+    "city": "CROOKSTON",
+    "state": "MN"
+  },
+  {
+    "id": "CNB",
+    "name": "MYERS FLD",
+    "city": "CANBY",
+    "state": "MN"
+  },
+  {
+    "id": "COQ",
+    "name": "CLOQUET/CARLTON COUNTY",
+    "city": "CLOQUET",
+    "state": "MN"
+  },
+  {
+    "id": "CQM",
+    "name": "COOK MUNI",
+    "city": "COOK",
+    "state": "MN"
+  },
+  {
+    "id": "D00",
+    "name": "NORMAN COUNTY ADA/TWIN VALLEY",
+    "city": "ADA/TWIN VALLEY",
+    "state": "MN"
+  },
+  {
+    "id": "D14",
+    "name": "FERTILE MUNI",
+    "city": "FERTILE",
+    "state": "MN"
+  },
+  {
+    "id": "D32",
+    "name": "STARBUCK MUNI",
+    "city": "STARBUCK",
+    "state": "MN"
+  },
+  {
+    "id": "D37",
+    "name": "WARREN MUNI",
+    "city": "WARREN",
+    "state": "MN"
+  },
+  {
+    "id": "D39",
+    "name": "SAUK CENTRE MUNI",
+    "city": "SAUK CENTRE",
+    "state": "MN"
+  },
+  {
+    "id": "D41",
+    "name": "STEPHEN MUNI",
+    "city": "STEPHEN",
+    "state": "MN"
+  },
+  {
+    "id": "D42",
+    "name": "SPRINGFIELD MUNI",
+    "city": "SPRINGFIELD",
+    "state": "MN"
+  },
+  {
+    "id": "D81",
+    "name": "RED LAKE FALLS MUNI",
+    "city": "RED LAKE FALLS",
+    "state": "MN"
+  },
+  {
+    "id": "DLH",
+    "name": "DULUTH INTL",
+    "city": "DULUTH",
+    "state": "MN"
+  },
+  {
+    "id": "DTL",
+    "name": "DETROIT LAKES/WETHING FLD",
+    "city": "DETROIT LAKES",
+    "state": "MN"
+  },
+  {
+    "id": "DVP",
+    "name": "SLAYTON MUNI",
+    "city": "SLAYTON",
+    "state": "MN"
+  },
+  {
+    "id": "DXX",
+    "name": "LAC QUI PARLE COUNTY",
+    "city": "MADISON",
+    "state": "MN"
+  },
+  {
+    "id": "DYT",
+    "name": "SKY HARBOR",
+    "city": "DULUTH",
+    "state": "MN"
+  },
+  {
+    "id": "ELO",
+    "name": "ELY MUNI",
+    "city": "ELY",
+    "state": "MN"
+  },
+  {
+    "id": "ETH",
+    "name": "WHEATON MUNI",
+    "city": "WHEATON",
+    "state": "MN"
+  },
+  {
+    "id": "EVM",
+    "name": "EVELETH/VIRGINIA MUNI",
+    "city": "EVELETH",
+    "state": "MN"
+  },
+  {
+    "id": "FBL",
+    "name": "FARIBAULT MUNI-LIZ WALL STROHFUS FLD",
+    "city": "FARIBAULT",
+    "state": "MN"
+  },
+  {
+    "id": "FCM",
+    "name": "FLYING CLOUD",
+    "city": "MINNEAPOLIS",
+    "state": "MN"
+  },
+  {
+    "id": "FFM",
+    "name": "FERGUS FALLS RGNL",
+    "city": "FERGUS FALLS",
+    "state": "MN"
+  },
+  {
+    "id": "FKA",
+    "name": "FILLMORE COUNTY",
+    "city": "PRESTON",
+    "state": "MN"
+  },
+  {
+    "id": "FOZ",
+    "name": "BIGFORK MUNI",
+    "city": "BIGFORK",
+    "state": "MN"
+  },
+  {
+    "id": "FRM",
+    "name": "FAIRMONT MUNI",
+    "city": "FAIRMONT",
+    "state": "MN"
+  },
+  {
+    "id": "FSE",
+    "name": "FOSSTON MUNI/ANDERSON FLD",
+    "city": "FOSSTON",
+    "state": "MN"
+  },
+  {
+    "id": "GDB",
+    "name": "GRANITE FALLS MUNI/LENZEN-ROE-FAGEN MEML FLD",
+    "city": "GRANITE FALLS",
+    "state": "MN"
+  },
+  {
+    "id": "GHW",
+    "name": "GLENWOOD MUNI",
+    "city": "GLENWOOD",
+    "state": "MN"
+  },
+  {
+    "id": "GPZ",
+    "name": "GRAND RAPIDS/ITASCA COUNTY-GORDON NEWSTROM FLD",
+    "city": "GRAND RAPIDS",
+    "state": "MN"
+  },
+  {
+    "id": "GYL",
+    "name": "GLENCOE MUNI",
+    "city": "GLENCOE",
+    "state": "MN"
+  },
+  {
+    "id": "HCD",
+    "name": "HUTCHINSON MUNI/BUTLER FLD",
+    "city": "HUTCHINSON",
+    "state": "MN"
+  },
+  {
+    "id": "HCO",
+    "name": "HALLOCK MUNI",
+    "city": "HALLOCK",
+    "state": "MN"
+  },
+  {
+    "id": "HIB",
+    "name": "RANGE RGNL",
+    "city": "HIBBING",
+    "state": "MN"
+  },
+  {
+    "id": "HZX",
+    "name": "ISEDOR IVERSON",
+    "city": "MC GREGOR",
+    "state": "MN"
+  },
+  {
+    "id": "INL",
+    "name": "FALLS INTL/EINARSON FLD",
+    "city": "INTERNATIONAL FALLS",
+    "state": "MN"
+  },
+  {
+    "id": "JKJ",
+    "name": "MOORHEAD MUNI/FLORENCE KLINGENSMITH FLD",
+    "city": "MOORHEAD",
+    "state": "MN"
+  },
+  {
+    "id": "JMR",
+    "name": "MORA MUNI",
+    "city": "MORA",
+    "state": "MN"
+  },
+  {
+    "id": "JYG",
+    "name": "ST JAMES MUNI",
+    "city": "ST JAMES",
+    "state": "MN"
+  },
+  {
+    "id": "LJF",
+    "name": "LITCHFIELD MUNI",
+    "city": "LITCHFIELD",
+    "state": "MN"
+  },
+  {
+    "id": "LVN",
+    "name": "AIRLAKE",
+    "city": "MINNEAPOLIS",
+    "state": "MN"
+  },
+  {
+    "id": "LXL",
+    "name": "LITTLE FALLS/MORRISON COUNTY-LINDBERGH FLD",
+    "city": "LITTLE FALLS",
+    "state": "MN"
+  },
+  {
+    "id": "LYV",
+    "name": "QUENTIN AANENSON FLD",
+    "city": "LUVERNE",
+    "state": "MN"
+  },
+  {
+    "id": "M16",
+    "name": "STEAM BOAT BAY",
+    "city": "EAST GULL LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "M49",
+    "name": "JOLLY FISHERMAN",
+    "city": "WAUBUN",
+    "state": "MN"
+  },
+  {
+    "id": "M56",
+    "name": "GUNFLINT LODGE",
+    "city": "GRAND MARAIS",
+    "state": "MN"
+  },
+  {
+    "id": "M69",
+    "name": "BIRCH LAKE",
+    "city": "DEERWOOD",
+    "state": "MN"
+  },
+  {
+    "id": "MGG",
+    "name": "MAPLE LAKE MUNI-BILL MAVENCAMP SR FLD",
+    "city": "MAPLE LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "MIC",
+    "name": "CRYSTAL",
+    "city": "MINNEAPOLIS",
+    "state": "MN"
+  },
+  {
+    "id": "MJQ",
+    "name": "JACKSON MUNI",
+    "city": "JACKSON",
+    "state": "MN"
+  },
+  {
+    "id": "MKT",
+    "name": "MANKATO RGNL",
+    "city": "MANKATO",
+    "state": "MN"
+  },
+  {
+    "id": "MML",
+    "name": "SOUTHWEST MINNESOTA RGNL MARSHALL/RYAN FLD",
+    "city": "MARSHALL",
+    "state": "MN"
+  },
+  {
+    "id": "MN00",
+    "name": "WEBB LAKE",
+    "city": "HACKENSACK",
+    "state": "MN"
+  },
+  {
+    "id": "MN01",
+    "name": "HAMMARS FARM",
+    "city": "ADA",
+    "state": "MN"
+  },
+  {
+    "id": "MN02",
+    "name": "LAKE MINNEWASHTA",
+    "city": "EXCELSIOR",
+    "state": "MN"
+  },
+  {
+    "id": "MN03",
+    "name": "BUFFALO HOSPITAL",
+    "city": "BUFFALO",
+    "state": "MN"
+  },
+  {
+    "id": "MN04",
+    "name": "LAKE PIERSON",
+    "city": "CHASKA",
+    "state": "MN"
+  },
+  {
+    "id": "MN05",
+    "name": "JORDAN",
+    "city": "BEMIDJI",
+    "state": "MN"
+  },
+  {
+    "id": "MN06",
+    "name": "PULKRABEK LANDING FLD",
+    "city": "ANGUS",
+    "state": "MN"
+  },
+  {
+    "id": "MN07",
+    "name": "ALLINA-MERCY HOSPITAL",
+    "city": "ANOKA",
+    "state": "MN"
+  },
+  {
+    "id": "MN08",
+    "name": "EAGLES NEST AERODROME",
+    "city": "EAGLE LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "MN09",
+    "name": "CRYSTAL LAKE",
+    "city": "BURNSVILLE",
+    "state": "MN"
+  },
+  {
+    "id": "MN10",
+    "name": "ABBOTT NORTHWESTERN HOSPITAL",
+    "city": "MINNEAPOLIS",
+    "state": "MN"
+  },
+  {
+    "id": "MN11",
+    "name": "LORENZ",
+    "city": "BENSON",
+    "state": "MN"
+  },
+  {
+    "id": "MN12",
+    "name": "ROBCO",
+    "city": "LAPORTE",
+    "state": "MN"
+  },
+  {
+    "id": "MN13",
+    "name": "MOBERG AIR BASE",
+    "city": "BEMIDJI",
+    "state": "MN"
+  },
+  {
+    "id": "MN14",
+    "name": "UNITED HOSPITAL DISTRICT",
+    "city": "BLUE EARTH",
+    "state": "MN"
+  },
+  {
+    "id": "MN15",
+    "name": "SMITH FLD",
+    "city": "ELKO",
+    "state": "MN"
+  },
+  {
+    "id": "MN16",
+    "name": "ESSENTIA HEALTH VIRGINIA HOSPITAL",
+    "city": "VIRGINIA",
+    "state": "MN"
+  },
+  {
+    "id": "MN17",
+    "name": "JACKSON FLD",
+    "city": "BRAINERD",
+    "state": "MN"
+  },
+  {
+    "id": "MN18",
+    "name": "BARRETT",
+    "city": "BRAINERD",
+    "state": "MN"
+  },
+  {
+    "id": "MN19",
+    "name": "BRANDT",
+    "city": "DELANO",
+    "state": "MN"
+  },
+  {
+    "id": "MN20",
+    "name": "GRAND ITASCA CLINIC AND HOSPITAL",
+    "city": "GRAND RAPIDS",
+    "state": "MN"
+  },
+  {
+    "id": "MN21",
+    "name": "PIETENPOL FIELD",
+    "city": "CHERRY GROVE",
+    "state": "MN"
+  },
+  {
+    "id": "MN23",
+    "name": "WEST WIND",
+    "city": "LITTLEFORK",
+    "state": "MN"
+  },
+  {
+    "id": "MN24",
+    "name": "SURFSIDE",
+    "city": "LINO LAKES",
+    "state": "MN"
+  },
+  {
+    "id": "MN25",
+    "name": "MAHNOMEN HEALTH CENTER",
+    "city": "MAHNOMEN",
+    "state": "MN"
+  },
+  {
+    "id": "MN26",
+    "name": "NORTH LAKE LANDING",
+    "city": "LINDSTROM",
+    "state": "MN"
+  },
+  {
+    "id": "MN27",
+    "name": "FAIRVIEW SOUTHDALE HOSPITAL",
+    "city": "EDINA",
+    "state": "MN"
+  },
+  {
+    "id": "MN28",
+    "name": "LUX STRIP",
+    "city": "COSMOS",
+    "state": "MN"
+  },
+  {
+    "id": "MN29",
+    "name": "MATHIEU LANDING",
+    "city": "EVELETH",
+    "state": "MN"
+  },
+  {
+    "id": "MN30",
+    "name": "KATO AV",
+    "city": "GOOD THUNDER",
+    "state": "MN"
+  },
+  {
+    "id": "MN31",
+    "name": "L & M AERODROME",
+    "city": "LITCHFIELD",
+    "state": "MN"
+  },
+  {
+    "id": "MN32",
+    "name": "NIETZ AIRSTRIP",
+    "city": "ORONOCO",
+    "state": "MN"
+  },
+  {
+    "id": "MN33",
+    "name": "ST MARY'S HOSPITAL",
+    "city": "DULUTH",
+    "state": "MN"
+  },
+  {
+    "id": "MN34",
+    "name": "MAYO CLINIC HEALTH SYSTEM/AUSTIN",
+    "city": "AUSTIN",
+    "state": "MN"
+  },
+  {
+    "id": "MN35",
+    "name": "WILD RICE LAKE",
+    "city": "DULUTH",
+    "state": "MN"
+  },
+  {
+    "id": "MN37",
+    "name": "WAYZATA BAY LANDING",
+    "city": "WAYZATA",
+    "state": "MN"
+  },
+  {
+    "id": "MN38",
+    "name": "ALLINA HOSPITAL & CLINIC OWATONNA",
+    "city": "OWATONNA",
+    "state": "MN"
+  },
+  {
+    "id": "MN39",
+    "name": "WINONA HEALTH SERVICES",
+    "city": "WINONA",
+    "state": "MN"
+  },
+  {
+    "id": "MN40",
+    "name": "MEADOWVALE",
+    "city": "ELK RIVER",
+    "state": "MN"
+  },
+  {
+    "id": "MN41",
+    "name": "TIMMERS LANDING FLD",
+    "city": "SILVER LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "MN42",
+    "name": "OAK LAKE AIR STRIP",
+    "city": "ERSKINE",
+    "state": "MN"
+  },
+  {
+    "id": "MN43",
+    "name": "WELIA HEALTH",
+    "city": "MORA",
+    "state": "MN"
+  },
+  {
+    "id": "MN44",
+    "name": "ANGEN FLD",
+    "city": "GARFIELD",
+    "state": "MN"
+  },
+  {
+    "id": "MN45",
+    "name": "JENNRICH FLD",
+    "city": "FARMINGTON",
+    "state": "MN"
+  },
+  {
+    "id": "MN46",
+    "name": "MICHELS FARMS",
+    "city": "NORTH MANKATO",
+    "state": "MN"
+  },
+  {
+    "id": "MN47",
+    "name": "CAMERON'S",
+    "city": "PRINCETON",
+    "state": "MN"
+  },
+  {
+    "id": "MN48",
+    "name": "ST LUKE HOSPITAL",
+    "city": "DULUTH",
+    "state": "MN"
+  },
+  {
+    "id": "MN49",
+    "name": "TUMA",
+    "city": "MONTGOMERY",
+    "state": "MN"
+  },
+  {
+    "id": "MN50",
+    "name": "ARTHUR FLD",
+    "city": "GATZKE",
+    "state": "MN"
+  },
+  {
+    "id": "MN52",
+    "name": "GOSPEL RANCH",
+    "city": "HIBBING",
+    "state": "MN"
+  },
+  {
+    "id": "MN53",
+    "name": "WINDOM AREA HOSPITAL",
+    "city": "WINDOM",
+    "state": "MN"
+  },
+  {
+    "id": "MN54",
+    "name": "ESSENTIA HEALTH DEER RIVER",
+    "city": "DEER RIVER",
+    "state": "MN"
+  },
+  {
+    "id": "MN56",
+    "name": "METHODIST/CHARLTON BUILDING",
+    "city": "ROCHESTER",
+    "state": "MN"
+  },
+  {
+    "id": "MN57",
+    "name": "BUSH FLD",
+    "city": "HINCKLEY",
+    "state": "MN"
+  },
+  {
+    "id": "MN58",
+    "name": "SKY MEADOW",
+    "city": "HASTINGS",
+    "state": "MN"
+  },
+  {
+    "id": "MN59",
+    "name": "DISTRICT ONE HOSPITAL",
+    "city": "FARIBAULT",
+    "state": "MN"
+  },
+  {
+    "id": "MN61",
+    "name": "JACKSON",
+    "city": "MCGREGOR",
+    "state": "MN"
+  },
+  {
+    "id": "MN62",
+    "name": "QUAST",
+    "city": "HUTCHINSON",
+    "state": "MN"
+  },
+  {
+    "id": "MN63",
+    "name": "STOCKER",
+    "city": "JORDAN",
+    "state": "MN"
+  },
+  {
+    "id": "MN64",
+    "name": "RENVILLE COUNTY RGNL HOSPITAL",
+    "city": "OLIVIA",
+    "state": "MN"
+  },
+  {
+    "id": "MN65",
+    "name": "MEEKER MEML HOSPITAL",
+    "city": "LITCHFIELD",
+    "state": "MN"
+  },
+  {
+    "id": "MN66",
+    "name": "INGLESIDE",
+    "city": "LORETTO",
+    "state": "MN"
+  },
+  {
+    "id": "MN67",
+    "name": "SKY PARK",
+    "city": "LYDIA",
+    "state": "MN"
+  },
+  {
+    "id": "MN68",
+    "name": "PFAU AIRSTRIP",
+    "city": "PRINCETON",
+    "state": "MN"
+  },
+  {
+    "id": "MN69",
+    "name": "MAPLE",
+    "city": "MAPLE PLAIN",
+    "state": "MN"
+  },
+  {
+    "id": "MN71",
+    "name": "BAKKO AVIATION",
+    "city": "GLENWOOD",
+    "state": "MN"
+  },
+  {
+    "id": "MN72",
+    "name": "CENTRACARE HEALTH PAYNESVILLE",
+    "city": "PAYNESVILLE",
+    "state": "MN"
+  },
+  {
+    "id": "MN73",
+    "name": "TURTLE BAY",
+    "city": "COHASSET",
+    "state": "MN"
+  },
+  {
+    "id": "MN74",
+    "name": "B & D FLYERS INTL",
+    "city": "MINNESOTA LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "MN75",
+    "name": "KREZOWSKI",
+    "city": "MCGREGOR",
+    "state": "MN"
+  },
+  {
+    "id": "MN76",
+    "name": "MARTY'S TRANQUILITY BASE",
+    "city": "PRIOR LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "MN77",
+    "name": "JERGER'S FLD",
+    "city": "MOORHEAD",
+    "state": "MN"
+  },
+  {
+    "id": "MN78",
+    "name": "MELROSE HOSPITAL",
+    "city": "MELROSE",
+    "state": "MN"
+  },
+  {
+    "id": "MN79",
+    "name": "LAKE KABETOGAMA AREA FIRE DEPT",
+    "city": "KABETOGAMA",
+    "state": "MN"
+  },
+  {
+    "id": "MN80",
+    "name": "THE PASS",
+    "city": "MOUND",
+    "state": "MN"
+  },
+  {
+    "id": "MN81",
+    "name": "J J AND T",
+    "city": "EAST GRAND FORKS",
+    "state": "MN"
+  },
+  {
+    "id": "MN82",
+    "name": "GLENCOE RGNL HEALTH SERVICE",
+    "city": "GLENCOE",
+    "state": "MN"
+  },
+  {
+    "id": "MN83",
+    "name": "INTL FALLS MEML",
+    "city": "INTERNATIONAL FALLS",
+    "state": "MN"
+  },
+  {
+    "id": "MN84",
+    "name": "BENSON",
+    "city": "BENSON",
+    "state": "MN"
+  },
+  {
+    "id": "MN86",
+    "name": "SKY MANOR AERO ESTATES",
+    "city": "PARK RAPIDS",
+    "state": "MN"
+  },
+  {
+    "id": "MN87",
+    "name": "COOKS LANDING",
+    "city": "HAM LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "MN88",
+    "name": "LANDEPLATZ",
+    "city": "SEARLES",
+    "state": "MN"
+  },
+  {
+    "id": "MN89",
+    "name": "AEROVILLA",
+    "city": "PERHAM",
+    "state": "MN"
+  },
+  {
+    "id": "MN90",
+    "name": "SANFORD HOSPITAL LUVERNE",
+    "city": "LUVERNE",
+    "state": "MN"
+  },
+  {
+    "id": "MN91",
+    "name": "REYNOLDS FLD",
+    "city": "PRINCETON",
+    "state": "MN"
+  },
+  {
+    "id": "MN92",
+    "name": "LENNARTSON",
+    "city": "PROCTOR",
+    "state": "MN"
+  },
+  {
+    "id": "MN93",
+    "name": "CENTRACARE HEALTH",
+    "city": "MONTICELLO",
+    "state": "MN"
+  },
+  {
+    "id": "MN94",
+    "name": "MILLE LACS",
+    "city": "ONAMIA",
+    "state": "MN"
+  },
+  {
+    "id": "MN96",
+    "name": "INTL FALLS CUSTOMS & BORDER PATROL",
+    "city": "INTERNATIONAL FALLS",
+    "state": "MN"
+  },
+  {
+    "id": "MN97",
+    "name": "ESSENTIA HOSPITAL",
+    "city": "FOSSTON",
+    "state": "MN"
+  },
+  {
+    "id": "MN98",
+    "name": "DONNER",
+    "city": "BELVIEW",
+    "state": "MN"
+  },
+  {
+    "id": "MN99",
+    "name": "TWO HARBOR FIRE DEPARTMENT",
+    "city": "TWO HARBORS",
+    "state": "MN"
+  },
+  {
+    "id": "MOX",
+    "name": "MORRIS MUNI/CHARLIE SCHMIDT FLD",
+    "city": "MORRIS",
+    "state": "MN"
+  },
+  {
+    "id": "MSP",
+    "name": "MINNEAPOLIS-ST PAUL INTL/WOLD-CHAMBERLAIN",
+    "city": "MINNEAPOLIS",
+    "state": "MN"
+  },
+  {
+    "id": "MVE",
+    "name": "MONTEVIDEO-CHIPPEWA COUNTY",
+    "city": "MONTEVIDEO",
+    "state": "MN"
+  },
+  {
+    "id": "MWM",
+    "name": "WINDOM MUNI",
+    "city": "WINDOM",
+    "state": "MN"
+  },
+  {
+    "id": "MY00",
+    "name": "SIEG'S FARM",
+    "city": "TRUMAN",
+    "state": "MN"
+  },
+  {
+    "id": "MY01",
+    "name": "ROAN",
+    "city": "WARREN",
+    "state": "MN"
+  },
+  {
+    "id": "MY02",
+    "name": "DEMMERS FLD",
+    "city": "JORDAN",
+    "state": "MN"
+  },
+  {
+    "id": "MY10",
+    "name": "DETERS FARMS",
+    "city": "SPRING GROVE",
+    "state": "MN"
+  },
+  {
+    "id": "MY12",
+    "name": "DYKSTRA ACREAGE",
+    "city": "TROSKY",
+    "state": "MN"
+  },
+  {
+    "id": "MY15",
+    "name": "KASTANEK",
+    "city": "PIERZ",
+    "state": "MN"
+  },
+  {
+    "id": "MY17",
+    "name": "RIES FARMS RUNWAY",
+    "city": "HASTINGS",
+    "state": "MN"
+  },
+  {
+    "id": "MY18",
+    "name": "LINO AIR PARK",
+    "city": "LINO LAKES",
+    "state": "MN"
+  },
+  {
+    "id": "MY21",
+    "name": "KOLLAR'S SHOREVIEW MARINE",
+    "city": "SHOREVIEW",
+    "state": "MN"
+  },
+  {
+    "id": "MY26",
+    "name": "MINNESOTA VALLEY HEALTH CENTER",
+    "city": "LE SUEUR",
+    "state": "MN"
+  },
+  {
+    "id": "MY27",
+    "name": "ESSENTIA HEALTH ST MARY",
+    "city": "DETROIT LAKES",
+    "state": "MN"
+  },
+  {
+    "id": "MY29",
+    "name": "KAISER'S AIRSTRIP",
+    "city": "LAKE PARK",
+    "state": "MN"
+  },
+  {
+    "id": "MY35",
+    "name": "WALKER FLD",
+    "city": "AFTON",
+    "state": "MN"
+  },
+  {
+    "id": "MY37",
+    "name": "EYOTA",
+    "city": "EYOTA",
+    "state": "MN"
+  },
+  {
+    "id": "MY38",
+    "name": "IRONS POINT",
+    "city": "TOWER",
+    "state": "MN"
+  },
+  {
+    "id": "MY43",
+    "name": "MOYER",
+    "city": "HOLLOWAY",
+    "state": "MN"
+  },
+  {
+    "id": "MY44",
+    "name": "RICE MEML HOSPITAL",
+    "city": "WILLMAR",
+    "state": "MN"
+  },
+  {
+    "id": "MY46",
+    "name": "HAY SHAKERS",
+    "city": "NICOLLET",
+    "state": "MN"
+  },
+  {
+    "id": "MY50",
+    "name": "FRONTENAC",
+    "city": "FRONTENAC",
+    "state": "MN"
+  },
+  {
+    "id": "MY52",
+    "name": "TURKEY TRACK",
+    "city": "COATES",
+    "state": "MN"
+  },
+  {
+    "id": "MY54",
+    "name": "CLOVERLEAF-EAST BEMIDJI",
+    "city": "BEMIDJI",
+    "state": "MN"
+  },
+  {
+    "id": "MY56",
+    "name": "ROBERTSON FLD",
+    "city": "HIBBING",
+    "state": "MN"
+  },
+  {
+    "id": "MY57",
+    "name": "FEDOR",
+    "city": "HOLDINGFORD",
+    "state": "MN"
+  },
+  {
+    "id": "MY59",
+    "name": "GASPER",
+    "city": "EUCLID",
+    "state": "MN"
+  },
+  {
+    "id": "MY62",
+    "name": "ULTRAFLYTE, INC",
+    "city": "JENKINS",
+    "state": "MN"
+  },
+  {
+    "id": "MY63",
+    "name": "MOBERG AIR BASE",
+    "city": "BEMIDJI",
+    "state": "MN"
+  },
+  {
+    "id": "MY65",
+    "name": "UNIVERSITY OF MN HOSPITALS & CLINICS",
+    "city": "MINNEAPOLIS",
+    "state": "MN"
+  },
+  {
+    "id": "MY66",
+    "name": "NORTH STAR RANCH",
+    "city": "ONAMIA",
+    "state": "MN"
+  },
+  {
+    "id": "MY68",
+    "name": "JOHNSONS AERO REPAIR",
+    "city": "WHEATON",
+    "state": "MN"
+  },
+  {
+    "id": "MY72",
+    "name": "ISLE",
+    "city": "ISLE",
+    "state": "MN"
+  },
+  {
+    "id": "MY74",
+    "name": "FAIRVIEW NORTHLAND RGNL HOSPITAL",
+    "city": "PRINCETON",
+    "state": "MN"
+  },
+  {
+    "id": "MY76",
+    "name": "JOHNSON'S SEA LANDING",
+    "city": "TOWER",
+    "state": "MN"
+  },
+  {
+    "id": "MY77",
+    "name": "NORTH MEML",
+    "city": "ROBBINSDALE",
+    "state": "MN"
+  },
+  {
+    "id": "MY79",
+    "name": "CHILDREN'S HOSPITAL - ST PAUL",
+    "city": "ST PAUL",
+    "state": "MN"
+  },
+  {
+    "id": "MY80",
+    "name": "ROSENBERG",
+    "city": "CEYLON",
+    "state": "MN"
+  },
+  {
+    "id": "MY84",
+    "name": "NEW ULM MEDICAL CENTER",
+    "city": "NEW ULM",
+    "state": "MN"
+  },
+  {
+    "id": "MY87",
+    "name": "ST CLOUD HOSPITAL",
+    "city": "ST CLOUD",
+    "state": "MN"
+  },
+  {
+    "id": "MY88",
+    "name": "HENNING/BOLDT",
+    "city": "RUSHMORE",
+    "state": "MN"
+  },
+  {
+    "id": "MY90",
+    "name": "AL'S DUE NORTH",
+    "city": "NORTH BRANCH",
+    "state": "MN"
+  },
+  {
+    "id": "MY91",
+    "name": "DOUGLAS COUNTY HOSPITAL",
+    "city": "ALEXANDRIA",
+    "state": "MN"
+  },
+  {
+    "id": "MY93",
+    "name": "JOHNSTON",
+    "city": "PERHAM",
+    "state": "MN"
+  },
+  {
+    "id": "MY94",
+    "name": "COUNTRY HAVEN",
+    "city": "CLOQUET",
+    "state": "MN"
+  },
+  {
+    "id": "MY95",
+    "name": "SWANSON FLD",
+    "city": "CROWN",
+    "state": "MN"
+  },
+  {
+    "id": "MY96",
+    "name": "BAHNSEN",
+    "city": "FARIBAULT",
+    "state": "MN"
+  },
+  {
+    "id": "MY97",
+    "name": "NIELSEN'S",
+    "city": "FARMINGTON",
+    "state": "MN"
+  },
+  {
+    "id": "MY99",
+    "name": "JOHNSTON",
+    "city": "HAWLEY",
+    "state": "MN"
+  },
+  {
+    "id": "MZH",
+    "name": "MOOSE LAKE CARLTON COUNTY",
+    "city": "MOOSE LAKE",
+    "state": "MN"
+  },
+  {
+    "id": "ONA",
+    "name": "WINONA MUNI/MAX CONRAD FLD",
+    "city": "WINONA",
+    "state": "MN"
+  },
+  {
+    "id": "ORB",
+    "name": "ORR RGNL",
+    "city": "ORR",
+    "state": "MN"
+  },
+  {
+    "id": "OTG",
+    "name": "WORTHINGTON MUNI",
+    "city": "WORTHINGTON",
+    "state": "MN"
+  },
+  {
+    "id": "OVL",
+    "name": "OLIVIA RGNL",
+    "city": "OLIVIA",
+    "state": "MN"
+  },
+  {
+    "id": "OWA",
+    "name": "OWATONNA DEGNER RGNL",
+    "city": "OWATONNA",
+    "state": "MN"
+  },
+  {
+    "id": "PEX",
+    "name": "PAYNESVILLE MUNI",
+    "city": "PAYNESVILLE",
+    "state": "MN"
+  },
+  {
+    "id": "PKD",
+    "name": "PARK RAPIDS MUNI/KONSHOK FLD",
+    "city": "PARK RAPIDS",
+    "state": "MN"
+  },
+  {
+    "id": "PNM",
+    "name": "PRINCETON MUNI",
+    "city": "PRINCETON",
+    "state": "MN"
+  },
+  {
+    "id": "PQN",
+    "name": "PIPESTONE MUNI",
+    "city": "PIPESTONE",
+    "state": "MN"
+  },
+  {
+    "id": "PWC",
+    "name": "PINE RIVER RGNL",
+    "city": "PINE RIVER",
+    "state": "MN"
+  },
+  {
+    "id": "RGK",
+    "name": "RED WING RGNL",
+    "city": "RED WING",
+    "state": "MN"
+  },
+  {
+    "id": "ROS",
+    "name": "RUSH CITY RGNL",
+    "city": "RUSH CITY",
+    "state": "MN"
+  },
+  {
+    "id": "ROX",
+    "name": "ROSEAU MUNI/RUDY BILLBERG FLD",
+    "city": "ROSEAU",
+    "state": "MN"
+  },
+  {
+    "id": "RRT",
+    "name": "WARROAD INTL MEML",
+    "city": "WARROAD",
+    "state": "MN"
+  },
+  {
+    "id": "RST",
+    "name": "ROCHESTER INTL",
+    "city": "ROCHESTER",
+    "state": "MN"
+  },
+  {
+    "id": "RWF",
+    "name": "REDWOOD FALLS MUNI",
+    "city": "REDWOOD FALLS",
+    "state": "MN"
+  },
+  {
+    "id": "RYM",
+    "name": "RAY S MILLER AAF",
+    "city": "CAMP RIPLEY",
+    "state": "MN"
+  },
+  {
+    "id": "SAZ",
+    "name": "STAPLES MUNI",
+    "city": "STAPLES",
+    "state": "MN"
+  },
+  {
+    "id": "SBU",
+    "name": "BLUE EARTH MUNI",
+    "city": "BLUE EARTH",
+    "state": "MN"
+  },
+  {
+    "id": "SGS",
+    "name": "SOUTH ST PAUL MUNI/RICHARD E FLEMING FLD",
+    "city": "SOUTH ST PAUL",
+    "state": "MN"
+  },
+  {
+    "id": "STC",
+    "name": "ST CLOUD RGNL",
+    "city": "ST CLOUD",
+    "state": "MN"
+  },
+  {
+    "id": "STP",
+    "name": "ST PAUL DOWNTOWN HOLMAN FLD",
+    "city": "ST PAUL",
+    "state": "MN"
+  },
+  {
+    "id": "SYN",
+    "name": "STANTON AIRFIELD",
+    "city": "STANTON",
+    "state": "MN"
+  },
+  {
+    "id": "TKC",
+    "name": "TRACY MUNI",
+    "city": "TRACY",
+    "state": "MN"
+  },
+  {
+    "id": "TOB",
+    "name": "DODGE CENTER",
+    "city": "DODGE CENTER",
+    "state": "MN"
+  },
+  {
+    "id": "TVF",
+    "name": "THIEF RIVER FALLS RGNL",
+    "city": "THIEF RIVER FALLS",
+    "state": "MN"
+  },
+  {
+    "id": "TWM",
+    "name": "RICHARD B HELGESON",
+    "city": "TWO HARBORS",
+    "state": "MN"
+  },
+  {
+    "id": "ULM",
+    "name": "NEW ULM MUNI",
+    "city": "NEW ULM",
+    "state": "MN"
+  },
+  {
+    "id": "VVV",
+    "name": "ORTONVILLE MUNI/MARTINSON FLD",
+    "city": "ORTONVILLE",
+    "state": "MN"
+  },
+  {
+    "id": "VWU",
+    "name": "WASKISH MUNI",
+    "city": "WASKISH",
+    "state": "MN"
+  },
+  {
+    "id": "XVG",
+    "name": "LONGVILLE MUNI",
+    "city": "LONGVILLE",
+    "state": "MN"
+  },
+  {
+    "id": "Y49",
+    "name": "WALKER MUNI",
+    "city": "WALKER",
+    "state": "MN"
+  },
+  {
+    "id": "Y58",
+    "name": "SLEEPY EYE MUNI",
+    "city": "SLEEPY EYE",
+    "state": "MN"
+  },
+  {
+    "id": "Y63",
+    "name": "ELBOW LAKE MUNI/PRIDE OF THE PRAIRIE",
+    "city": "ELBOW LAKE",
+    "state": "MN"
+  }
+]

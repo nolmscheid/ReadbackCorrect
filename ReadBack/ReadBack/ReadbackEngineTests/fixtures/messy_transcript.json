@@ -1,0 +1,7 @@
+{
+  "transcript": "uh contact approach on one two eight decimal seven",
+  "gps": { "lat": 44.88, "lon": -93.22 },
+  "expectedNormalizedContains": [],
+  "expectedIntents": [],
+  "minOverallConfidence": 0.2
+}

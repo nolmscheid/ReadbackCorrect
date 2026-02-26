@@ -1,0 +1,9 @@
+{
+  "transcript": "contact approach on one two eight point seven",
+  "gps": { "lat": 44.88, "lon": -93.22 },
+  "expectedNormalizedContains": ["128.7"],
+  "expectedIntents": [
+    { "kind": "frequencyChange", "frequencyMHz": 128.7 }
+  ],
+  "minOverallConfidence": 0.5
+}

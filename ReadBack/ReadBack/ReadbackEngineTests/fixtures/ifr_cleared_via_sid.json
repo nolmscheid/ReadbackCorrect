@@ -1,0 +1,9 @@
+{
+  "transcript": "cleared to KMIC via golf echo papa departure",
+  "gps": { "lat": 44.88, "lon": -93.22 },
+  "expectedNormalizedContains": ["KMIC", "GEP"],
+  "expectedIntents": [
+    { "kind": "ifrClearance", "clearanceLimit": "KMIC" }
+  ],
+  "minOverallConfidence": 0.5
+}

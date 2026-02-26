@@ -1,14 +1,32 @@
-# Xcode
-DerivedData/
-build/
-*.xcworkspace
-xcuserdata/
-*.xcuserstate
-
-# Swift Package Manager
-.build/
-
 # macOS
 .DS_Store
 
-aviation_data_v2/*.json
+# Xcode
+DerivedData/
+*.xcuserstate
+*.xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+# SwiftPM
+.build/
+
+# Secrets
+**/*token*
+**/*TOKEN*
+**/*secret*
+**/*SECRET*
+
+# Local backups
+*.bundle
+
+# Xcode per-user files (do not commit)
+**/xcuserdata/
+**/*.xcbkptlist
+
+# Large datasets (generated)
+aviation_data_v2/
+aviation_data_v2/**
+
+# PDFs and large docs (optional, keep repo light)
+*.pdf

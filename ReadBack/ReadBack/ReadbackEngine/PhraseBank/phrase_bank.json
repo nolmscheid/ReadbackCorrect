@@ -1,0 +1,244 @@
+[
+  {
+    "id": "hold-short-valid-mic",
+    "title": "Hold short runway valid at MIC (SIM MIC)",
+    "transcript": "N641CC HOLD SHORT RUNWAY 14",
+    "expectedNormalizedContains": ["HOLD", "14"],
+    "expectedIntents": [
+      { "kind": "runwayOp", "operation": "holdShort", "runway": "14", "validated": true }
+    ],
+    "notes": "At MIC; runway 14 exists → validated true",
+    "gps": { "lat": 44.88, "lon": -93.22 }
+  },
+  {
+    "id": "hold-short-invalid-mic",
+    "title": "Hold short runway invalid at MIC (SIM MIC)",
+    "transcript": "N641CC HOLD SHORT RUNWAY 99",
+    "expectedNormalizedContains": ["HOLD", "99"],
+    "expectedIntents": [
+      { "kind": "runwayOp", "operation": "holdShort", "runway": "99", "validated": false }
+    ],
+    "notes": "At MIC; runway 99 does not exist → validated false",
+    "gps": { "lat": 44.88, "lon": -93.22 }
+  },
+  {
+    "id": "cleared-takeoff-valid-ane",
+    "title": "Cleared takeoff runway valid at ANE (SIM ANE)",
+    "transcript": "N641CC CLEARED FOR TAKEOFF RUNWAY 27",
+    "expectedNormalizedContains": ["CLEARED", "27"],
+    "expectedIntents": [
+      { "kind": "runwayOp", "operation": "clearedTakeoff", "runway": "27", "validated": true }
+    ],
+    "notes": "At ANE; runway 27 exists → validated true",
+    "gps": { "lat": 45.15, "lon": -93.21 }
+  },
+  {
+    "id": "hold-runway-32-home",
+    "title": "Hold runway 32 at home (REAL)",
+    "transcript": "641CC HOLD RUNWAY 32",
+    "expectedNormalizedContains": ["HOLD", "32"],
+    "expectedIntents": [
+      { "kind": "runwayOp", "operation": "holdShort", "runway": "32", "validated": null }
+    ],
+    "notes": "At home; validated=nil (unknown)",
+    "gps": { "lat": 44.0, "lon": -94.0 }
+  },
+  {
+    "id": "taxi-multi-intent-mic",
+    "title": "Taxi to runway, cross runways, continue, hold short (SIM MIC)",
+    "transcript": "641CC TAXI TO RUNWAY 14 VIA DELTA CROSS RUNWAY 29L 29R CONTINUE ON CHARLIE HOLD SHORT RUNWAY 14",
+    "expectedNormalizedContains": ["TAXI", "14", "VIA D", "CROSS", "29L", "29R", "HOLD"],
+    "expectedIntents": [
+      { "kind": "runwayOp", "operation": "holdShort", "runway": "14", "validated": true },
+      { "kind": "crossRunway", "runways": ["29L", "29R"], "validatedMap": { "29L": false, "29R": false } },
+      { "kind": "taxiToRunway", "runway": "14", "validated": null },
+      { "kind": "viaTaxiway", "extra": { "taxiway": "D" } },
+      { "kind": "continueTaxi", "extra": { "taxiway": "C" }, "validated": null }
+    ],
+    "notes": "Only runwayOp holdShort validated at SIM MIC; cross/taxi/continue validated=nil for now",
+    "gps": { "lat": 44.88, "lon": -93.22 }
+  },
+  {
+    "id": "hold-at-gep-negative",
+    "title": "Hold at GEP (no runway intent)",
+    "transcript": "N641CC HOLD AT GEP AS PUBLISHED",
+    "expectedNormalizedContains": ["HOLD", "GEP"],
+    "expectedIntents": [],
+    "notes": "IFR hold at fix; must not produce runwayOp",
+    "gps": { "lat": 44.88, "lon": -93.22 }
+  },
+  {
+    "id": "cross-24L-24R-valid-mic",
+    "title": "CROSS RUNWAY 24L 24R at SIM MIC (valid)",
+    "transcript": "N641CC CROSS RUNWAY 24L 24R",
+    "expectedNormalizedContains": ["CROSS", "24L", "24R"],
+    "expectedIntents": [
+      { "kind": "crossRunway", "runways": ["24L", "24R"], "validatedMap": { "24L": true, "24R": true } }
+    ],
+    "notes": "At MIC; 24L/24R exist → both validated true",
+    "gps": { "lat": 44.88, "lon": -93.22 }
+  },
+  {
+    "id": "cross-29L-29R-invalid-mic",
+    "title": "CROSS RUNWAY 29L 29R at SIM MIC (invalid)",
+    "transcript": "N641CC CROSS RUNWAY 29L 29R",
+    "expectedNormalizedContains": ["CROSS", "29L", "29R"],
+    "expectedIntents": [
+      { "kind": "crossRunway", "runways": ["29L", "29R"], "validatedMap": { "29L": false, "29R": false } }
+    ],
+    "notes": "At MIC; 29L/29R do not exist → both validated false",
+    "gps": { "lat": 44.88, "lon": -93.22 }
+  },
+  {
+    "id": "cross-24L-home-unknown",
+    "title": "CROSS RUNWAY 24L at home (REAL, unknown)",
+    "transcript": "N641CC CROSS RUNWAY 24L",
+    "expectedNormalizedContains": ["CROSS", "24L"],
+    "expectedIntents": [
+      { "kind": "crossRunway", "runways": ["24L"], "validatedMap": { "24L": null } }
+    ],
+    "notes": "At home; not on airport → validated nil",
+    "gps": { "lat": 44.0, "lon": -94.0 }
+  },
+  {
+    "id": "taxi-via-delta-14-24L24R",
+    "title": "Taxi to 14 via Delta, cross 24L/24R, continue Charlie, hold short 14 (SIM MIC)",
+    "transcript": "N641CC TAXI TO RUNWAY 14 VIA DELTA CROSS RUNWAY 24L 24R CONTINUE ON CHARLIE HOLD SHORT RUNWAY 14",
+    "expectedNormalizedContains": ["TAXI", "14", "VIA D", "CROSS", "24L", "24R", "HOLD"],
+    "expectedIntents": [
+      { "kind": "runwayOp", "operation": "holdShort", "runway": "14", "validated": true },
+      { "kind": "crossRunway", "runways": ["24L", "24R"], "validatedMap": { "24L": true, "24R": true } },
+      { "kind": "taxiToRunway", "runway": "14", "validated": null },
+      { "kind": "viaTaxiway", "extra": { "taxiway": "D" } },
+      { "kind": "continueTaxi", "extra": { "taxiway": "C" }, "validated": null }
+    ],
+    "notes": "Via Delta → VIA D; cross 24L/24R validated at SIM MIC",
+    "gps": { "lat": 44.88, "lon": -93.22 }
+  },
+  {
+    "id": "taxi-via-the-delta",
+    "title": "Taxi via THE Delta (SR variant) (SIM MIC)",
+    "transcript": "N641CC TAXI TO RUNWAY 14 THE DELTA CROSS RUNWAY 24L 24R CONTINUE ON CHARLIE HOLD SHORT RUNWAY 14",
+    "expectedNormalizedContains": ["TAXI", "14", "VIA D", "CROSS", "24L", "24R", "HOLD"],
+    "expectedIntents": [
+      { "kind": "runwayOp", "operation": "holdShort", "runway": "14", "validated": true },
+      { "kind": "crossRunway", "runways": ["24L", "24R"], "validatedMap": { "24L": true, "24R": true } },
+      { "kind": "taxiToRunway", "runway": "14", "validated": null },
+      { "kind": "viaTaxiway", "extra": { "taxiway": "D" } },
+      { "kind": "continueTaxi", "extra": { "taxiway": "C" }, "validated": null }
+    ],
+    "notes": "THE DELTA repaired to VIA D",
+    "gps": { "lat": 44.88, "lon": -93.22 }
+  },
+  {
+    "id": "taxi-via-of-the-delta",
+    "title": "Taxi via OF THE Delta (SR variant) (SIM MIC)",
+    "transcript": "N641CC TAXI TO RUNWAY 14 OF THE DELTA CROSS RUNWAY 24L 24R CONTINUE ON CHARLIE HOLD SHORT RUNWAY 14",
+    "expectedNormalizedContains": ["TAXI", "14", "VIA D", "CROSS", "24L", "24R", "HOLD"],
+    "expectedIntents": [
+      { "kind": "runwayOp", "operation": "holdShort", "runway": "14", "validated": true },
+      { "kind": "crossRunway", "runways": ["24L", "24R"], "validatedMap": { "24L": true, "24R": true } },
+      { "kind": "taxiToRunway", "runway": "14", "validated": null },
+      { "kind": "viaTaxiway", "extra": { "taxiway": "D" } },
+      { "kind": "continueTaxi", "extra": { "taxiway": "C" }, "validated": null }
+    ],
+    "notes": "OF THE DELTA repaired to VIA D",
+    "gps": { "lat": 44.88, "lon": -93.22 }
+  },
+  {
+    "id": "taxi-via-of-delta",
+    "title": "Taxi via OF Delta (SR variant) (SIM MIC)",
+    "transcript": "N641CC TAXI TO RUNWAY 14 OF DELTA CROSS RUNWAY 24L 24R CONTINUE ON CHARLIE HOLD SHORT RUNWAY 14",
+    "expectedNormalizedContains": ["TAXI", "14", "VIA D", "CROSS", "24L", "24R", "HOLD"],
+    "expectedIntents": [
+      { "kind": "runwayOp", "operation": "holdShort", "runway": "14", "validated": true },
+      { "kind": "crossRunway", "runways": ["24L", "24R"], "validatedMap": { "24L": true, "24R": true } },
+      { "kind": "taxiToRunway", "runway": "14", "validated": null },
+      { "kind": "viaTaxiway", "extra": { "taxiway": "D" } },
+      { "kind": "continueTaxi", "extra": { "taxiway": "C" }, "validated": null }
+    ],
+    "notes": "OF DELTA repaired to VIA D",
+    "gps": { "lat": 44.88, "lon": -93.22 }
+  },
+  {
+    "id": "taxi-via-vee-ah-delta",
+    "title": "Taxi via VEE AH Delta (SR variant) (SIM MIC)",
+    "transcript": "N641CC TAXI TO RUNWAY 14 VEE AH DELTA CROSS RUNWAY 24L 24R CONTINUE ON CHARLIE HOLD SHORT RUNWAY 14",
+    "expectedNormalizedContains": ["TAXI", "14", "VIA D", "CROSS", "24L", "24R", "HOLD"],
+    "expectedIntents": [
+      { "kind": "runwayOp", "operation": "holdShort", "runway": "14", "validated": true },
+      { "kind": "crossRunway", "runways": ["24L", "24R"], "validatedMap": { "24L": true, "24R": true } },
+      { "kind": "taxiToRunway", "runway": "14", "validated": null },
+      { "kind": "viaTaxiway", "extra": { "taxiway": "D" } },
+      { "kind": "continueTaxi", "extra": { "taxiway": "C" }, "validated": null }
+    ],
+    "notes": "VEE AH DELTA repaired to VIA D",
+    "gps": { "lat": 44.88, "lon": -93.22 }
+  },
+  {
+    "id": "cleared-land-clear-your-mic",
+    "title": "CLEAR YOUR LAND RUNWAY 32 (SR variant) → clearedLand (SIM MIC)",
+    "transcript": "N641CC CLEAR YOUR LAND RUNWAY 32",
+    "expectedNormalizedContains": ["CLEARED", "LAND", "32"],
+    "expectedIntents": [
+      { "kind": "runwayOp", "operation": "clearedLand", "runway": "32", "validated": true }
+    ],
+    "notes": "AviationRepair normalizes to CLEARED TO LAND RUNWAY 32",
+    "gps": { "lat": 44.88, "lon": -93.22 }
+  },
+  {
+    "id": "cleared-land-cleared-land-mic",
+    "title": "CLEARED LAND RUNWAY 32 (SR variant) → clearedLand (SIM MIC)",
+    "transcript": "N641CC CLEARED LAND RUNWAY 32",
+    "expectedNormalizedContains": ["CLEARED", "LAND", "32"],
+    "expectedIntents": [
+      { "kind": "runwayOp", "operation": "clearedLand", "runway": "32", "validated": true }
+    ],
+    "notes": "AviationRepair normalizes to CLEARED TO LAND RUNWAY 32",
+    "gps": { "lat": 44.88, "lon": -93.22 }
+  },
+  {
+    "id": "cleared-land-clear-to-land-mic",
+    "title": "CLEAR TO LAND RUNWAY 32 (SR variant) → clearedLand (SIM MIC)",
+    "transcript": "N641CC CLEAR TO LAND RUNWAY 32",
+    "expectedNormalizedContains": ["CLEARED", "LAND", "32"],
+    "expectedIntents": [
+      { "kind": "runwayOp", "operation": "clearedLand", "runway": "32", "validated": true }
+    ],
+    "notes": "AviationRepair normalizes to CLEARED TO LAND RUNWAY 32",
+    "gps": { "lat": 44.88, "lon": -93.22 }
+  },
+  {
+    "id": "taxi-to-14-valid-mic",
+    "title": "Taxi to runway 14 at SIM MIC (valid)",
+    "transcript": "N641CC TAXI TO RUNWAY 14",
+    "expectedNormalizedContains": ["TAXI", "14"],
+    "expectedIntents": [
+      { "kind": "taxiToRunway", "runway": "14", "validated": true }
+    ],
+    "notes": "At MIC; runway 14 exists → taxiToRunway validated true",
+    "gps": { "lat": 44.88, "lon": -93.22 }
+  },
+  {
+    "id": "taxi-to-09-invalid-mic",
+    "title": "Taxi to runway 09 at SIM MIC (invalid)",
+    "transcript": "N641CC TAXI TO RUNWAY 09",
+    "expectedNormalizedContains": ["TAXI", "09"],
+    "expectedIntents": [
+      { "kind": "taxiToRunway", "runway": "09", "validated": false }
+    ],
+    "notes": "At MIC; runway 09 does not exist → taxiToRunway validated false",
+    "gps": { "lat": 44.88, "lon": -93.22 }
+  },
+  {
+    "id": "taxi-to-24L-home-unknown",
+    "title": "Taxi to runway 24L at home (REAL, unknown)",
+    "transcript": "N641CC TAXI TO RUNWAY 24L",
+    "expectedNormalizedContains": ["TAXI", "24L"],
+    "expectedIntents": [
+      { "kind": "taxiToRunway", "runway": "24L", "validated": null }
+    ],
+    "notes": "At home; not on airport → validated nil",
+    "gps": { "lat": 44.0, "lon": -94.0 }
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "transcript": "descend and maintain two thousand",
+  "gps": { "lat": 44.88, "lon": -93.22 },
+  "expectedNormalizedContains": ["2000"],
+  "expectedIntents": [
+    { "kind": "altitude", "verb": "descend", "altitudeFt": 2000 }
+  ],
+  "minOverallConfidence": 0.5
+}

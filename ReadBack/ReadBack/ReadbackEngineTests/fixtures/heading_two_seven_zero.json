@@ -1,0 +1,6 @@
+{
+  "transcript": "heading two seven zero",
+  "gps": { "lat": 44.88, "lon": -93.22 },
+  "expectedNormalizedContains": ["270"],
+  "minOverallConfidence": 0.3
+}

@@ -1,0 +1,6 @@
+{
+  "transcript": "one zero thousand",
+  "gps": { "lat": 44.88, "lon": -93.22 },
+  "expectedNormalizedContains": ["10000"],
+  "minOverallConfidence": 0.3
+}

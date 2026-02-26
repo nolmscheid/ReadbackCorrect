@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA00400C2F4D610000CBD0BA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA00400D2F4D610000CBD0BA /* XCTest.framework */; };
+		DA0060012F4EAB0000CBD0BA /* ../aviation_data_v2 in Resources */ = {isa = PBXBuildFile; fileRef = DA0060022F4EAB0000CBD0BA /* ../aviation_data_v2 */; };
+		DA0060032F4EAB0000CBD0BA /* ../aviation_data_v2 in Resources */ = {isa = PBXBuildFile; fileRef = DA0060022F4EAB0000CBD0BA /* ../aviation_data_v2 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA0040032F4D600000CBD0BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB24A042F4804F90021C74F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB24A0B2F4804FA0021C74F;
+			remoteInfo = ReadBack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA003D402F4D51BA00CBD0BA /* ReadBack-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReadBack-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA0040012F4D600000CBD0BA /* ReadbackEngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadbackEngineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA00400D2F4D610000CBD0BA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Developer/Library/Frameworks/XCTest.framework; sourceTree = SDKROOT; };
+		DA0060022F4EAB0000CBD0BA /* ../aviation_data_v2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ../aviation_data_v2; sourceTree = "<group>"; };
+		DAB24A0C2F4804FA0021C74F /* ReadBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DA003D412F4D51BA00CBD0BA /* Exceptions for "ReadBack" folder in "ReadBack-Dev" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				airports.json,
+				Assets.xcassets,
+				ATCSpec.md,
+				AVIATION_DATA_SOURCES.md,
+				IFR_AND_FLIGHT_FOLLOWING_SPEC.md,
+				mic_airport_diagram.pdf,
+				ReadBackApp.swift,
+				ReadbackEngineTests/fixtures/phrase_bank.json,
+				ReadbackEngineTests/GoldenTests.swift,
+				ReadbackEngineTests/PhraseBankTests.swift,
+				ROADMAP.md,
+				TEST_SCENARIOS.md,
+				victor_airways.json,
+				waypoints.json,
+			);
+			target = DA003D392F4D51BA00CBD0BA /* ReadBack-Dev */;
+		};
+		DA003DEE2F4D5E5C00CBD0BA /* Exceptions for "ReadBack" folder in "ReadBack" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				IFRParserTestHarness.swift,
+				ReadBackDevApp.swift,
+				ReadbackEngineTests/fixtures/phrase_bank.json,
+				ReadbackEngineTests/GoldenTests.swift,
+				ReadbackEngineTests/PhraseBankTests.swift,
+			);
+			target = DAB24A0B2F4804FA0021C74F /* ReadBack */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DA0040022F4D600000CBD0BA /* ReadBack/ReadbackEngineTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ReadBack/ReadbackEngineTests;
+			sourceTree = "<group>";
+		};
+		DAB24A0E2F4804FA0021C74F /* ReadBack */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DA003DEE2F4D5E5C00CBD0BA /* Exceptions for "ReadBack" folder in "ReadBack" target */,
+				DA003D412F4D51BA00CBD0BA /* Exceptions for "ReadBack" folder in "ReadBack-Dev" target */,
+			);
+			path = ReadBack;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA003D3B2F4D51BA00CBD0BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA0040042F4D600000CBD0BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA00400C2F4D610000CBD0BA /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB24A092F4804FA0021C74F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA0053E32F4EAA8D00CBD0BA /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				DA00400D2F4D610000CBD0BA /* XCTest.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		DAB24A032F4804F90021C74F = {
+			isa = PBXGroup;
+			children = (
+				DAB24A0E2F4804FA0021C74F /* ReadBack */,
+				DA0040022F4D600000CBD0BA /* ReadBack/ReadbackEngineTests */,
+				DA0060022F4EAB0000CBD0BA /* ../aviation_data_v2 */,
+				DAB24A0D2F4804FA0021C74F /* Products */,
+				DA0053E32F4EAA8D00CBD0BA /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB24A0D2F4804FA0021C74F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB24A0C2F4804FA0021C74F /* ReadBack.app */,
+				DA003D402F4D51BA00CBD0BA /* ReadBack-Dev.app */,
+				DA0040012F4D600000CBD0BA /* ReadbackEngineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA003D392F4D51BA00CBD0BA /* ReadBack-Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA003D3D2F4D51BA00CBD0BA /* Build configuration list for PBXNativeTarget "ReadBack-Dev" */;
+			buildPhases = (
+				DA003D3A2F4D51BA00CBD0BA /* Sources */,
+				DA003D3B2F4D51BA00CBD0BA /* Frameworks */,
+				DA003D3C2F4D51BA00CBD0BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DAB24A0E2F4804FA0021C74F /* ReadBack */,
+			);
+			name = "ReadBack-Dev";
+			packageProductDependencies = (
+			);
+			productName = ReadBack;
+			productReference = DA003D402F4D51BA00CBD0BA /* ReadBack-Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA0040052F4D600000CBD0BA /* ReadbackEngineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA0040062F4D600000CBD0BA /* Build configuration list for PBXNativeTarget "ReadbackEngineTests" */;
+			buildPhases = (
+				DA0040072F4D600000CBD0BA /* Sources */,
+				DA0040042F4D600000CBD0BA /* Frameworks */,
+				DA0040082F4D600000CBD0BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA0040092F4D600000CBD0BA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DA0040022F4D600000CBD0BA /* ReadBack/ReadbackEngineTests */,
+			);
+			name = ReadbackEngineTests;
+			packageProductDependencies = (
+			);
+			productName = ReadbackEngineTests;
+			productReference = DA0040012F4D600000CBD0BA /* ReadbackEngineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAB24A0B2F4804FA0021C74F /* ReadBack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB24A172F4804FC0021C74F /* Build configuration list for PBXNativeTarget "ReadBack" */;
+			buildPhases = (
+				DAB24A082F4804FA0021C74F /* Sources */,
+				DAB24A092F4804FA0021C74F /* Frameworks */,
+				DAB24A0A2F4804FA0021C74F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DAB24A0E2F4804FA0021C74F /* ReadBack */,
+			);
+			name = ReadBack;
+			packageProductDependencies = (
+			);
+			productName = ReadBack;
+			productReference = DAB24A0C2F4804FA0021C74F /* ReadBack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB24A042F4804F90021C74F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					DAB24A0B2F4804FA0021C74F = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = DAB24A072F4804FA0021C74F /* Build configuration list for PBXProject "ReadBack" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB24A032F4804F90021C74F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DAB24A0D2F4804FA0021C74F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB24A0B2F4804FA0021C74F /* ReadBack */,
+				DA003D392F4D51BA00CBD0BA /* ReadBack-Dev */,
+				DA0040052F4D600000CBD0BA /* ReadbackEngineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA003D3C2F4D51BA00CBD0BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0060012F4EAB0000CBD0BA /* ../aviation_data_v2 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA0040082F4D600000CBD0BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB24A0A2F4804FA0021C74F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0060032F4EAB0000CBD0BA /* ../aviation_data_v2 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA003D3A2F4D51BA00CBD0BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA0040072F4D600000CBD0BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB24A082F4804FA0021C74F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA0040092F4D600000CBD0BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB24A0B2F4804FA0021C74F /* ReadBack */;
+			targetProxy = DA0040032F4D600000CBD0BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA003D3E2F4D51BA00CBD0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AVS6P5QH57;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Readback Dev";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your position is shown on the airport diagram to help with taxi instructions.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the microphone to transcribe ATC audio for readback clarity.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Speech recognition is used to convert ATC audio into text for advisory purposes.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolmscheid.ReadBack.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA003D3F2F4D51BA00CBD0BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AVS6P5QH57;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Readback Dev";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your position is shown on the airport diagram to help with taxi instructions.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the microphone to transcribe ATC audio for readback clarity.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Speech recognition is used to convert ATC audio into text for advisory purposes.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolmscheid.ReadBack.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA00400A2F4D600000CBD0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AVS6P5QH57;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolmscheid.ReadBack.ReadbackEngineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadBack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReadBack";
+			};
+			name = Debug;
+		};
+		DA00400B2F4D600000CBD0BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AVS6P5QH57;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolmscheid.ReadBack.ReadbackEngineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadBack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReadBack";
+			};
+			name = Release;
+		};
+		DAB24A152F4804FC0021C74F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = AVS6P5QH57;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAB24A162F4804FC0021C74F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = AVS6P5QH57;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB24A182F4804FC0021C74F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AVS6P5QH57;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your position is shown on the airport diagram to help with taxi instructions.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the microphone to transcribe ATC audio for readback clarity.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Speech recognition is used to convert ATC audio into text for advisory purposes.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolmscheid.ReadBack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAB24A192F4804FC0021C74F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AVS6P5QH57;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your position is shown on the airport diagram to help with taxi instructions.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the microphone to transcribe ATC audio for readback clarity.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Speech recognition is used to convert ATC audio into text for advisory purposes.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolmscheid.ReadBack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA003D3D2F4D51BA00CBD0BA /* Build configuration list for PBXNativeTarget "ReadBack-Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA003D3E2F4D51BA00CBD0BA /* Debug */,
+				DA003D3F2F4D51BA00CBD0BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA0040062F4D600000CBD0BA /* Build configuration list for PBXNativeTarget "ReadbackEngineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA00400A2F4D600000CBD0BA /* Debug */,
+				DA00400B2F4D600000CBD0BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB24A072F4804FA0021C74F /* Build configuration list for PBXProject "ReadBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB24A152F4804FC0021C74F /* Debug */,
+				DAB24A162F4804FC0021C74F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB24A172F4804FC0021C74F /* Build configuration list for PBXNativeTarget "ReadBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB24A182F4804FC0021C74F /* Debug */,
+				DAB24A192F4804FC0021C74F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB24A042F4804F90021C74F /* Project object */;
+}

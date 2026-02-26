@@ -1,0 +1,9 @@
+{
+  "transcript": "squawk 4521",
+  "gps": { "lat": 44.88, "lon": -93.22 },
+  "expectedNormalizedContains": ["4521"],
+  "expectedIntents": [
+    { "kind": "ifrClearance", "squawk": "4521" }
+  ],
+  "minOverallConfidence": 0.4
+}

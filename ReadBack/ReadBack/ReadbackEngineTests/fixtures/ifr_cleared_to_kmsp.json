@@ -1,0 +1,9 @@
+{
+  "transcript": "cleared to minneapolis st paul airport as filed",
+  "gps": { "lat": 44.88, "lon": -93.22 },
+  "expectedNormalizedContains": [],
+  "expectedIntents": [
+    { "kind": "ifrClearance" }
+  ],
+  "minOverallConfidence": 0.4
+}

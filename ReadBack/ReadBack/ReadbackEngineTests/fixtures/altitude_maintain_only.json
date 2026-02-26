@@ -1,0 +1,9 @@
+{
+  "transcript": "maintain five thousand",
+  "gps": { "lat": 44.88, "lon": -93.22 },
+  "expectedNormalizedContains": ["5000"],
+  "expectedIntents": [
+    { "kind": "altitude", "verb": "maintain", "altitudeFt": 5000 }
+  ],
+  "minOverallConfidence": 0.5
+}

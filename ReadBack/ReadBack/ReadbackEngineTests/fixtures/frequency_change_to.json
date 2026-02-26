@@ -1,0 +1,9 @@
+{
+  "transcript": "change to one two zero point two",
+  "gps": { "lat": 44.88, "lon": -93.22 },
+  "expectedNormalizedContains": ["120.2"],
+  "expectedIntents": [
+    { "kind": "frequencyChange", "frequencyMHz": 120.2 }
+  ],
+  "minOverallConfidence": 0.5
+}

@@ -1,0 +1,6 @@
+{
+  "transcript": "golf echo papa",
+  "gps": { "lat": 44.88, "lon": -93.22 },
+  "expectedNormalizedContains": ["GEP"],
+  "minOverallConfidence": 0.3
+}

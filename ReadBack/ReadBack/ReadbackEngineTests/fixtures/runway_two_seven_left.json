@@ -1,0 +1,7 @@
+{
+  "transcript": "runway two seven left cleared to land",
+  "gps": { "lat": 44.88, "lon": -93.22 },
+  "expectedNormalizedContains": ["27L"],
+  "expectedIntents": [],
+  "minOverallConfidence": 0.4
+}
