@@ -132,12 +132,6 @@
     "state": "KS"
   },
   {
-    "id": "00KY",
-    "name": "Robbins Roost",
-    "city": "STANFORD",
-    "state": "KY"
-  },
-  {
     "id": "00LA",
     "name": "Shell Chemical East Site",
     "city": "GONZALES",
@@ -208,12 +202,6 @@
     "name": "Rodanthe Dare County",
     "city": "RODANTHE",
     "state": "NC"
-  },
-  {
-    "id": "00NY",
-    "name": "Weiss Airfield",
-    "city": "WEST BLOOMFIELD",
-    "state": "NY"
   },
   {
     "id": "00OH",
@@ -966,12 +954,6 @@
     "state": "MI"
   },
   {
-    "id": "02MN",
-    "name": "Gregory",
-    "city": "CAMBRIDGE",
-    "state": "MN"
-  },
-  {
     "id": "02MO",
     "name": "Troy Airpark",
     "city": "TROY",
@@ -1390,12 +1372,6 @@
     "name": "Powwatka Ridge",
     "city": "TROY",
     "state": "OR"
-  },
-  {
-    "id": "03PA",
-    "name": "Collegeville",
-    "city": "COLLEGEVILLE",
-    "state": "PA"
   },
   {
     "id": "03PN",
@@ -2412,12 +2388,6 @@
     "state": "LA"
   },
   {
-    "id": "06LS",
-    "name": "Tembec",
-    "city": "ST FRANCISVILLE",
-    "state": "LA"
-  },
-  {
     "id": "06M",
     "name": "Eupora",
     "city": "EUPORA",
@@ -2856,12 +2826,6 @@
     "state": "TX"
   },
   {
-    "id": "07TN",
-    "name": "Lauderdale Community Hospital",
-    "city": "RIPLEY",
-    "state": "TN"
-  },
-  {
     "id": "07TS",
     "name": "Cross Country Estates Marshall Fld",
     "city": "GEORGETOWN",
@@ -2932,12 +2896,6 @@
     "name": "Fisher",
     "city": "BIG LAKE",
     "state": "AK"
-  },
-  {
-    "id": "08AL",
-    "name": "Little Lagoon",
-    "city": "GULF SHORES",
-    "state": "AL"
   },
   {
     "id": "08AN",
@@ -3390,12 +3348,6 @@
     "state": "GA"
   },
   {
-    "id": "09GE",
-    "name": "Elliott Fld",
-    "city": "DAWSONVILLE",
-    "state": "GA"
-  },
-  {
     "id": "09I",
     "name": "Intl Falls",
     "city": "INTERNATIONAL FALLS",
@@ -3552,6 +3504,12 @@
     "state": "NY"
   },
   {
+    "id": "09OH",
+    "name": "Miami Valley Hospital North",
+    "city": "ENGLEWOOD",
+    "state": "OH"
+  },
+  {
     "id": "09OK",
     "name": "Ragtime Aerodrome",
     "city": "COLLINSVILLE",
@@ -3670,6 +3628,12 @@
     "name": "Wipline",
     "city": "INVER GROVE HGTS",
     "state": "MN"
+  },
+  {
+    "id": "0A1",
+    "name": "Campbell Lake",
+    "city": "ANCHORAGE",
+    "state": "AK"
   },
   {
     "id": "0A3",
@@ -4344,12 +4308,6 @@
     "state": "FL"
   },
   {
-    "id": "0FD1",
-    "name": "Panhandle Helicopter LLC",
-    "city": "PANAMA CITY BEACH",
-    "state": "FL"
-  },
-  {
     "id": "0FD2",
     "name": "Hard Rock Stadium",
     "city": "MIAMI",
@@ -4555,7 +4513,7 @@
   },
   {
     "id": "0I2",
-    "name": "Brazil Clay County",
+    "name": "Brazil Clay County/Charles B Hall Fld",
     "city": "BRAZIL",
     "state": "IN"
   },
@@ -4605,12 +4563,6 @@
     "id": "0IA6",
     "name": "Rgnl Health Services of Howard County",
     "city": "CRESCO",
-    "state": "IA"
-  },
-  {
-    "id": "0IA8",
-    "name": "Hannen",
-    "city": "CENTER POINT",
     "state": "IA"
   },
   {
@@ -4986,12 +4938,6 @@
     "state": "LA"
   },
   {
-    "id": "0LA1",
-    "name": "Double H Ranch",
-    "city": "GONZALES",
-    "state": "LA"
-  },
-  {
     "id": "0LA3",
     "name": "Belcher Airpatch",
     "city": "BELCHER",
@@ -5013,12 +4959,6 @@
     "id": "0LA6",
     "name": "Harmon",
     "city": "SCOTT",
-    "state": "LA"
-  },
-  {
-    "id": "0LA7",
-    "name": "Exxon",
-    "city": "GRAND ISLE",
     "state": "LA"
   },
   {
@@ -5325,6 +5265,12 @@
     "id": "0MN7",
     "name": "Ely Bloomenson Community Hospital",
     "city": "ELY",
+    "state": "MN"
+  },
+  {
+    "id": "0MN8",
+    "name": "Fagen Field",
+    "city": "GRANITE FALLS",
     "state": "MN"
   },
   {
@@ -5748,12 +5694,6 @@
     "state": "NY"
   },
   {
-    "id": "0NY1",
-    "name": "Russell Fld",
-    "city": "NORTHUMBERLAND",
-    "state": "NY"
-  },
-  {
     "id": "0NY2",
     "name": "Amar",
     "city": "STONY POINT",
@@ -5886,12 +5826,6 @@
     "state": "OK"
   },
   {
-    "id": "0OK3",
-    "name": "McKinley Ranch",
-    "city": "GEARY",
-    "state": "OK"
-  },
-  {
     "id": "0OK4",
     "name": "Rock Creek Farm",
     "city": "COAL GATE",
@@ -6000,12 +5934,6 @@
     "state": "PA"
   },
   {
-    "id": "0PA1",
-    "name": "Phoenix Technologies",
-    "city": "NORRISTOWN",
-    "state": "PA"
-  },
-  {
     "id": "0PA2",
     "name": "Haunstein",
     "city": "SHERMANS DALE",
@@ -6093,12 +6021,6 @@
     "id": "0PS4",
     "name": "Old Orchard",
     "city": "CURWENSVILLE",
-    "state": "PA"
-  },
-  {
-    "id": "0PS5",
-    "name": "Valley Industrial Properties LLC",
-    "city": "EAST BANGOR",
     "state": "PA"
   },
   {
@@ -6220,18 +6142,6 @@
     "name": "Jefferson County Intl",
     "city": "PORT TOWNSEND",
     "state": "WA"
-  },
-  {
-    "id": "0SD0",
-    "name": "Lenling",
-    "city": "GLENCROSS",
-    "state": "SD"
-  },
-  {
-    "id": "0SD1",
-    "name": "Lodi",
-    "city": "WAKONDA",
-    "state": "SD"
   },
   {
     "id": "0SD2",
@@ -6414,12 +6324,6 @@
     "state": "TX"
   },
   {
-    "id": "0TS1",
-    "name": "Dooley",
-    "city": "JUSTIN",
-    "state": "TX"
-  },
-  {
     "id": "0TS2",
     "name": "Ultralight Intl",
     "city": "HASLET",
@@ -6441,12 +6345,6 @@
     "id": "0TS8",
     "name": "Flying 'K' Ranch",
     "city": "MERCEDES",
-    "state": "TX"
-  },
-  {
-    "id": "0TS9",
-    "name": "McClellan Creek",
-    "city": "MCLEAN",
     "state": "TX"
   },
   {
@@ -6723,12 +6621,6 @@
     "id": "0WI7",
     "name": "With Wings and A Halo",
     "city": "NEENAH",
-    "state": "WI"
-  },
-  {
-    "id": "0WI8",
-    "name": "Oconomowoc",
-    "city": "OCONOMOWOC",
     "state": "WI"
   },
   {
@@ -7038,12 +6930,6 @@
     "state": "LA"
   },
   {
-    "id": "10MA",
-    "name": "Beaver Lake",
-    "city": "WARE",
-    "state": "MA"
-  },
-  {
     "id": "10ME",
     "name": "Pvh",
     "city": "LINCOLN",
@@ -7132,18 +7018,6 @@
     "name": "Hickory Hills",
     "city": "NORMAN",
     "state": "OK"
-  },
-  {
-    "id": "10PN",
-    "name": "One Meridian Plaza",
-    "city": "PHILADELPHIA",
-    "state": "PA"
-  },
-  {
-    "id": "10SC",
-    "name": "Hartness",
-    "city": "GREENVILLE",
-    "state": "SC"
   },
   {
     "id": "10SD",
@@ -7524,6 +7398,12 @@
     "state": "WA"
   },
   {
+    "id": "11T",
+    "name": "Rocking L",
+    "city": "SONORA",
+    "state": "TX"
+  },
+  {
     "id": "11TA",
     "name": "Christus Mother Frances Winnsboro",
     "city": "WINNSBORO",
@@ -7545,12 +7425,6 @@
     "id": "11TS",
     "name": "Pt Enterprise D&w Ranch",
     "city": "MEXIA",
-    "state": "TX"
-  },
-  {
-    "id": "11TT",
-    "name": "Rocking L",
-    "city": "SONORA",
     "state": "TX"
   },
   {
@@ -9270,12 +9144,6 @@
     "state": "LA"
   },
   {
-    "id": "16LL",
-    "name": "Oak Landing",
-    "city": "BULL VALLEY",
-    "state": "IL"
-  },
-  {
     "id": "16LS",
     "name": "Evan",
     "city": "PRAIRIEVILLE",
@@ -10462,12 +10330,6 @@
     "name": "Port Protection",
     "city": "PORT PROTECTION",
     "state": "AK"
-  },
-  {
-    "id": "19PA",
-    "name": "Lake",
-    "city": "MILLVILLE",
-    "state": "PA"
   },
   {
     "id": "19PN",
@@ -12066,12 +11928,6 @@
     "state": "LA"
   },
   {
-    "id": "1LA8",
-    "name": "S Fresh Water Bayou",
-    "city": "INTRACOASTAL CITY",
-    "state": "LA"
-  },
-  {
     "id": "1LA9",
     "name": "Jeff Isl",
     "city": "LAFAYETTE",
@@ -12084,12 +11940,6 @@
     "state": "IL"
   },
   {
-    "id": "1LL2",
-    "name": "Spring Brook",
-    "city": "SENECA",
-    "state": "IL"
-  },
-  {
     "id": "1LL4",
     "name": "Norfleet",
     "city": "MONTICELLO",
@@ -12099,12 +11949,6 @@
     "id": "1LL5",
     "name": "Justison",
     "city": "HILLSBORO",
-    "state": "IL"
-  },
-  {
-    "id": "1LL7",
-    "name": "Edwin G Bennett",
-    "city": "SHEFFIELD",
     "state": "IL"
   },
   {
@@ -12534,12 +12378,6 @@
     "state": "MO"
   },
   {
-    "id": "1MU9",
-    "name": "Nielsens Med Evac",
-    "city": "SAINT CHARLES",
-    "state": "MO"
-  },
-  {
     "id": "1MY1",
     "name": "Carlson Ag",
     "city": "WENDELL",
@@ -12871,7 +12709,7 @@
   },
   {
     "id": "1OH1",
-    "name": "S and S Fld",
+    "name": "Ohio Air Spray",
     "city": "QUINCY",
     "state": "OH"
   },
@@ -13071,12 +12909,6 @@
     "id": "1PA4",
     "name": "Wagner",
     "city": "LEWISTOWN",
-    "state": "PA"
-  },
-  {
-    "id": "1PA7",
-    "name": "Philmont",
-    "city": "HUNTINGTON VALLEY",
     "state": "PA"
   },
   {
@@ -13417,7 +13249,7 @@
   },
   {
     "id": "1TE5",
-    "name": "Corpora",
+    "name": "Flying J",
     "city": "HEARNE",
     "state": "TX"
   },
@@ -13425,12 +13257,6 @@
     "id": "1TE6",
     "name": "Meml Hermann Pearland Hospital",
     "city": "PEARLAND",
-    "state": "TX"
-  },
-  {
-    "id": "1TE7",
-    "name": "Ray Farm",
-    "city": "FLORESVILLE",
     "state": "TX"
   },
   {
@@ -13851,12 +13677,6 @@
     "id": "1WN1",
     "name": "Kettle Moraine",
     "city": "DUNDEE",
-    "state": "WI"
-  },
-  {
-    "id": "1WN2",
-    "name": "Covered Bridge Fields",
-    "city": "CEDARBURG",
     "state": "WI"
   },
   {
@@ -14298,12 +14118,6 @@
     "state": "TX"
   },
   {
-    "id": "20TA",
-    "name": "Mag Drop",
-    "city": "BELLS",
-    "state": "TX"
-  },
-  {
     "id": "20TN",
     "name": "Liley Fld",
     "city": "FALL BRANCH",
@@ -14560,12 +14374,6 @@
     "name": "Mattituck",
     "city": "MATTITUCK",
     "state": "NY"
-  },
-  {
-    "id": "21NC",
-    "name": "Isbell",
-    "city": "HERTFORD",
-    "state": "NC"
   },
   {
     "id": "21ND",
@@ -14856,12 +14664,6 @@
     "state": "KS"
   },
   {
-    "id": "22KY",
-    "name": "Churchill Downs",
-    "city": "LOUISVILLE",
-    "state": "KY"
-  },
-  {
     "id": "22LA",
     "name": "Wd Flyers",
     "city": "SIMMESPORT",
@@ -15051,12 +14853,6 @@
     "id": "22TS",
     "name": "Gray Steel",
     "city": "HOUSTON",
-    "state": "TX"
-  },
-  {
-    "id": "22TX",
-    "name": "South Austin Medical Center",
-    "city": "AUSTIN",
     "state": "TX"
   },
   {
@@ -15354,12 +15150,6 @@
     "state": "NC"
   },
   {
-    "id": "23NY",
-    "name": "Jolamtra Landing Area",
-    "city": "BATH",
-    "state": "NY"
-  },
-  {
     "id": "23OH",
     "name": "Joint Township Meml Hospital",
     "city": "ST. MARYS",
@@ -15624,12 +15414,6 @@
     "state": "KS"
   },
   {
-    "id": "24KY",
-    "name": "Ae-62",
-    "city": "BOWLING GREEN",
-    "state": "KY"
-  },
-  {
     "id": "24LA",
     "name": "Pk Fld",
     "city": "PRAIRIEVILLE",
@@ -15732,6 +15516,12 @@
     "state": "NY"
   },
   {
+    "id": "24OH",
+    "name": "Miami Valley Hospital South",
+    "city": "DAYTON",
+    "state": "OH"
+  },
+  {
     "id": "24OI",
     "name": "Reeds",
     "city": "ST PARIS",
@@ -15832,6 +15622,12 @@
     "name": "Othello Community Hospital",
     "city": "OTHELLO",
     "state": "WA"
+  },
+  {
+    "id": "24WI",
+    "name": "Webb Lake Lodge",
+    "city": "WEBB LAKE",
+    "state": "WI"
   },
   {
     "id": "24XA",
@@ -16756,12 +16552,6 @@
     "name": "Jolly Fld",
     "city": "CARTHAGE",
     "state": "MS"
-  },
-  {
-    "id": "27MT",
-    "name": "Rahn",
-    "city": "KALISPELL",
-    "state": "MT"
   },
   {
     "id": "27ND",
@@ -17724,6 +17514,12 @@
     "state": "AL"
   },
   {
+    "id": "2AL4",
+    "name": "Tranquility Base",
+    "city": "SPRINGVILLE",
+    "state": "AL"
+  },
+  {
     "id": "2AL5",
     "name": "Flying H Ranch",
     "city": "FORT PAYNE",
@@ -17894,12 +17690,6 @@
   {
     "id": "2CA2",
     "name": "Cones Fld",
-    "city": "TWENTYNINE PALMS",
-    "state": "CA"
-  },
-  {
-    "id": "2CA3",
-    "name": "Crosswinds",
     "city": "TWENTYNINE PALMS",
     "state": "CA"
   },
@@ -18192,12 +17982,6 @@
     "state": "TX"
   },
   {
-    "id": "2E8",
-    "name": "Cackleberry",
-    "city": "DEXTER",
-    "state": "MI"
-  },
-  {
     "id": "2F0",
     "name": "Iraan Muni",
     "city": "IRAAN",
@@ -18249,12 +18033,6 @@
     "id": "2FA3",
     "name": "Long Branch Farms",
     "city": "BAKER",
-    "state": "FL"
-  },
-  {
-    "id": "2FA4",
-    "name": "Southern Ranch",
-    "city": "CLEWISTON",
     "state": "FL"
   },
   {
@@ -18375,6 +18153,12 @@
     "id": "2FL7",
     "name": "Porta Target",
     "city": "PALM BAY",
+    "state": "FL"
+  },
+  {
+    "id": "2FL8",
+    "name": "James",
+    "city": "BROOKSVILLE",
     "state": "FL"
   },
   {
@@ -18501,12 +18285,6 @@
     "id": "2GE6",
     "name": "Virgil",
     "city": "ALBANY",
-    "state": "GA"
-  },
-  {
-    "id": "2GE7",
-    "name": "Petty Farms",
-    "city": "CRANDALL",
     "state": "GA"
   },
   {
@@ -19218,12 +18996,6 @@
     "state": "MD"
   },
   {
-    "id": "2MD3",
-    "name": "Fly Away Farm",
-    "city": "BOYDS",
-    "state": "MD"
-  },
-  {
     "id": "2MD4",
     "name": "Ennis Aerodrome",
     "city": "SALISBURY",
@@ -19299,6 +19071,12 @@
     "id": "2MI7",
     "name": "McLaren Greater Lansing Hospital",
     "city": "LANSING",
+    "state": "MI"
+  },
+  {
+    "id": "2MI8",
+    "name": "Cackleberry",
+    "city": "DEXTER",
     "state": "MI"
   },
   {
@@ -19503,12 +19281,6 @@
     "id": "2MU1",
     "name": "St Louis Children's Hospital",
     "city": "SAINT LOUIS",
-    "state": "MO"
-  },
-  {
-    "id": "2MU9",
-    "name": "Monroe Fld",
-    "city": "HAWK POINT",
     "state": "MO"
   },
   {
@@ -20160,12 +19932,6 @@
     "state": "OH"
   },
   {
-    "id": "2PA0",
-    "name": "Donagher Residence",
-    "city": "MECHANICSBURG",
-    "state": "PA"
-  },
-  {
     "id": "2PA1",
     "name": "Boehm's Fld",
     "city": "LACKAWAXEN",
@@ -20202,12 +19968,6 @@
     "state": "PA"
   },
   {
-    "id": "2PA9",
-    "name": "Wilson",
-    "city": "LANSDALE",
-    "state": "PA"
-  },
-  {
     "id": "2PN1",
     "name": "Swift Aero Fld",
     "city": "WESTFIELD",
@@ -20235,12 +19995,6 @@
     "id": "2PN7",
     "name": "Fisher Family Farms",
     "city": "ZELIENOPLE",
-    "state": "PA"
-  },
-  {
-    "id": "2PN9",
-    "name": "Sun Company-Radnor",
-    "city": "RADNOR",
     "state": "PA"
   },
   {
@@ -20697,12 +20451,6 @@
     "id": "2TS4",
     "name": "Circle R Ranch",
     "city": "MALAKOFF",
-    "state": "TX"
-  },
-  {
-    "id": "2TS5",
-    "name": "Paducah",
-    "city": "PADUCAH",
     "state": "TX"
   },
   {
@@ -21472,12 +21220,6 @@
     "name": "Wayne County Hospital",
     "city": "MONTICELLO",
     "state": "KY"
-  },
-  {
-    "id": "30LA",
-    "name": "Venice Base Heliport & Spb",
-    "city": "VENICE",
-    "state": "LA"
   },
   {
     "id": "30LL",
@@ -22591,7 +22333,7 @@
   },
   {
     "id": "34AZ",
-    "name": "Yuma Rgnl Medical Center",
+    "name": "Onvida Health Foothills Medical Plaza",
     "city": "YUMA",
     "state": "AZ"
   },
@@ -23082,12 +22824,6 @@
     "state": "NE"
   },
   {
-    "id": "35NH",
-    "name": "Cobbetts Pond",
-    "city": "WINDHAM",
-    "state": "NH"
-  },
-  {
     "id": "35NJ",
     "name": "Mid-State",
     "city": "SOMERVILLE",
@@ -23272,12 +23008,6 @@
     "name": "Mease Countryside Hospital",
     "city": "SAFETY HARBOR",
     "state": "FL"
-  },
-  {
-    "id": "36GA",
-    "name": "Lola Landing",
-    "city": "CONYERS",
-    "state": "GA"
   },
   {
     "id": "36H",
@@ -24058,12 +23788,6 @@
     "name": "Wjrz Radio",
     "city": "MANAHAWKIN",
     "state": "NJ"
-  },
-  {
-    "id": "38NY",
-    "name": "Greenlawn Farm",
-    "city": "DUNDEE",
-    "state": "NY"
   },
   {
     "id": "38OH",
@@ -25332,12 +25056,6 @@
     "state": "GA"
   },
   {
-    "id": "3GA5",
-    "name": "Diamond R Ranch",
-    "city": "VILLA RICA",
-    "state": "GA"
-  },
-  {
     "id": "3GA6",
     "name": "Erlen",
     "city": "WHITESBURG",
@@ -25515,12 +25233,6 @@
     "id": "3II1",
     "name": "Shenandoah Flying Fld",
     "city": "GOSPORT",
-    "state": "IN"
-  },
-  {
-    "id": "3II2",
-    "name": "Fifer Fld",
-    "city": "GRIFFIN",
     "state": "IN"
   },
   {
@@ -25884,12 +25596,6 @@
     "state": "MI"
   },
   {
-    "id": "3LA1",
-    "name": "Wilder",
-    "city": "KINDER",
-    "state": "LA"
-  },
-  {
     "id": "3LA4",
     "name": "Little Pecan Island",
     "city": "GRAND CHENIER",
@@ -25980,12 +25686,6 @@
     "state": "IL"
   },
   {
-    "id": "3LS8",
-    "name": "The Place",
-    "city": "FOLSOM",
-    "state": "LA"
-  },
-  {
     "id": "3M0",
     "name": "Gastons",
     "city": "LAKEVIEW",
@@ -26037,12 +25737,6 @@
     "id": "3MA3",
     "name": "Seapuit",
     "city": "BARNSTABLE",
-    "state": "MA"
-  },
-  {
-    "id": "3MA5",
-    "name": "Westport",
-    "city": "WESTPORT",
     "state": "MA"
   },
   {
@@ -26274,6 +25968,12 @@
     "state": "MO"
   },
   {
+    "id": "3MO8",
+    "name": "Fort Leonard Wood Hosp",
+    "city": "FORT LEONARD WOOD",
+    "state": "MO"
+  },
+  {
     "id": "3MS0",
     "name": "Grand Gulf",
     "city": "PORT GIBSON",
@@ -26307,12 +26007,6 @@
     "id": "3MS5",
     "name": "Mitchells",
     "city": "VAIDEN",
-    "state": "MS"
-  },
-  {
-    "id": "3MS6",
-    "name": "E E Lane",
-    "city": "FLORA",
     "state": "MS"
   },
   {
@@ -26664,18 +26358,6 @@
     "state": "NY"
   },
   {
-    "id": "3NY3",
-    "name": "De Ronda",
-    "city": "SPRINGFIELD",
-    "state": "NY"
-  },
-  {
-    "id": "3NY5",
-    "name": "Luke",
-    "city": "BINGHAMTON",
-    "state": "NY"
-  },
-  {
     "id": "3NY7",
     "name": "Hiserts Airpark Inc",
     "city": "EPHRATAH",
@@ -26728,12 +26410,6 @@
     "name": "Grand Lake Rgnl",
     "city": "AFTON",
     "state": "OK"
-  },
-  {
-    "id": "3OA3",
-    "name": "Pelton",
-    "city": "OBERLIN",
-    "state": "OH"
   },
   {
     "id": "3OA9",
@@ -26934,18 +26610,6 @@
     "state": "PA"
   },
   {
-    "id": "3PA4",
-    "name": "Giffin",
-    "city": "LERAYSVILLE",
-    "state": "PA"
-  },
-  {
-    "id": "3PA5",
-    "name": "Davis Family Furniture",
-    "city": "ADAMSBURG",
-    "state": "PA"
-  },
-  {
     "id": "3PA6",
     "name": "Fox Hollow",
     "city": "LEWISBURG",
@@ -26994,12 +26658,6 @@
     "state": "PA"
   },
   {
-    "id": "3PN5",
-    "name": "H G F",
-    "city": "ALLENTOWN",
-    "state": "PA"
-  },
-  {
     "id": "3PN6",
     "name": "Gravel Run",
     "city": "CAMBRIDGE SPRINGS",
@@ -27031,7 +26689,7 @@
   },
   {
     "id": "3PS2",
-    "name": "Lynn Fld",
+    "name": "Pobo Fld",
     "city": "BEDFORD",
     "state": "PA"
   },
@@ -27594,12 +27252,6 @@
     "state": "VA"
   },
   {
-    "id": "3VA5",
-    "name": "Goose Hunt Farm",
-    "city": "LEESBURG",
-    "state": "VA"
-  },
-  {
     "id": "3VA7",
     "name": "White Post",
     "city": "WHITE POST",
@@ -28090,12 +27742,6 @@
     "name": "Valle",
     "city": "GRAND CANYON",
     "state": "AZ"
-  },
-  {
-    "id": "40GA",
-    "name": "Smyrna Hospital",
-    "city": "SMYRNA",
-    "state": "GA"
   },
   {
     "id": "40I",
@@ -28656,6 +28302,12 @@
     "state": "AR"
   },
   {
+    "id": "42AZ",
+    "name": "Wmat Ems",
+    "city": "CIBICUE",
+    "state": "AZ"
+  },
+  {
     "id": "42B",
     "name": "Goodspeed",
     "city": "EAST HADDAM",
@@ -28870,12 +28522,6 @@
     "name": "Dunn Fld",
     "city": "NEWTON FALLS",
     "state": "OH"
-  },
-  {
-    "id": "42OK",
-    "name": "Kwtv",
-    "city": "OKLAHOMA CITY",
-    "state": "OK"
   },
   {
     "id": "42OR",
@@ -29406,12 +29052,6 @@
     "state": "IN"
   },
   {
-    "id": "44KS",
-    "name": "Vankirk",
-    "city": "WICHITA",
-    "state": "KS"
-  },
-  {
     "id": "44KY",
     "name": "Duff",
     "city": "CHAVIES",
@@ -29538,12 +29178,6 @@
     "state": "NC"
   },
   {
-    "id": "44NY",
-    "name": "ToMcAt",
-    "city": "FORT PLAIN",
-    "state": "NY"
-  },
-  {
     "id": "44OK",
     "name": "Bacon's",
     "city": "DISNEY",
@@ -29559,12 +29193,6 @@
     "id": "44PA",
     "name": "Pennfield Farm",
     "city": "SPRING MILLS",
-    "state": "PA"
-  },
-  {
-    "id": "44PN",
-    "name": "Sports Complex of Honesdale",
-    "city": "HONESDALE",
     "state": "PA"
   },
   {
@@ -29712,12 +29340,6 @@
     "state": "FL"
   },
   {
-    "id": "45FL",
-    "name": "Moss Meadows",
-    "city": "LIVE OAK",
-    "state": "FL"
-  },
-  {
     "id": "45G",
     "name": "Brighton",
     "city": "BRIGHTON",
@@ -29812,6 +29434,12 @@
     "name": "Glover",
     "city": "SEABOARD",
     "state": "NC"
+  },
+  {
+    "id": "45NE",
+    "name": "Mitchell Fld",
+    "city": "AMHERST",
+    "state": "NE"
   },
   {
     "id": "45NH",
@@ -29964,12 +29592,6 @@
     "state": "AK"
   },
   {
-    "id": "46AL",
-    "name": "Sly Pig's Base",
-    "city": "SYLACAUGA",
-    "state": "AL"
-  },
-  {
     "id": "46AR",
     "name": "Asp Lowell",
     "city": "LOWELL",
@@ -30055,7 +29677,7 @@
   },
   {
     "id": "46ME",
-    "name": "Calais Rgnl",
+    "name": "Calais Community Hospital",
     "city": "CALAIS",
     "state": "ME"
   },
@@ -30264,6 +29886,12 @@
     "state": "ID"
   },
   {
+    "id": "47IL",
+    "name": "Ebert Fld",
+    "city": "ASHTON",
+    "state": "IL"
+  },
+  {
     "id": "47IN",
     "name": "Mann",
     "city": "MEROM",
@@ -30346,12 +29974,6 @@
     "name": "Bryan Lgh Medical Center",
     "city": "LINCOLN",
     "state": "NE"
-  },
-  {
-    "id": "47NY",
-    "name": "Elk Creek",
-    "city": "BORDEN",
-    "state": "NY"
   },
   {
     "id": "47OH",
@@ -30670,12 +30292,6 @@
     "name": "Harlem",
     "city": "HARLEM",
     "state": "MT"
-  },
-  {
-    "id": "48SN",
-    "name": "Lifeteam 20",
-    "city": "WICHITA",
-    "state": "KS"
   },
   {
     "id": "48TA",
@@ -32214,12 +31830,6 @@
     "state": "KY"
   },
   {
-    "id": "4KY7",
-    "name": "Mueller Farm",
-    "city": "VERONA",
-    "state": "KY"
-  },
-  {
     "id": "4KY8",
     "name": "Sargents Fld",
     "city": "WEST LIBERTY",
@@ -32490,12 +32100,6 @@
     "state": "MI"
   },
   {
-    "id": "4MI4",
-    "name": "Davids Landing",
-    "city": "ST CLAIR",
-    "state": "MI"
-  },
-  {
     "id": "4MI5",
     "name": "Bps",
     "city": "RUBY",
@@ -32589,12 +32193,6 @@
     "id": "4MO3",
     "name": "Schneider Fld",
     "city": "LA PLATA",
-    "state": "MO"
-  },
-  {
-    "id": "4MO4",
-    "name": "Liberty Landing",
-    "city": "LIBERTY",
     "state": "MO"
   },
   {
@@ -32787,12 +32385,6 @@
     "id": "4NC5",
     "name": "Triple M",
     "city": "CAPE CARTERET",
-    "state": "NC"
-  },
-  {
-    "id": "4NC6",
-    "name": "Cane Creek",
-    "city": "FLETCHER",
     "state": "NC"
   },
   {
@@ -33606,12 +33198,6 @@
     "state": "TX"
   },
   {
-    "id": "4TX4",
-    "name": "Birk",
-    "city": "KENNEDALE",
-    "state": "TX"
-  },
-  {
     "id": "4TX5",
     "name": "Hancock",
     "city": "KERENS",
@@ -33918,6 +33504,12 @@
     "state": "WV"
   },
   {
+    "id": "4WV6",
+    "name": "Minnie Hamilton",
+    "city": "GRANTSVILLE",
+    "state": "WV"
+  },
+  {
     "id": "4X4",
     "name": "Wessington Springs",
     "city": "WESSINGTON SPRINGS",
@@ -34020,12 +33612,6 @@
     "state": "TX"
   },
   {
-    "id": "4XS9",
-    "name": "Cajun Hills Ranch",
-    "city": "WIMBERLEY",
-    "state": "TX"
-  },
-  {
     "id": "4Y4",
     "name": "Lakes of The North",
     "city": "GAYLORD",
@@ -34113,12 +33699,6 @@
     "id": "50FA",
     "name": "Lehigh Acres Rgnl Medical Center",
     "city": "LEHIGH ACRES",
-    "state": "FL"
-  },
-  {
-    "id": "50FD",
-    "name": "Cattle Creek Ranch",
-    "city": "ALTHA",
     "state": "FL"
   },
   {
@@ -34590,12 +34170,6 @@
     "state": "OR"
   },
   {
-    "id": "51PN",
-    "name": "Helistop Ridc Industrial Park",
-    "city": "BLAWNOX",
-    "state": "PA"
-  },
-  {
     "id": "51R",
     "name": "Madisonville Muni",
     "city": "MADISONVILLE",
@@ -34669,7 +34243,7 @@
   },
   {
     "id": "51XA",
-    "name": "Emergency Dept",
+    "name": "Medical City McKinney",
     "city": "MCKINNEY",
     "state": "TX"
   },
@@ -34884,12 +34458,6 @@
     "state": "PA"
   },
   {
-    "id": "52PN",
-    "name": "Greencastle Usar Center",
-    "city": "GREENCASTLE",
-    "state": "PA"
-  },
-  {
     "id": "52S",
     "name": "St Ignatius",
     "city": "ST IGNATIUS",
@@ -35017,7 +34585,7 @@
   },
   {
     "id": "53FD",
-    "name": "Charlotte's Fld",
+    "name": "Charlottes Fld",
     "city": "TALLAHASSEE",
     "state": "FL"
   },
@@ -35748,12 +35316,6 @@
     "state": "NY"
   },
   {
-    "id": "55NM",
-    "name": "Burris Ranch Nr 1",
-    "city": "BELEN",
-    "state": "NM"
-  },
-  {
     "id": "55NR",
     "name": "Fivepoints Fld",
     "city": "OAKBORO",
@@ -36462,6 +36024,12 @@
     "state": "VA"
   },
   {
+    "id": "57VG",
+    "name": "Bon Secours AShland Fsed",
+    "city": "ASHLAND",
+    "state": "VA"
+  },
+  {
     "id": "57VT",
     "name": "Porter Medical Center",
     "city": "MIDDLEBURY",
@@ -36708,6 +36276,12 @@
     "state": "MT"
   },
   {
+    "id": "58SC",
+    "name": "Cherry Grove",
+    "city": "GREEN SEA",
+    "state": "SC"
+  },
+  {
     "id": "58T",
     "name": "Heritage Creek Airstrip",
     "city": "DECATUR",
@@ -36820,6 +36394,12 @@
     "name": "Nilhas Aero Ranch",
     "city": "PIERCE",
     "state": "CO"
+  },
+  {
+    "id": "59DC",
+    "name": "Falcon Flight Station",
+    "city": "WASHINGTON",
+    "state": "DC"
   },
   {
     "id": "59FA",
@@ -37782,12 +37362,6 @@
     "state": "PA"
   },
   {
-    "id": "5GA0",
-    "name": "Gable Branch",
-    "city": "HARALSON",
-    "state": "GA"
-  },
-  {
     "id": "5GA1",
     "name": "Vanguard Landing",
     "city": "WAYNESBORO",
@@ -38712,12 +38286,6 @@
     "state": "NC"
   },
   {
-    "id": "5ND0",
-    "name": "Stiehl",
-    "city": "BUFORD",
-    "state": "ND"
-  },
-  {
     "id": "5ND9",
     "name": "Deck",
     "city": "HILLSBORO",
@@ -39102,12 +38670,6 @@
     "state": "PA"
   },
   {
-    "id": "5PA9",
-    "name": "Taylor Flight Park",
-    "city": "STRATTANVILLE",
-    "state": "PA"
-  },
-  {
     "id": "5PN0",
     "name": "Lamtec Corp",
     "city": "MT. BETHEL",
@@ -39177,12 +38739,6 @@
     "id": "5PS4",
     "name": "Rt36 Ems",
     "city": "PLEASANTVILLE",
-    "state": "PA"
-  },
-  {
-    "id": "5PS5",
-    "name": "Chestnut Hill",
-    "city": "DUNCANNON",
     "state": "PA"
   },
   {
@@ -39274,12 +38830,6 @@
     "name": "Loris Community Hospital",
     "city": "LORIS",
     "state": "SC"
-  },
-  {
-    "id": "5SD3",
-    "name": "Bowdle Muni",
-    "city": "BOWDLE",
-    "state": "SD"
   },
   {
     "id": "5T4",
@@ -39421,7 +38971,7 @@
   },
   {
     "id": "5TN8",
-    "name": "Perry Community Hospital",
+    "name": "Perry County Community Hospital",
     "city": "LINDEN",
     "state": "TN"
   },
@@ -40398,12 +39948,6 @@
     "state": "NC"
   },
   {
-    "id": "61ND",
-    "name": "Bakke",
-    "city": "LARIMORE",
-    "state": "ND"
-  },
-  {
     "id": "61NE",
     "name": "Univ of Ne Medical Center",
     "city": "OMAHA",
@@ -41034,12 +40578,6 @@
     "state": "PA"
   },
   {
-    "id": "63PN",
-    "name": "Helicopter Services",
-    "city": "COOPERSBURG",
-    "state": "PA"
-  },
-  {
     "id": "63S",
     "name": "Colville Muni",
     "city": "COLVILLE",
@@ -41520,6 +41058,12 @@
     "state": "MS"
   },
   {
+    "id": "65MT",
+    "name": "Kootenai Hlz",
+    "city": "BIGFORK",
+    "state": "MT"
+  },
+  {
     "id": "65NC",
     "name": "Scenic Overlook B & B",
     "city": "PILOT MOUNTAIN",
@@ -41778,12 +41322,6 @@
     "state": "NJ"
   },
   {
-    "id": "66NY",
-    "name": "Maple Ridge",
-    "city": "MEDINA",
-    "state": "NY"
-  },
-  {
     "id": "66OH",
     "name": "Old Boston",
     "city": "WILLIAMSBURG",
@@ -41941,7 +41479,7 @@
   },
   {
     "id": "67FA",
-    "name": "Suntrax",
+    "name": "Suntrax Air",
     "city": "AUBURNDALE",
     "state": "FL"
   },
@@ -42082,12 +41620,6 @@
     "name": "Mc Gee",
     "city": "DONALD",
     "state": "OR"
-  },
-  {
-    "id": "67PA",
-    "name": "West Company",
-    "city": "WILLIAMSPORT",
-    "state": "PA"
   },
   {
     "id": "67PN",
@@ -42504,15 +42036,15 @@
     "state": "CT"
   },
   {
-    "id": "69FA",
-    "name": "Lz Shadow",
-    "city": "BROOKSVILLE",
-    "state": "FL"
-  },
-  {
     "id": "69FD",
     "name": "Unicorn Place",
     "city": "DEFUNIAK SPRINGS",
+    "state": "FL"
+  },
+  {
+    "id": "69FL",
+    "name": "Lsl Auburndale",
+    "city": "AUBURNDALE",
     "state": "FL"
   },
   {
@@ -43398,12 +42930,6 @@
     "state": "IA"
   },
   {
-    "id": "6IA7",
-    "name": "R S  Auto",
-    "city": "LOCKRIDGE",
-    "state": "IA"
-  },
-  {
     "id": "6IA8",
     "name": "Mmsc",
     "city": "MARSHALLTOWN",
@@ -44131,7 +43657,7 @@
   },
   {
     "id": "6MU6",
-    "name": "St Anthonys Medical Center",
+    "name": "Mercy Hospital South",
     "city": "CONCORD",
     "state": "MO"
   },
@@ -44388,12 +43914,6 @@
     "state": "NY"
   },
   {
-    "id": "6NY6",
-    "name": "Firemans White Lake",
-    "city": "KAUNEONGA LAKE",
-    "state": "NY"
-  },
-  {
     "id": "6NY7",
     "name": "Piolis Brookside",
     "city": "KERHONKSON",
@@ -44637,12 +44157,6 @@
     "id": "6PN4",
     "name": "Pocono Mountain",
     "city": "MOUNT POCONO",
-    "state": "PA"
-  },
-  {
-    "id": "6PN5",
-    "name": "Sam's Fld",
-    "city": "BRADFORD",
     "state": "PA"
   },
   {
@@ -45474,12 +44988,6 @@
     "state": "KY"
   },
   {
-    "id": "70LA",
-    "name": "Roland",
-    "city": "HINESTON",
-    "state": "LA"
-  },
-  {
     "id": "70LL",
     "name": "Adams Number 1",
     "city": "PONTIAC",
@@ -45568,12 +45076,6 @@
     "name": "Old 66 Strip",
     "city": "MIAMI",
     "state": "OK"
-  },
-  {
-    "id": "70PA",
-    "name": "Double D Ranch",
-    "city": "MECHANICSBURG",
-    "state": "PA"
   },
   {
     "id": "70PN",
@@ -46110,12 +45612,6 @@
     "state": "WA"
   },
   {
-    "id": "72WI",
-    "name": "Mhlc Hospital",
-    "city": "DARLINGTON",
-    "state": "WI"
-  },
-  {
     "id": "72XA",
     "name": "Stiffs Airpark",
     "city": "BEASLEY",
@@ -46185,6 +45681,12 @@
     "id": "73FD",
     "name": "Brookins Air Strip",
     "city": "CHIEFLAND",
+    "state": "FL"
+  },
+  {
+    "id": "73FL",
+    "name": "Oh Viera Hospital",
+    "city": "MELBOURNE",
     "state": "FL"
   },
   {
@@ -47052,6 +46554,12 @@
     "state": "CO"
   },
   {
+    "id": "76DE",
+    "name": "Jt21",
+    "city": "FELTON",
+    "state": "DE"
+  },
+  {
     "id": "76F",
     "name": "Van Zandt County Rgnl",
     "city": "WILLS POINT",
@@ -47244,12 +46752,6 @@
     "state": "TN"
   },
   {
-    "id": "76TS",
-    "name": "Golden Pegasus Ranch",
-    "city": "ALGOA",
-    "state": "TX"
-  },
-  {
     "id": "76TT",
     "name": "Spears",
     "city": "SILSBEE",
@@ -47272,6 +46774,12 @@
     "name": "Heineck Farm",
     "city": "EVERETT",
     "state": "WA"
+  },
+  {
+    "id": "76WI",
+    "name": "Edgerton Hospital",
+    "city": "EDGERTON",
+    "state": "WI"
   },
   {
     "id": "76XA",
@@ -47716,6 +47224,12 @@
     "name": "Hazlet Township Police",
     "city": "KEANSBURG",
     "state": "NJ"
+  },
+  {
+    "id": "78NK",
+    "name": "Franjo",
+    "city": "WARWICK",
+    "state": "NY"
   },
   {
     "id": "78NY",
@@ -49122,12 +48636,6 @@
     "state": "LA"
   },
   {
-    "id": "7LA7",
-    "name": "Romere Pass",
-    "city": "VENICE",
-    "state": "LA"
-  },
-  {
     "id": "7LA8",
     "name": "Natchitoches Regional Med Cntr",
     "city": "NATCHITOCHES",
@@ -49968,12 +49476,6 @@
     "state": "PA"
   },
   {
-    "id": "7PA2",
-    "name": "State Park",
-    "city": "WIND GAP",
-    "state": "PA"
-  },
-  {
     "id": "7PA3",
     "name": "Charles G Kalko",
     "city": "HONESDALE",
@@ -50001,12 +49503,6 @@
     "id": "7PA7",
     "name": "Wayne Meml Hospital",
     "city": "HONESDALE",
-    "state": "PA"
-  },
-  {
-    "id": "7PA9",
-    "name": "Caterpillar Pbp",
-    "city": "YORK",
     "state": "PA"
   },
   {
@@ -50964,12 +50460,6 @@
     "state": "OR"
   },
   {
-    "id": "80PA",
-    "name": "Pamco PA",
-    "city": "MOOSIC",
-    "state": "PA"
-  },
-  {
     "id": "80PN",
     "name": "Hanover Airpark Inc",
     "city": "HOOKSTOWN",
@@ -51102,12 +50592,6 @@
     "state": "FL"
   },
   {
-    "id": "81FL",
-    "name": "The Flying Horseman Ranch",
-    "city": "GAINESVILLE",
-    "state": "FL"
-  },
-  {
     "id": "81GA",
     "name": "Lucky Lairds Landing",
     "city": "VILLA RICA",
@@ -51214,12 +50698,6 @@
     "name": "Brown",
     "city": "CINCINNATI",
     "state": "OH"
-  },
-  {
-    "id": "81OK",
-    "name": "Twin Lakes Ranch",
-    "city": "GRANITE",
-    "state": "OK"
   },
   {
     "id": "81OR",
@@ -51396,12 +50874,6 @@
     "state": "KY"
   },
   {
-    "id": "82LA",
-    "name": "Fisher's Fld",
-    "city": "CHALMETTE",
-    "state": "LA"
-  },
-  {
     "id": "82LS",
     "name": "Lookout Point",
     "city": "TRANSYLVANIA",
@@ -51412,6 +50884,12 @@
     "name": "Red Pine Grove",
     "city": "CLAYTON LAKE",
     "state": "ME"
+  },
+  {
+    "id": "82MI",
+    "name": "Long Lake Helipad",
+    "city": "TRAVERSE CITY",
+    "state": "MI"
   },
   {
     "id": "82MN",
@@ -52800,12 +52278,6 @@
     "state": "KY"
   },
   {
-    "id": "88LA",
-    "name": "Freebird Fld",
-    "city": "LAFAYETTE",
-    "state": "LA"
-  },
-  {
     "id": "88LL",
     "name": "Block",
     "city": "PEARL CITY",
@@ -53607,6 +53079,12 @@
     "id": "8FA7",
     "name": "Viera Hospital",
     "city": "MELBOURNE",
+    "state": "FL"
+  },
+  {
+    "id": "8FA8",
+    "name": "Flying H",
+    "city": "LAKE PLACID",
     "state": "FL"
   },
   {
@@ -54750,12 +54228,6 @@
     "state": "OH"
   },
   {
-    "id": "8OA5",
-    "name": "Camp Crook Muni",
-    "city": "CAMP CROOK",
-    "state": "SD"
-  },
-  {
     "id": "8OA6",
     "name": "Zimmerman Landing",
     "city": "VICKERY",
@@ -55044,12 +54516,6 @@
     "state": "PA"
   },
   {
-    "id": "8PS3",
-    "name": "Empire",
-    "city": "TAYLOR",
-    "state": "PA"
-  },
-  {
     "id": "8PS5",
     "name": "HMc Hangar",
     "city": "HERSHEY",
@@ -55096,6 +54562,12 @@
     "name": "Enterprise Muni",
     "city": "ENTERPRISE",
     "state": "OR"
+  },
+  {
+    "id": "8SD",
+    "name": "Bowdle Muni",
+    "city": "BOWDLE",
+    "state": "SD"
   },
   {
     "id": "8T6",
@@ -55156,12 +54628,6 @@
     "name": "Bufords Fld",
     "city": "HUNTINGTON",
     "state": "TX"
-  },
-  {
-    "id": "8TA9",
-    "name": "Star Dusters",
-    "city": "WASHINGTON",
-    "state": "LA"
   },
   {
     "id": "8TE0",
@@ -55371,12 +54837,6 @@
     "id": "8TX6",
     "name": "Harkey Ranch",
     "city": "MASON",
-    "state": "TX"
-  },
-  {
-    "id": "8TX8",
-    "name": "Weeks",
-    "city": "PREMONT",
     "state": "TX"
   },
   {
@@ -57288,12 +56748,6 @@
     "state": "WI"
   },
   {
-    "id": "95XA",
-    "name": "Hog Heaven",
-    "city": "DRIPPING SPRINGS",
-    "state": "TX"
-  },
-  {
     "id": "95XS",
     "name": "Serenity",
     "city": "SEABROOK",
@@ -58002,12 +57456,6 @@
     "state": "TX"
   },
   {
-    "id": "98TX",
-    "name": "Cig 402",
-    "city": "FALFURRIAS",
-    "state": "TX"
-  },
-  {
     "id": "98VA",
     "name": "Glascock",
     "city": "ARCOLA",
@@ -58170,12 +57618,6 @@
     "state": "ME"
   },
   {
-    "id": "99MI",
-    "name": "Newport Meadows",
-    "city": "NEWPORT",
-    "state": "MI"
-  },
-  {
     "id": "99MN",
     "name": "Mayo Clinic St Marys Hospital",
     "city": "ROCHESTER",
@@ -58228,12 +57670,6 @@
     "name": "Mesa View Rgnl Hospital",
     "city": "MESQUITE",
     "state": "NV"
-  },
-  {
-    "id": "99NY",
-    "name": "Hibbard's",
-    "city": "WILSON",
-    "state": "NY"
   },
   {
     "id": "99OH",
@@ -60150,12 +59586,6 @@
     "state": "PA"
   },
   {
-    "id": "9PN5",
-    "name": "Franklin",
-    "city": "WILKES BARRE",
-    "state": "PA"
-  },
-  {
     "id": "9PN7",
     "name": "Veit",
     "city": "WYSOX",
@@ -60274,12 +59704,6 @@
     "name": "Lexington",
     "city": "LEXINGTON",
     "state": "OR"
-  },
-  {
-    "id": "9SD7",
-    "name": "Beaman",
-    "city": "SELBY",
-    "state": "SD"
   },
   {
     "id": "9SD8",
@@ -60411,12 +59835,6 @@
     "id": "9TN7",
     "name": "Baskin",
     "city": "COVINGTON",
-    "state": "TN"
-  },
-  {
-    "id": "9TN8",
-    "name": "Dollar General",
-    "city": "GOODLETTSVILLE",
     "state": "TN"
   },
   {
@@ -60874,12 +60292,6 @@
     "name": "Vaiden Fld",
     "city": "MARION",
     "state": "AL"
-  },
-  {
-    "id": "A11",
-    "name": "Campbell Lake",
-    "city": "ANCHORAGE",
-    "state": "AK"
   },
   {
     "id": "A13",
@@ -62781,12 +62193,6 @@
     "id": "AL96",
     "name": "Bon Secour",
     "city": "GULF SHORES",
-    "state": "AL"
-  },
-  {
-    "id": "AL97",
-    "name": "Williamson Farm",
-    "city": "LOXLEY",
     "state": "AL"
   },
   {
@@ -66510,6 +65916,12 @@
     "state": "CO"
   },
   {
+    "id": "CD02",
+    "name": "Scenic Mesa Ranch",
+    "city": "HOTCHKISS",
+    "state": "CO"
+  },
+  {
     "id": "CD03",
     "name": "Tinnes",
     "city": "LAMAR",
@@ -66531,6 +65943,12 @@
     "id": "CD07",
     "name": "Poudre Valley Hospital",
     "city": "FORT COLLINS",
+    "state": "CO"
+  },
+  {
+    "id": "CD08",
+    "name": "Steed Ranch",
+    "city": "OLATHE",
     "state": "CO"
   },
   {
@@ -73206,12 +72624,6 @@
     "state": "FL"
   },
   {
-    "id": "FD74",
-    "name": "Gamebird Groves Airstrip",
-    "city": "WEST MELBOURNE",
-    "state": "FL"
-  },
-  {
     "id": "FD75",
     "name": "Advent Health Zephyrhills",
     "city": "ZEPHYRHILLS",
@@ -73791,12 +73203,6 @@
     "id": "FL43",
     "name": "Burntwood Ranch",
     "city": "LAKELAND",
-    "state": "FL"
-  },
-  {
-    "id": "FL44",
-    "name": "Smokey's",
-    "city": "DAYTONA BEACH",
     "state": "FL"
   },
   {
@@ -74835,12 +74241,6 @@
     "id": "GA58",
     "name": "Dekalb Police Dept",
     "city": "AVONDALE ESTATES",
-    "state": "GA"
-  },
-  {
-    "id": "GA59",
-    "name": "Antique Acres",
-    "city": "BARNESVILLE",
     "state": "GA"
   },
   {
@@ -77658,12 +77058,6 @@
     "state": "IA"
   },
   {
-    "id": "IA35",
-    "name": "Ruckl",
-    "city": "COUNCIL BLUFFS",
-    "state": "IA"
-  },
-  {
     "id": "IA37",
     "name": "Horn Meml Hospital",
     "city": "IDA GROVE",
@@ -77683,7 +77077,7 @@
   },
   {
     "id": "IA40",
-    "name": "Osceola Community Hospital",
+    "name": "Osceola Regional Health Center",
     "city": "SIBLEY",
     "state": "IA"
   },
@@ -77715,12 +77109,6 @@
     "id": "IA47",
     "name": "Mercyone North Iowa Medical Center",
     "city": "MASON CITY",
-    "state": "IA"
-  },
-  {
-    "id": "IA48",
-    "name": "Kern Fld",
-    "city": "POLK CITY",
     "state": "IA"
   },
   {
@@ -78846,12 +78234,6 @@
     "state": "IL"
   },
   {
-    "id": "II32",
-    "name": "Raceway",
-    "city": "CHANDLER",
-    "state": "IN"
-  },
-  {
     "id": "II38",
     "name": "Sherk Fld",
     "city": "LAPAZ",
@@ -79093,7 +78475,7 @@
   },
   {
     "id": "IL02",
-    "name": "Herbert C Maas",
+    "name": "Ravenwood",
     "city": "ZION",
     "state": "IL"
   },
@@ -79107,12 +78489,6 @@
     "id": "IL04",
     "name": "Carle Health - Methodist",
     "city": "PEORIA",
-    "state": "IL"
-  },
-  {
-    "id": "IL05",
-    "name": "Shumway Innernational",
-    "city": "EFFINGHAM",
     "state": "IL"
   },
   {
@@ -79467,6 +78843,12 @@
     "id": "IL71",
     "name": "Dury Estates",
     "city": "HURST",
+    "state": "IL"
+  },
+  {
+    "id": "IL72",
+    "name": "Hawg Pit Lz",
+    "city": "GRAFTON",
     "state": "IL"
   },
   {
@@ -79986,12 +79368,6 @@
     "state": "IN"
   },
   {
-    "id": "IN52",
-    "name": "500",
-    "city": "SPEEDWAY",
-    "state": "IN"
-  },
-  {
     "id": "IN53",
     "name": "Miller",
     "city": "SPENCER",
@@ -80043,6 +79419,12 @@
     "id": "IN60",
     "name": "Wilderness Fld",
     "city": "WESTFIELD",
+    "state": "IN"
+  },
+  {
+    "id": "IN61",
+    "name": "Iu Med Center",
+    "city": "INDIANAPOLIS",
     "state": "IN"
   },
   {
@@ -80215,7 +79597,7 @@
   },
   {
     "id": "IN96",
-    "name": "Meml Hospital",
+    "name": "Parkview Logansport Hospital",
     "city": "LOGANSPORT",
     "state": "IN"
   },
@@ -80535,12 +79917,6 @@
     "id": "IS81",
     "name": "Alsip Fire Department",
     "city": "ALSIP",
-    "state": "IL"
-  },
-  {
-    "id": "IS83",
-    "name": "Untied Acres",
-    "city": "BELVIDERE",
     "state": "IL"
   },
   {
@@ -82182,12 +81558,6 @@
     "state": "LA"
   },
   {
-    "id": "LA09",
-    "name": "Bristow (Intracoastal City)",
-    "city": "INTRACOASTAL CITY",
-    "state": "LA"
-  },
-  {
     "id": "LA10",
     "name": "Tracemont Fld",
     "city": "BOYCE",
@@ -82215,12 +81585,6 @@
     "id": "LA14",
     "name": "Coffman",
     "city": "WEST MONROE",
-    "state": "LA"
-  },
-  {
-    "id": "LA15",
-    "name": "Clark Fld",
-    "city": "PRIDE",
     "state": "LA"
   },
   {
@@ -82254,12 +81618,6 @@
     "state": "LA"
   },
   {
-    "id": "LA21",
-    "name": "Chloe",
-    "city": "LAKE CHARLES",
-    "state": "LA"
-  },
-  {
     "id": "LA22",
     "name": "Pg&e Livermore Training Center",
     "city": "LIVERMORE",
@@ -82284,18 +81642,6 @@
     "state": "LA"
   },
   {
-    "id": "LA26",
-    "name": "Unicorn",
-    "city": "FOLSOM",
-    "state": "LA"
-  },
-  {
-    "id": "LA27",
-    "name": "Texas Eastern Transmission Maintenance Hq",
-    "city": "LAKE CHARLES",
-    "state": "LA"
-  },
-  {
     "id": "LA28",
     "name": "Louisiana State Police Headquarters",
     "city": "BATON ROUGE",
@@ -82311,12 +81657,6 @@
     "id": "LA3",
     "name": "Feliciana Airpark",
     "city": "JACKSON",
-    "state": "LA"
-  },
-  {
-    "id": "LA30",
-    "name": "Phoenix",
-    "city": "RAYNE",
     "state": "LA"
   },
   {
@@ -82476,12 +81816,6 @@
     "state": "LA"
   },
   {
-    "id": "LA64",
-    "name": "Bayou Boeuf",
-    "city": "AMELIA",
-    "state": "LA"
-  },
-  {
     "id": "LA65",
     "name": "Acadian Med Cntr",
     "city": "EUNICE",
@@ -82608,12 +81942,6 @@
     "state": "LA"
   },
   {
-    "id": "LA91",
-    "name": "Gary Landing Strip",
-    "city": "PARKS",
-    "state": "LA"
-  },
-  {
     "id": "LA92",
     "name": "Briggs Airfield",
     "city": "SUNSET",
@@ -82635,18 +81963,6 @@
     "id": "LA95",
     "name": "Abbeville General Hospital",
     "city": "ABBEVILLE",
-    "state": "LA"
-  },
-  {
-    "id": "LA96",
-    "name": "Riverbend",
-    "city": "ST FRANCISVILLE",
-    "state": "LA"
-  },
-  {
-    "id": "LA98",
-    "name": "West Bay",
-    "city": "VENICE",
     "state": "LA"
   },
   {
@@ -83454,12 +82770,6 @@
     "state": "MO"
   },
   {
-    "id": "LS00",
-    "name": "Whitehead",
-    "city": "ZACHARY",
-    "state": "LA"
-  },
-  {
     "id": "LS02",
     "name": "North Oaks Medical Center",
     "city": "HAMMOND",
@@ -83574,12 +82884,6 @@
     "state": "LA"
   },
   {
-    "id": "LS25",
-    "name": "Annison Private",
-    "city": "SLAUGHTER",
-    "state": "LA"
-  },
-  {
     "id": "LS26",
     "name": "Goose Landing",
     "city": "LORANGER",
@@ -83607,12 +82911,6 @@
     "id": "LS30",
     "name": "Ochsner Lsu Health Monroe Med Cntr",
     "city": "MONROE",
-    "state": "LA"
-  },
-  {
-    "id": "LS31",
-    "name": "Fresh Water Bayou",
-    "city": "INTERCOASTAL CITY",
     "state": "LA"
   },
   {
@@ -85524,6 +84822,12 @@
     "state": "MD"
   },
   {
+    "id": "MD85",
+    "name": "Oag Unmanned Center",
+    "city": "PINEY POINT",
+    "state": "MD"
+  },
+  {
     "id": "MD88",
     "name": "Links",
     "city": "PYLESVILLE",
@@ -86179,7 +85483,7 @@
   },
   {
     "id": "MEM",
-    "name": "Frederick W Smith Intl",
+    "name": "Frederick W Smith Intl/Memphis",
     "city": "MEMPHIS",
     "state": "TN"
   },
@@ -86349,12 +85653,6 @@
     "id": "MI00",
     "name": "McLaren Macomb Hospital",
     "city": "MOUNT CLEMENS",
-    "state": "MI"
-  },
-  {
-    "id": "MI01",
-    "name": "Fasel Fld",
-    "city": "AVOCA",
     "state": "MI"
   },
   {
@@ -86827,7 +86125,7 @@
   },
   {
     "id": "MI92",
-    "name": "Toms Helipad",
+    "name": "Three Rivers Aviation",
     "city": "MASON",
     "state": "MI"
   },
@@ -86853,6 +86151,12 @@
     "id": "MI97",
     "name": "Corewell Health Butterworth",
     "city": "GRAND RAPIDS",
+    "state": "MI"
+  },
+  {
+    "id": "MI99",
+    "name": "Michigan Helicopters",
+    "city": "LAKE ORION",
     "state": "MI"
   },
   {
@@ -87285,6 +86589,12 @@
     "id": "MN29",
     "name": "Mathieu Landing",
     "city": "EVELETH",
+    "state": "MN"
+  },
+  {
+    "id": "MN30",
+    "name": "Kato Av",
+    "city": "GOOD THUNDER",
     "state": "MN"
   },
   {
@@ -87798,12 +87108,6 @@
     "state": "MO"
   },
   {
-    "id": "MO15",
-    "name": "C2k",
-    "city": "FAIR GROVE",
-    "state": "MO"
-  },
-  {
     "id": "MO16",
     "name": "Baugh Flight Park",
     "city": "AVILLA",
@@ -88059,12 +87363,6 @@
     "id": "MO60",
     "name": "Ssm Health St. Clare Hospital-Fenton",
     "city": "ST. LOUIS",
-    "state": "MO"
-  },
-  {
-    "id": "MO61",
-    "name": "Bowen Fld",
-    "city": "PRAIRIE HILL",
     "state": "MO"
   },
   {
@@ -88483,7 +87781,7 @@
   },
   {
     "id": "MS05",
-    "name": "Delta Rgnl Medical Center",
+    "name": "Delta Health System",
     "city": "GREENVILLE",
     "state": "MS"
   },
@@ -88569,12 +87867,6 @@
     "id": "MS29",
     "name": "Pace Airstrip",
     "city": "CANTON",
-    "state": "MS"
-  },
-  {
-    "id": "MS30",
-    "name": "Abide Airpark",
-    "city": "GREENVILLE",
     "state": "MS"
   },
   {
@@ -89136,12 +88428,6 @@
     "state": "MT"
   },
   {
-    "id": "MT42",
-    "name": "Hasskamp",
-    "city": "THREE FORKS",
-    "state": "MT"
-  },
-  {
     "id": "MT43",
     "name": "Klies Air Strip",
     "city": "BASIN",
@@ -89247,12 +88533,6 @@
     "id": "MT61",
     "name": "Taylor Homestead",
     "city": "SOMERS",
-    "state": "MT"
-  },
-  {
-    "id": "MT62",
-    "name": "Jefferson River",
-    "city": "TWIN BRIDGES",
     "state": "MT"
   },
   {
@@ -89431,7 +88711,7 @@
   },
   {
     "id": "MTC",
-    "name": "Selfridge ANGB",
+    "name": "SELFridge Angb",
     "city": "MOUNT CLEMENS",
     "state": "MI"
   },
@@ -89550,12 +88830,6 @@
     "state": "MO"
   },
   {
-    "id": "MU13",
-    "name": "Wray Airfield",
-    "city": "PARNELL",
-    "state": "MO"
-  },
-  {
     "id": "MU14",
     "name": "Pepper Fld",
     "city": "BELLE",
@@ -89661,12 +88935,6 @@
     "id": "MU35",
     "name": "Tallen",
     "city": "ARKOE",
-    "state": "MO"
-  },
-  {
-    "id": "MU36",
-    "name": "Eagle's Roost",
-    "city": "BAGNEL",
     "state": "MO"
   },
   {
@@ -89850,12 +89118,6 @@
     "state": "MO"
   },
   {
-    "id": "MU78",
-    "name": "Taylor Fld",
-    "city": "WAYNESVILLE",
-    "state": "MO"
-  },
-  {
     "id": "MU79",
     "name": "Delta Center Heliport #1",
     "city": "PORTAGEVILLE",
@@ -89907,12 +89169,6 @@
     "id": "MU94",
     "name": "Galmey",
     "city": "WHEATLAND",
-    "state": "MO"
-  },
-  {
-    "id": "MU96",
-    "name": "South City Hospital",
-    "city": "ST LOUIS",
     "state": "MO"
   },
   {
@@ -90267,12 +89523,6 @@
     "id": "MY79",
     "name": "Children's Hospital - St Paul",
     "city": "ST PAUL",
-    "state": "MN"
-  },
-  {
-    "id": "MY80",
-    "name": "Rosenberg",
-    "city": "CEYLON",
     "state": "MN"
   },
   {
@@ -90966,12 +90216,6 @@
     "state": "ND"
   },
   {
-    "id": "NA05",
-    "name": "Kraig Farms",
-    "city": "SHELDON",
-    "state": "ND"
-  },
-  {
     "id": "NA06",
     "name": "Bouret Ranch",
     "city": "SHEYENNE",
@@ -91074,18 +90318,6 @@
     "state": "ND"
   },
   {
-    "id": "NA65",
-    "name": "Anderson Strip",
-    "city": "HOOPLE",
-    "state": "ND"
-  },
-  {
-    "id": "NA71",
-    "name": "M Bodvig Airstrip",
-    "city": "TAPPEN",
-    "state": "ND"
-  },
-  {
     "id": "NA73",
     "name": "Welstad Farms Airstrip",
     "city": "UPHAM",
@@ -91119,18 +90351,6 @@
     "id": "NA86",
     "name": "Johnson Pvt Airstrip",
     "city": "LUVERNE",
-    "state": "ND"
-  },
-  {
-    "id": "NA88",
-    "name": "Regan Airstrip",
-    "city": "REGAN",
-    "state": "ND"
-  },
-  {
-    "id": "NA90",
-    "name": "Circle Z Landing Strip",
-    "city": "UNDERWOOD",
     "state": "ND"
   },
   {
@@ -91944,12 +91164,6 @@
     "state": "ND"
   },
   {
-    "id": "ND52",
-    "name": "True North Airpark",
-    "city": "WEST FARGO",
-    "state": "ND"
-  },
-  {
     "id": "ND53",
     "name": "Pueppke",
     "city": "AYR",
@@ -91977,12 +91191,6 @@
     "id": "ND58",
     "name": "Gudgel",
     "city": "COLFAX",
-    "state": "ND"
-  },
-  {
-    "id": "ND59",
-    "name": "Grieve",
-    "city": "BUFFALO",
     "state": "ND"
   },
   {
@@ -92073,12 +91281,6 @@
     "id": "ND90",
     "name": "Dahl Pvt",
     "city": "COGSWELL/BRAMPTON/",
-    "state": "ND"
-  },
-  {
-    "id": "ND92",
-    "name": "Ll Landing",
-    "city": "TURTLE LAKE",
     "state": "ND"
   },
   {
@@ -93240,12 +92442,6 @@
     "state": "NJ"
   },
   {
-    "id": "NJ59",
-    "name": "Ekdahl",
-    "city": "FREEHOLD",
-    "state": "NJ"
-  },
-  {
     "id": "NJ60",
     "name": "Cuddihy Landing Strip",
     "city": "FREEHOLD",
@@ -93468,12 +92664,6 @@
     "state": "NY"
   },
   {
-    "id": "NK24",
-    "name": "Tilden",
-    "city": "MONTOUR FALLS",
-    "state": "NY"
-  },
-  {
     "id": "NK26",
     "name": "Old Forge",
     "city": "OLD FORGE",
@@ -93660,12 +92850,6 @@
     "state": "NY"
   },
   {
-    "id": "NK76",
-    "name": "Grammar",
-    "city": "GENEVA",
-    "state": "NY"
-  },
-  {
     "id": "NK77",
     "name": "Niagara Falls Meml Parking Ramp",
     "city": "NIAGARA FALLS",
@@ -93705,12 +92889,6 @@
     "id": "NK90",
     "name": "Tli",
     "city": "OSSINING",
-    "state": "NY"
-  },
-  {
-    "id": "NK91",
-    "name": "Boyle's Landing",
-    "city": "SHARON SPRINGS",
     "state": "NY"
   },
   {
@@ -93864,12 +93042,6 @@
     "state": "NM"
   },
   {
-    "id": "NM20",
-    "name": "Epic Paramotor",
-    "city": "DEMING",
-    "state": "NM"
-  },
-  {
     "id": "NM21",
     "name": "Presbyterian Santa Fe Medical Center",
     "city": "SANTA FE",
@@ -93894,33 +93066,9 @@
     "state": "NM"
   },
   {
-    "id": "NM25",
-    "name": "Lincoln Station",
-    "city": "CORONA",
-    "state": "NM"
-  },
-  {
-    "id": "NM26",
-    "name": "Luna Landing",
-    "city": "DEMING",
-    "state": "NM"
-  },
-  {
-    "id": "NM27",
-    "name": "Sanostee",
-    "city": "GALLUP",
-    "state": "NM"
-  },
-  {
     "id": "NM28",
     "name": "Unm Hospital Critical Care Tower West",
     "city": "ALBUQUERQUE",
-    "state": "NM"
-  },
-  {
-    "id": "NM29",
-    "name": "Rosebud",
-    "city": "ROSEBUD",
     "state": "NM"
   },
   {
@@ -93966,12 +93114,6 @@
     "state": "NM"
   },
   {
-    "id": "NM38",
-    "name": "Double V Ranch",
-    "city": "FORT SUMNER",
-    "state": "NM"
-  },
-  {
     "id": "NM39",
     "name": "Presbyterian Hospital",
     "city": "ALBUQUERQUE",
@@ -93996,12 +93138,6 @@
     "state": "NM"
   },
   {
-    "id": "NM46",
-    "name": "Pay Jay Nr 2",
-    "city": "ARTESIA",
-    "state": "NM"
-  },
-  {
     "id": "NM47",
     "name": "2 X 4 Ranch",
     "city": "ARTESIA",
@@ -94014,12 +93150,6 @@
     "state": "NM"
   },
   {
-    "id": "NM49",
-    "name": "J & M Farms",
-    "city": "WILLARD",
-    "state": "NM"
-  },
-  {
     "id": "NM50",
     "name": "Lovelace Westside Hospital",
     "city": "ALBUQUERQUE",
@@ -94029,12 +93159,6 @@
     "id": "NM51",
     "name": "Chloride",
     "city": "CHLORIDE",
-    "state": "NM"
-  },
-  {
-    "id": "NM52",
-    "name": "CaMcO Ranch",
-    "city": "NARA VISA",
     "state": "NM"
   },
   {
@@ -94173,12 +93297,6 @@
     "id": "NM86",
     "name": "Playas Air Strip",
     "city": "PLAYAS",
-    "state": "NM"
-  },
-  {
-    "id": "NM87",
-    "name": "Jenkins",
-    "city": "ROSWELL",
     "state": "NM"
   },
   {
@@ -94350,6 +93468,12 @@
     "state": "NC"
   },
   {
+    "id": "NR22",
+    "name": "Headwaters At Banner Elk Clubhouse",
+    "city": "BANNER ELK",
+    "state": "NC"
+  },
+  {
     "id": "NR24",
     "name": "Maria Perham Franklin Hospital",
     "city": "LOUISBURG",
@@ -94425,6 +93549,12 @@
     "id": "NR51",
     "name": "Firing Range",
     "city": "PINETOPS",
+    "state": "NC"
+  },
+  {
+    "id": "NR57",
+    "name": "Hawks Nest",
+    "city": "KENLY",
     "state": "NC"
   },
   {
@@ -94866,6 +93996,12 @@
     "state": "NV"
   },
   {
+    "id": "NV50",
+    "name": "Intermountain Nevada Children's Hospital",
+    "city": "LAS VEGAS",
+    "state": "NV"
+  },
+  {
     "id": "NV53",
     "name": "Valley Hospital Medical Center",
     "city": "LAS VEGAS",
@@ -95274,12 +94410,6 @@
     "state": "NY"
   },
   {
-    "id": "NY34",
-    "name": "Randall's Roost",
-    "city": "CAMERON",
-    "state": "NY"
-  },
-  {
     "id": "NY35",
     "name": "Stanton",
     "city": "NEW PALTZ",
@@ -95545,7 +94675,7 @@
   },
   {
     "id": "NY83",
-    "name": "Essex Boatworks",
+    "name": "Essex Marina",
     "city": "ESSEX",
     "state": "NY"
   },
@@ -96678,12 +95808,6 @@
     "state": "OH"
   },
   {
-    "id": "OH24",
-    "name": "Markley Farm",
-    "city": "ORRVILLE",
-    "state": "OH"
-  },
-  {
     "id": "OH25",
     "name": "Grady Meml Hospital",
     "city": "DELAWARE",
@@ -97134,12 +96258,6 @@
     "state": "OH"
   },
   {
-    "id": "OI31",
-    "name": "Pheasant Run",
-    "city": "LEROY",
-    "state": "OH"
-  },
-  {
     "id": "OI32",
     "name": "Stoney's",
     "city": "RAVENNA",
@@ -97485,12 +96603,6 @@
     "id": "OK17",
     "name": "Bass Aero",
     "city": "ARDMORE",
-    "state": "OK"
-  },
-  {
-    "id": "OK18",
-    "name": "Grand Isle",
-    "city": "ADAIR",
     "state": "OK"
   },
   {
@@ -99630,12 +98742,6 @@
     "state": "PA"
   },
   {
-    "id": "PA26",
-    "name": "Wxkw",
-    "city": "ALLENTOWN",
-    "state": "PA"
-  },
-  {
     "id": "PA27",
     "name": "Butz",
     "city": "ALLENTOWN",
@@ -99654,21 +98760,9 @@
     "state": "PA"
   },
   {
-    "id": "PA30",
-    "name": "East Penn",
-    "city": "ANDREAS",
-    "state": "PA"
-  },
-  {
     "id": "PA31",
     "name": "Rover",
     "city": "ANNVILLE",
-    "state": "PA"
-  },
-  {
-    "id": "PA32",
-    "name": "St Catherine Medical Center",
-    "city": "ASHLAND",
     "state": "PA"
   },
   {
@@ -99858,21 +98952,9 @@
     "state": "PA"
   },
   {
-    "id": "PA65",
-    "name": "Hi-Vu",
-    "city": "COPLAY",
-    "state": "PA"
-  },
-  {
     "id": "PA67",
     "name": "Allegheny Hospitals Canonsburg",
     "city": "CANONSBURG",
-    "state": "PA"
-  },
-  {
-    "id": "PA68",
-    "name": "Bugs",
-    "city": "NAZARETH",
     "state": "PA"
   },
   {
@@ -99933,12 +99015,6 @@
     "id": "PA81",
     "name": "5 Lakes",
     "city": "FAYETTEVILLE",
-    "state": "PA"
-  },
-  {
-    "id": "PA82",
-    "name": "Grayce Farms",
-    "city": "FLEETVILLE",
     "state": "PA"
   },
   {
@@ -100506,12 +99582,6 @@
     "state": "PA"
   },
   {
-    "id": "PN10",
-    "name": "Cash Creek",
-    "city": "ULSTER",
-    "state": "PA"
-  },
-  {
     "id": "PN11",
     "name": "Reno",
     "city": "ENON VALLEY",
@@ -100563,12 +99633,6 @@
     "id": "PN23",
     "name": "University of Pittsburgh Med Center Mercy",
     "city": "PITTSBURGH",
-    "state": "PA"
-  },
-  {
-    "id": "PN24",
-    "name": "Snider",
-    "city": "FREEPORT",
     "state": "PA"
   },
   {
@@ -100848,12 +99912,6 @@
     "state": "PA"
   },
   {
-    "id": "PN85",
-    "name": "Linden Hall Landing",
-    "city": "STATE COLLEGE",
-    "state": "PA"
-  },
-  {
     "id": "PN86",
     "name": "Goodwill Fire Company Nr 1",
     "city": "MINERSVILLE",
@@ -100863,12 +99921,6 @@
     "id": "PN89",
     "name": "Ridgway",
     "city": "RIDGWAY",
-    "state": "PA"
-  },
-  {
-    "id": "PN90",
-    "name": "Ranch-Aero",
-    "city": "ROULETTE",
     "state": "PA"
   },
   {
@@ -101064,12 +100116,6 @@
     "state": "PR"
   },
   {
-    "id": "PR04",
-    "name": "Squibb",
-    "city": "HUMACAO",
-    "state": "PR"
-  },
-  {
     "id": "PR06",
     "name": "Hill",
     "city": "CULEBRA",
@@ -101088,32 +100134,8 @@
     "state": "PR"
   },
   {
-    "id": "PR11",
-    "name": "Rexach Office Building",
-    "city": "PUERTO NUEVO",
-    "state": "PR"
-  },
-  {
     "id": "PR13",
     "name": "Insular Government Number Two",
-    "city": "SAN JUAN",
-    "state": "PR"
-  },
-  {
-    "id": "PR14",
-    "name": "Orama-Iayuya",
-    "city": "JAYUYA",
-    "state": "PR"
-  },
-  {
-    "id": "PR15",
-    "name": "Parguera",
-    "city": "LAJAS",
-    "state": "PR"
-  },
-  {
-    "id": "PR16",
-    "name": "Banco Popular Center",
     "city": "SAN JUAN",
     "state": "PR"
   },
@@ -101151,12 +100173,6 @@
     "id": "PR25",
     "name": "Lajas Airpark",
     "city": "LAJAS",
-    "state": "PR"
-  },
-  {
-    "id": "PR26",
-    "name": "Villa Marina",
-    "city": "FAJARDO",
     "state": "PR"
   },
   {
@@ -101199,6 +100215,12 @@
     "id": "PR34",
     "name": "San Juan",
     "city": "SAN JUAN",
+    "state": "PR"
+  },
+  {
+    "id": "PR36",
+    "name": "Cocal",
+    "city": "TOA BAJA",
     "state": "PR"
   },
   {
@@ -101418,12 +100440,6 @@
     "state": "PA"
   },
   {
-    "id": "PS40",
-    "name": "Tri-County",
-    "city": "ECKLEY",
-    "state": "PA"
-  },
-  {
     "id": "PS41",
     "name": "UPMC-Horizon Hospital/Shenango Campus",
     "city": "FARRELL",
@@ -101439,12 +100455,6 @@
     "id": "PS43",
     "name": "Barnes Farmland",
     "city": "VOLANT",
-    "state": "PA"
-  },
-  {
-    "id": "PS44",
-    "name": "Operations Center",
-    "city": "BELLWOOD",
     "state": "PA"
   },
   {
@@ -101478,21 +100488,9 @@
     "state": "PA"
   },
   {
-    "id": "PS52",
-    "name": "Alberter Farms",
-    "city": "JOHNSTOWN",
-    "state": "PA"
-  },
-  {
     "id": "PS54",
     "name": "Gunden",
     "city": "PERKASIE",
-    "state": "PA"
-  },
-  {
-    "id": "PS55",
-    "name": "Core States - 1st Pa",
-    "city": "PHILADELPHIA",
     "state": "PA"
   },
   {
@@ -101541,12 +100539,6 @@
     "id": "PS66",
     "name": "Parker-Cramer",
     "city": "CLARION",
-    "state": "PA"
-  },
-  {
-    "id": "PS67",
-    "name": "Uphill",
-    "city": "CLAYSVILLE",
     "state": "PA"
   },
   {
@@ -102907,7 +101899,7 @@
   },
   {
     "id": "S36",
-    "name": "Norman Grier Fld",
+    "name": "Crest Airfield",
     "city": "COVINGTON",
     "state": "WA"
   },
@@ -103578,12 +102570,6 @@
     "state": "SC"
   },
   {
-    "id": "SC59",
-    "name": "Palmetto",
-    "city": "GREENVILLE",
-    "state": "SC"
-  },
-  {
     "id": "SC61",
     "name": "Wild Irish Rose",
     "city": "CHERAW",
@@ -104058,12 +103044,6 @@
     "state": "SD"
   },
   {
-    "id": "SD44",
-    "name": "Cook Fld",
-    "city": "CHAMBERLAIN",
-    "state": "SD"
-  },
-  {
     "id": "SD45",
     "name": "Community Meml Hospital",
     "city": "REDFIELD",
@@ -104073,30 +103053,6 @@
     "id": "SD46",
     "name": "Jensen",
     "city": "DELL RAPIDS",
-    "state": "SD"
-  },
-  {
-    "id": "SD47",
-    "name": "Hunt Fld",
-    "city": "EAGLE BUTTE",
-    "state": "SD"
-  },
-  {
-    "id": "SD48",
-    "name": "Blomberg 42 Ranch Pvt",
-    "city": "FAITH",
-    "state": "SD"
-  },
-  {
-    "id": "SD49",
-    "name": "Hite",
-    "city": "FERNEY",
-    "state": "SD"
-  },
-  {
-    "id": "SD50",
-    "name": "Harrold Muni",
-    "city": "HARROLD",
     "state": "SD"
   },
   {
@@ -104244,12 +103200,6 @@
     "state": "SD"
   },
   {
-    "id": "SD90",
-    "name": "Mitchells Strip",
-    "city": "SPEARFISH",
-    "state": "SD"
-  },
-  {
     "id": "SD92",
     "name": "Telstar",
     "city": "MITCHELL",
@@ -104271,12 +103221,6 @@
     "id": "SD96",
     "name": "Pioneer Meml Hospital",
     "city": "VIBORG",
-    "state": "SD"
-  },
-  {
-    "id": "SD97",
-    "name": "Oller",
-    "city": "VIVIAN",
     "state": "SD"
   },
   {
@@ -105337,7 +104281,7 @@
   },
   {
     "id": "STC",
-    "name": "St Cloud Rgnl",
+    "name": "St Cloud Sky Central",
     "city": "ST CLOUD",
     "state": "MN"
   },
@@ -106326,12 +105270,6 @@
     "state": "TX"
   },
   {
-    "id": "TA50",
-    "name": "Wilkeys",
-    "city": "LARUE",
-    "state": "TX"
-  },
-  {
     "id": "TA51",
     "name": "Eagle",
     "city": "BROCK",
@@ -106467,12 +105405,6 @@
     "id": "TA74",
     "name": "Ineos Cbw",
     "city": "ALVIN",
-    "state": "TX"
-  },
-  {
-    "id": "TA75",
-    "name": "Cotton Patch",
-    "city": "LEXINGTON",
     "state": "TX"
   },
   {
@@ -107658,12 +106590,6 @@
     "state": "TN"
   },
   {
-    "id": "TN29",
-    "name": "67 Madison Ave Partnership Ltd",
-    "city": "MEMPHIS",
-    "state": "TN"
-  },
-  {
     "id": "TN30",
     "name": "Cub Haven",
     "city": "NIOTA",
@@ -108003,12 +106929,6 @@
     "id": "TN91",
     "name": "Johnson City Medical Center",
     "city": "JOHNSON CITY",
-    "state": "TN"
-  },
-  {
-    "id": "TN92",
-    "name": "Metrocenter",
-    "city": "NASHVILLE",
     "state": "TN"
   },
   {
@@ -108462,12 +107382,6 @@
     "state": "TX"
   },
   {
-    "id": "TS46",
-    "name": "Hopf Fld",
-    "city": "LLANO",
-    "state": "TX"
-  },
-  {
     "id": "TS47",
     "name": "Peeler Airpark",
     "city": "FLORESVILLE",
@@ -108535,7 +107449,7 @@
   },
   {
     "id": "TS58",
-    "name": "Denton Rgnl Medical Ctr - Flow Campus",
+    "name": "Medical City Denton",
     "city": "DENTON",
     "state": "TX"
   },
@@ -108888,6 +107802,12 @@
     "state": "TX"
   },
   {
+    "id": "TT36",
+    "name": "Myrtle Creek Ranch",
+    "city": "FRANKLIN",
+    "state": "TX"
+  },
+  {
     "id": "TT37",
     "name": "Dragon Lady",
     "city": "JEFFERSON",
@@ -108948,6 +107868,18 @@
     "state": "TX"
   },
   {
+    "id": "TT54",
+    "name": "Whiskey Hotel Airpark",
+    "city": "FREDERICKSBURG",
+    "state": "TX"
+  },
+  {
+    "id": "TT56",
+    "name": "Christus Health Palestine",
+    "city": "PALESTINE",
+    "state": "TX"
+  },
+  {
     "id": "TT57",
     "name": "Mangham",
     "city": "MULLIN",
@@ -108963,6 +107895,12 @@
     "id": "TT60",
     "name": "Tow",
     "city": "TOW",
+    "state": "TX"
+  },
+  {
+    "id": "TT61",
+    "name": "Salado Bluffs",
+    "city": "SALADO",
     "state": "TX"
   },
   {
@@ -109002,9 +107940,21 @@
     "state": "TX"
   },
   {
+    "id": "TT80",
+    "name": "Pecan Valley",
+    "city": "KILLEEN",
+    "state": "TX"
+  },
+  {
     "id": "TT83",
     "name": "Hbr",
     "city": "HORSESHOE BAY",
+    "state": "TX"
+  },
+  {
+    "id": "TT86",
+    "name": "Buffalo Ridge",
+    "city": "STEPHENVILLE",
     "state": "TX"
   },
   {
@@ -110352,12 +109302,6 @@
     "state": "UT"
   },
   {
-    "id": "UT04",
-    "name": "Arches Tours",
-    "city": "MOAB",
-    "state": "UT"
-  },
-  {
     "id": "UT05",
     "name": "Utah Ntl Guard Headquarters",
     "city": "DRAPER",
@@ -111678,12 +110622,6 @@
     "state": "VA"
   },
   {
-    "id": "VG43",
-    "name": "Arrowpoint",
-    "city": "MADISON",
-    "state": "VA"
-  },
-  {
     "id": "VG44",
     "name": "Frontier",
     "city": "DILLWYN",
@@ -112879,7 +111817,7 @@
   },
   {
     "id": "WA41",
-    "name": "Lake Sawyer Double Ee",
+    "name": "Lake Sawyer Double E",
     "city": "BLACK DIAMOND",
     "state": "WA"
   },
@@ -113382,9 +112320,21 @@
     "state": "WI"
   },
   {
+    "id": "WI26",
+    "name": "Flying Fox",
+    "city": "WILLIAMS BAY",
+    "state": "WI"
+  },
+  {
     "id": "WI27",
     "name": "Skyport",
     "city": "MENOMONIE",
+    "state": "WI"
+  },
+  {
+    "id": "WI28",
+    "name": "Silvertree",
+    "city": "LA POINTE",
     "state": "WI"
   },
   {
@@ -114535,7 +113485,7 @@
   },
   {
     "id": "WS50",
-    "name": "Mercy Medical Center",
+    "name": "AScension Ne Wisconsin - Mercy Hospital",
     "city": "OSHKOSH",
     "state": "WI"
   },
@@ -115521,12 +114471,6 @@
     "id": "WY37",
     "name": "Sublette County Hospital District",
     "city": "PINEDALE",
-    "state": "WY"
-  },
-  {
-    "id": "WY38",
-    "name": "Orchard Ranch",
-    "city": "TEN SLEEP",
     "state": "WY"
   },
   {
@@ -116653,7 +115597,7 @@
   },
   {
     "id": "XS25",
-    "name": "Flying C Ranch",
+    "name": "Flying C",
     "city": "NEEDVILLE",
     "state": "TX"
   },
@@ -116703,6 +115647,12 @@
     "id": "XS36",
     "name": "Covered S Ranch",
     "city": "SNYDER",
+    "state": "TX"
+  },
+  {
+    "id": "XS37",
+    "name": "Pecan Knoll",
+    "city": "HEATH",
     "state": "TX"
   },
   {
