@@ -820,10 +820,6 @@
     "name": null
   },
   {
-    "id": "AJAYS",
-    "name": "|| RNAV"
-  },
-  {
     "id": "AJGON",
     "name": null
   },
@@ -1396,10 +1392,6 @@
     "name": "|| RNAV"
   },
   {
-    "id": "ALUSO",
-    "name": "FLY OVER WPT"
-  },
-  {
     "id": "ALUTE",
     "name": null
   },
@@ -1645,7 +1637,7 @@
   },
   {
     "id": "ANDYS",
-    "name": "|| RNAV"
+    "name": null
   },
   {
     "id": "ANEEL",
@@ -4004,6 +3996,10 @@
     "name": null
   },
   {
+    "id": "BDOCK",
+    "name": null
+  },
+  {
     "id": "BDR",
     "name": null
   },
@@ -4090,6 +4086,10 @@
   {
     "id": "BEDYA",
     "name": "|| RNAV"
+  },
+  {
+    "id": "BEEAA",
+    "name": null
   },
   {
     "id": "BEEBO",
@@ -4549,10 +4549,6 @@
   },
   {
     "id": "BET",
-    "name": null
-  },
-  {
-    "id": "BETAY",
     "name": null
   },
   {
@@ -5920,10 +5916,6 @@
     "name": null
   },
   {
-    "id": "BONVL",
-    "name": "|| RNAV"
-  },
-  {
     "id": "BONZE",
     "name": null
   },
@@ -6980,10 +6972,6 @@
     "name": null
   },
   {
-    "id": "BUDPY",
-    "name": null
-  },
-  {
     "id": "BUEEL",
     "name": null
   },
@@ -7126,6 +7114,10 @@
   {
     "id": "BULLZ",
     "name": "|| RNAV"
+  },
+  {
+    "id": "BULRO",
+    "name": "FLY OVER WPT"
   },
   {
     "id": "BULVE",
@@ -7577,10 +7569,6 @@
   },
   {
     "id": "BZQ",
-    "name": null
-  },
-  {
-    "id": "BZXIV",
     "name": null
   },
   {
@@ -8441,7 +8429,7 @@
   },
   {
     "id": "CATTS",
-    "name": null
+    "name": "|| RNAV"
   },
   {
     "id": "CATTY",
@@ -9153,6 +9141,10 @@
   },
   {
     "id": "CFLCV",
+    "name": null
+  },
+  {
+    "id": "CFLMZ",
     "name": null
   },
   {
@@ -10213,7 +10205,7 @@
   },
   {
     "id": "CLAPS",
-    "name": "|| RNAV"
+    "name": null
   },
   {
     "id": "CLAPY",
@@ -10753,7 +10745,7 @@
   },
   {
     "id": "COHIL",
-    "name": "FLY OVER WPT"
+    "name": "(.CRP)| FLY OVER WPT"
   },
   {
     "id": "COHLE",
@@ -11701,7 +11693,7 @@
   },
   {
     "id": "CROIT",
-    "name": "|| RNAV"
+    "name": "|| RNAV SPECIAL ENROUTE"
   },
   {
     "id": "CROIX",
@@ -12449,10 +12441,6 @@
   },
   {
     "id": "CZI",
-    "name": null
-  },
-  {
-    "id": "CZJ",
     "name": null
   },
   {
@@ -16009,6 +15997,10 @@
   },
   {
     "id": "EDGES",
+    "name": "|| RNAV"
+  },
+  {
+    "id": "EDGGE",
     "name": null
   },
   {
@@ -16250,6 +16242,10 @@
   {
     "id": "EGAKE",
     "name": "|| RNAV"
+  },
+  {
+    "id": "EGANE",
+    "name": null
   },
   {
     "id": "EGAXE",
@@ -16885,7 +16881,7 @@
   },
   {
     "id": "EMPTY",
-    "name": null
+    "name": "|| RNAV"
   },
   {
     "id": "EMPYR",
@@ -17630,10 +17626,6 @@
   {
     "id": "EWA",
     "name": null
-  },
-  {
-    "id": "EWABE",
-    "name": "|| RNAV"
   },
   {
     "id": "EWAWI",
@@ -18412,10 +18404,6 @@
     "name": "|| ."
   },
   {
-    "id": "FAXIG",
-    "name": "|| RNAV"
-  },
-  {
     "id": "FAXON",
     "name": "|| RNAV"
   },
@@ -18813,6 +18801,10 @@
   },
   {
     "id": "FEVOM",
+    "name": null
+  },
+  {
+    "id": "FEVTA",
     "name": null
   },
   {
@@ -19817,7 +19809,7 @@
   },
   {
     "id": "FOODO",
-    "name": "FLY OVER WPT"
+    "name": null
   },
   {
     "id": "FOODS",
@@ -19825,10 +19817,6 @@
   },
   {
     "id": "FOOLS",
-    "name": null
-  },
-  {
-    "id": "FOOTE",
     "name": null
   },
   {
@@ -20370,6 +20358,10 @@
   {
     "id": "FTZ",
     "name": null
+  },
+  {
+    "id": "FU",
+    "name": "FLY OVER WPT"
   },
   {
     "id": "FUBLL",
@@ -21612,6 +21604,10 @@
     "name": "|| COMPULSORY"
   },
   {
+    "id": "GITON",
+    "name": "FLY OVER WPT"
+  },
+  {
     "id": "GITRU",
     "name": "FLY OVER WPT"
   },
@@ -22064,6 +22060,10 @@
     "name": null
   },
   {
+    "id": "GOONE",
+    "name": null
+  },
+  {
     "id": "GOONI",
     "name": "|| RNAV"
   },
@@ -22157,7 +22157,7 @@
   },
   {
     "id": "GOULL",
-    "name": null
+    "name": "|| RNAV"
   },
   {
     "id": "GOVAD",
@@ -22724,10 +22724,6 @@
     "name": null
   },
   {
-    "id": "GUDEN",
-    "name": "(.CRP)| FLY OVER WPT"
-  },
-  {
     "id": "GUERN",
     "name": "|| RNAV"
   },
@@ -22753,6 +22749,10 @@
   },
   {
     "id": "GUKIR",
+    "name": "FLY OVER WPT"
+  },
+  {
+    "id": "GUKIV",
     "name": "FLY OVER WPT"
   },
   {
@@ -23673,7 +23673,7 @@
   },
   {
     "id": "HAROD",
-    "name": "|| RNAV"
+    "name": null
   },
   {
     "id": "HAROL",
@@ -24897,10 +24897,6 @@
   },
   {
     "id": "HINDE",
-    "name": null
-  },
-  {
-    "id": "HINES",
     "name": null
   },
   {
@@ -26720,6 +26716,10 @@
     "name": "|| RNAV"
   },
   {
+    "id": "IDEMU",
+    "name": "FLY OVER WPT"
+  },
+  {
     "id": "IDENE",
     "name": "|| RNAV"
   },
@@ -27216,10 +27216,6 @@
     "name": "|| RNAV"
   },
   {
-    "id": "INDOO",
-    "name": null
-  },
-  {
     "id": "INDRO",
     "name": null
   },
@@ -27704,6 +27700,10 @@
     "name": "FLY OVER WPT"
   },
   {
+    "id": "ITPEG",
+    "name": "FLY OVER WPT"
+  },
+  {
     "id": "ITPIS",
     "name": "FLY OVER WPT"
   },
@@ -28121,10 +28121,6 @@
   },
   {
     "id": "JALAR",
-    "name": null
-  },
-  {
-    "id": "JALEB",
     "name": null
   },
   {
@@ -29504,6 +29500,10 @@
     "name": "|| COMPULSORY RNAV"
   },
   {
+    "id": "JOBOD",
+    "name": "|| RNAV"
+  },
+  {
     "id": "JOBSS",
     "name": "|| COMPULSORY"
   },
@@ -29708,10 +29708,6 @@
     "name": "|| RNAV"
   },
   {
-    "id": "JOLVU",
-    "name": null
-  },
-  {
     "id": "JOM",
     "name": "FLY OVER WPT"
   },
@@ -29800,6 +29796,10 @@
     "name": null
   },
   {
+    "id": "JOOSE",
+    "name": null
+  },
+  {
     "id": "JOPER",
     "name": null
   },
@@ -29838,6 +29838,10 @@
   {
     "id": "JORJA",
     "name": "FID| FLY OVER WPT"
+  },
+  {
+    "id": "JORKK",
+    "name": null
   },
   {
     "id": "JORNO",
@@ -30816,6 +30820,10 @@
     "name": null
   },
   {
+    "id": "KAMUE",
+    "name": null
+  },
+  {
     "id": "KANAC",
     "name": "|| RNAV"
   },
@@ -30878,6 +30886,10 @@
   {
     "id": "KAPLN",
     "name": "|| RNAV"
+  },
+  {
+    "id": "KAPNO",
+    "name": "FLY OVER WPT"
   },
   {
     "id": "KAPOK",
@@ -31416,6 +31428,10 @@
     "name": null
   },
   {
+    "id": "KCARP",
+    "name": "|| RNAV"
+  },
+  {
     "id": "KCCEE",
     "name": null
   },
@@ -31764,10 +31780,6 @@
     "name": null
   },
   {
-    "id": "KEDLE",
-    "name": null
-  },
-  {
     "id": "KEEDS",
     "name": null
   },
@@ -31837,10 +31849,6 @@
   },
   {
     "id": "KEGLY",
-    "name": null
-  },
-  {
-    "id": "KEHFY",
     "name": null
   },
   {
@@ -31917,7 +31925,7 @@
   },
   {
     "id": "KELNG",
-    "name": null
+    "name": "|| SPECIAL ENROUTE"
   },
   {
     "id": "KELNO",
@@ -32170,6 +32178,10 @@
   {
     "id": "KETTS",
     "name": null
+  },
+  {
+    "id": "KETUS",
+    "name": "FLY OVER WPT"
   },
   {
     "id": "KEVEY",
@@ -35292,10 +35304,6 @@
     "name": null
   },
   {
-    "id": "KRAMS",
-    "name": null
-  },
-  {
     "id": "KRANG",
     "name": "|| RNAV"
   },
@@ -37556,6 +37564,10 @@
     "name": null
   },
   {
+    "id": "LATOL",
+    "name": "FLY OVER WPT"
+  },
+  {
     "id": "LATON",
     "name": "|| RNAV"
   },
@@ -38052,6 +38064,10 @@
     "name": "|| RNAV"
   },
   {
+    "id": "LENRE",
+    "name": null
+  },
+  {
     "id": "LENYI",
     "name": "|| RNAV"
   },
@@ -38082,6 +38098,10 @@
   {
     "id": "LEPIY",
     "name": "|| RNAV"
+  },
+  {
+    "id": "LEPKA",
+    "name": "FLY OVER WPT"
   },
   {
     "id": "LEPOS",
@@ -38488,10 +38508,6 @@
     "name": null
   },
   {
-    "id": "LINZZ",
-    "name": null
-  },
-  {
     "id": "LIONS",
     "name": "|| RNAV"
   },
@@ -38518,10 +38534,6 @@
   {
     "id": "LISKE",
     "name": "|| RNAV"
-  },
-  {
-    "id": "LISKI",
-    "name": "(TX RSTD SEE AP4)| FLY OVER WPT"
   },
   {
     "id": "LISLE",
@@ -39454,6 +39466,10 @@
   {
     "id": "LUGLI",
     "name": "FLY OVER WPT"
+  },
+  {
+    "id": "LUIJE",
+    "name": null
   },
   {
     "id": "LUISE",
@@ -40936,10 +40952,6 @@
     "name": "|| RNAV"
   },
   {
-    "id": "MEBGY",
-    "name": null
-  },
-  {
     "id": "MEBOK",
     "name": "FLY OVER WPT"
   },
@@ -42309,7 +42321,7 @@
   },
   {
     "id": "MOGYU",
-    "name": "|| RNAV"
+    "name": null
   },
   {
     "id": "MOHAK",
@@ -42709,10 +42721,6 @@
   },
   {
     "id": "MQG",
-    "name": null
-  },
-  {
-    "id": "MQI",
     "name": null
   },
   {
@@ -43905,7 +43913,7 @@
   },
   {
     "id": "NEEBO",
-    "name": "|| RNAV"
+    "name": null
   },
   {
     "id": "NEEDS",
@@ -44045,6 +44053,10 @@
   },
   {
     "id": "NEONN",
+    "name": null
+  },
+  {
+    "id": "NEPPO",
     "name": null
   },
   {
@@ -44244,6 +44256,10 @@
     "name": null
   },
   {
+    "id": "NI",
+    "name": "FLY OVER WPT"
+  },
+  {
     "id": "NIALS",
     "name": "|| RNAV"
   },
@@ -44406,6 +44422,10 @@
   {
     "id": "NIP",
     "name": null
+  },
+  {
+    "id": "NIPER",
+    "name": "FLY OVER WPT"
   },
   {
     "id": "NIPIY",
@@ -45952,10 +45972,6 @@
     "name": "|| RNAV"
   },
   {
-    "id": "OI",
-    "name": null
-  },
-  {
     "id": "OILEE",
     "name": null
   },
@@ -46769,7 +46785,7 @@
   },
   {
     "id": "OREDE",
-    "name": "FLY OVER WPT"
+    "name": null
   },
   {
     "id": "OREEO",
@@ -47333,7 +47349,7 @@
   },
   {
     "id": "OWUKU",
-    "name": "|| RNAV"
+    "name": null
   },
   {
     "id": "OWUPO",
@@ -47341,10 +47357,6 @@
   },
   {
     "id": "OWXUY",
-    "name": null
-  },
-  {
-    "id": "OXAKY",
     "name": null
   },
   {
@@ -47545,7 +47557,7 @@
   },
   {
     "id": "PAARR",
-    "name": "FLY OVER WPT"
+    "name": null
   },
   {
     "id": "PAAZZ",
@@ -48236,10 +48248,6 @@
     "name": null
   },
   {
-    "id": "PEGTE",
-    "name": "|| RNAV"
-  },
-  {
     "id": "PEHTY",
     "name": "|| RNAV"
   },
@@ -48373,7 +48381,7 @@
   },
   {
     "id": "PENDS",
-    "name": "|| RNAV"
+    "name": null
   },
   {
     "id": "PENEY",
@@ -48693,6 +48701,10 @@
   },
   {
     "id": "PHRED",
+    "name": null
+  },
+  {
+    "id": "PHURN",
     "name": null
   },
   {
@@ -49437,10 +49449,6 @@
   },
   {
     "id": "POBSE",
-    "name": null
-  },
-  {
-    "id": "POCIG",
     "name": null
   },
   {
@@ -50580,10 +50588,6 @@
     "name": null
   },
   {
-    "id": "PYX",
-    "name": null
-  },
-  {
     "id": "PZD",
     "name": null
   },
@@ -51516,10 +51520,6 @@
     "name": null
   },
   {
-    "id": "REDKE",
-    "name": null
-  },
-  {
     "id": "REDLO",
     "name": "|| RNAV"
   },
@@ -51900,10 +51900,6 @@
     "name": null
   },
   {
-    "id": "RFOUR",
-    "name": null
-  },
-  {
     "id": "RGERS",
     "name": null
   },
@@ -52106,10 +52102,6 @@
   {
     "id": "RIICE",
     "name": "|| RNAV"
-  },
-  {
-    "id": "RIIPR",
-    "name": null
   },
   {
     "id": "RIKAH",
@@ -52857,7 +52849,7 @@
   },
   {
     "id": "ROSEA",
-    "name": "FLY OVER WPT"
+    "name": null
   },
   {
     "id": "ROSEI",
@@ -53360,20 +53352,12 @@
     "name": "|| RNAV"
   },
   {
-    "id": "RUNYO",
-    "name": null
-  },
-  {
     "id": "RURNO",
     "name": "FLY OVER WPT"
   },
   {
     "id": "RUSEY",
     "name": null
-  },
-  {
-    "id": "RUSIA",
-    "name": "|| RNAV"
   },
   {
     "id": "RUSLL",
@@ -53481,10 +53465,6 @@
   },
   {
     "id": "RUXDU",
-    "name": null
-  },
-  {
-    "id": "RUYBO",
     "name": null
   },
   {
@@ -56116,10 +56096,6 @@
     "name": null
   },
   {
-    "id": "SLP",
-    "name": null
-  },
-  {
     "id": "SLPOH",
     "name": null
   },
@@ -57632,6 +57608,10 @@
     "name": null
   },
   {
+    "id": "STORZ",
+    "name": null
+  },
+  {
     "id": "STOTT",
     "name": null
   },
@@ -57785,6 +57765,10 @@
   },
   {
     "id": "STYMY",
+    "name": null
+  },
+  {
+    "id": "SU",
     "name": null
   },
   {
@@ -58276,10 +58260,6 @@
     "name": null
   },
   {
-    "id": "SWTHN",
-    "name": null
-  },
-  {
     "id": "SWUNG",
     "name": null
   },
@@ -58685,7 +58665,7 @@
   },
   {
     "id": "TANIA",
-    "name": "(.CRP)| FLY OVER WPT"
+    "name": "|| COMPULSORY"
   },
   {
     "id": "TANIE",
@@ -58880,6 +58860,10 @@
     "name": "|| RNAV"
   },
   {
+    "id": "TAVER",
+    "name": "FLY OVER WPT"
+  },
+  {
     "id": "TAVMA",
     "name": "FLY OVER WPT"
   },
@@ -58922,10 +58906,6 @@
   {
     "id": "TAYSO",
     "name": null
-  },
-  {
-    "id": "TAYTA",
-    "name": "|| COMPULSORY"
   },
   {
     "id": "TAYTO",
@@ -59049,6 +59029,10 @@
   },
   {
     "id": "TDUNN",
+    "name": null
+  },
+  {
+    "id": "TEAGY",
     "name": null
   },
   {
@@ -59288,6 +59272,10 @@
     "name": "|| COMPULSORY"
   },
   {
+    "id": "TESAR",
+    "name": "FLY OVER WPT"
+  },
+  {
     "id": "TESEE",
     "name": null
   },
@@ -59509,10 +59497,6 @@
   },
   {
     "id": "THUMB",
-    "name": null
-  },
-  {
-    "id": "THUMP",
     "name": null
   },
   {
@@ -59996,6 +59980,10 @@
     "name": null
   },
   {
+    "id": "TOLUS",
+    "name": "FLY OVER WPT"
+  },
+  {
     "id": "TOMAC",
     "name": "|| RNAV"
   },
@@ -60105,10 +60093,6 @@
   },
   {
     "id": "TOOTI",
-    "name": null
-  },
-  {
-    "id": "TOOTR",
     "name": null
   },
   {
@@ -60425,10 +60409,6 @@
   },
   {
     "id": "TREAD",
-    "name": "|| RNAV"
-  },
-  {
-    "id": "TREAL",
     "name": "|| RNAV"
   },
   {
@@ -61400,10 +61380,6 @@
     "name": "|| RNAV"
   },
   {
-    "id": "UCEGA",
-    "name": null
-  },
-  {
     "id": "UCLON",
     "name": null
   },
@@ -61490,10 +61466,6 @@
   {
     "id": "UFFIN",
     "name": "|| RNAV"
-  },
-  {
-    "id": "UFJUV",
-    "name": null
   },
   {
     "id": "UFMUP",
@@ -61884,6 +61856,10 @@
     "name": "|| RNAV"
   },
   {
+    "id": "UPDIX",
+    "name": "FLY OVER WPT"
+  },
+  {
     "id": "UPIRE",
     "name": null
   },
@@ -62148,6 +62124,10 @@
     "name": "|| RNAV"
   },
   {
+    "id": "UYUPE",
+    "name": null
+  },
+  {
     "id": "UZ",
     "name": null
   },
@@ -62278,10 +62258,6 @@
   {
     "id": "VALLO",
     "name": "|| RNAV"
-  },
-  {
-    "id": "VALLS",
-    "name": null
   },
   {
     "id": "VALLY",
@@ -63102,10 +63078,6 @@
   {
     "id": "VOLLU",
     "name": "|| RNAV"
-  },
-  {
-    "id": "VOLOB",
-    "name": "|| COMPULSORY"
   },
   {
     "id": "VOLTA",
@@ -64317,7 +64289,7 @@
   },
   {
     "id": "WESEL",
-    "name": null
+    "name": "|| RNAV"
   },
   {
     "id": "WESHH",
@@ -64561,10 +64533,6 @@
   },
   {
     "id": "WHOOS",
-    "name": null
-  },
-  {
-    "id": "WHOSE",
     "name": null
   },
   {
@@ -65569,7 +65537,7 @@
   },
   {
     "id": "WOOST",
-    "name": null
+    "name": "|| RNAV"
   },
   {
     "id": "WOOZE",
@@ -65737,7 +65705,7 @@
   },
   {
     "id": "WRECK",
-    "name": "FLY OVER WPT"
+    "name": "|| RNAV"
   },
   {
     "id": "WRENN",
@@ -65781,7 +65749,7 @@
   },
   {
     "id": "WSSKY",
-    "name": "FLY OVER WPT"
+    "name": null
   },
   {
     "id": "WSTEN",
@@ -66257,10 +66225,6 @@
   },
   {
     "id": "YABLU",
-    "name": null
-  },
-  {
-    "id": "YABUY",
     "name": null
   },
   {
@@ -67125,7 +67089,7 @@
   },
   {
     "id": "YXC",
-    "name": null
+    "name": "FLY OVER WPT"
   },
   {
     "id": "YXL",
