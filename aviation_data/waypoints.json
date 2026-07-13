@@ -304,10 +304,6 @@
     "name": null
   },
   {
-    "id": "ADDMO",
-    "name": null
-  },
-  {
     "id": "ADDPO",
     "name": "|| COMPULSORY"
   },
@@ -4128,6 +4124,10 @@
     "name": null
   },
   {
+    "id": "BEEKI",
+    "name": "|| COMPULSORY HIGH"
+  },
+  {
     "id": "BEEKN",
     "name": null
   },
@@ -4230,10 +4230,6 @@
   {
     "id": "BEIRA",
     "name": "|| RNAV"
-  },
-  {
-    "id": "BEJAE",
-    "name": null
   },
   {
     "id": "BEKAH",
@@ -4389,7 +4385,7 @@
   },
   {
     "id": "BENNY",
-    "name": null
+    "name": "|| RNAV"
   },
   {
     "id": "BENNZ",
@@ -5148,10 +5144,6 @@
     "name": null
   },
   {
-    "id": "BITTR",
-    "name": "|| RNAV"
-  },
-  {
     "id": "BITVE",
     "name": null
   },
@@ -5326,10 +5318,6 @@
   {
     "id": "BLAZN",
     "name": null
-  },
-  {
-    "id": "BLBBY",
-    "name": "|| RNAV"
   },
   {
     "id": "BLCKD",
@@ -7296,6 +7284,10 @@
     "name": null
   },
   {
+    "id": "BURTT",
+    "name": null
+  },
+  {
     "id": "BUSCH",
     "name": null
   },
@@ -7870,10 +7862,6 @@
   {
     "id": "CAMBE",
     "name": "|| RNAV"
-  },
-  {
-    "id": "CAMBO",
-    "name": "|| COMPULSORY RNAV"
   },
   {
     "id": "CAMBR",
@@ -10440,6 +10428,10 @@
     "name": "|| RNAV"
   },
   {
+    "id": "CLUFF",
+    "name": null
+  },
+  {
     "id": "CLUNG",
     "name": null
   },
@@ -10742,10 +10734,6 @@
   {
     "id": "COGRI",
     "name": null
-  },
-  {
-    "id": "COHIL",
-    "name": "(.CRP)| FLY OVER WPT"
   },
   {
     "id": "COHLE",
@@ -11592,10 +11580,6 @@
     "name": "|| RNAV"
   },
   {
-    "id": "CREWE",
-    "name": null
-  },
-  {
     "id": "CRG",
     "name": null
   },
@@ -12241,7 +12225,7 @@
   },
   {
     "id": "CUTTL",
-    "name": null
+    "name": "|| RNAV"
   },
   {
     "id": "CUTTN",
@@ -12729,6 +12713,10 @@
   },
   {
     "id": "DAPAN",
+    "name": "FLY OVER WPT"
+  },
+  {
+    "id": "DAPUN",
     "name": "FLY OVER WPT"
   },
   {
@@ -13676,10 +13664,6 @@
     "name": null
   },
   {
-    "id": "DEWIT",
-    "name": null
-  },
-  {
     "id": "DEWLN",
     "name": null
   },
@@ -13805,7 +13789,7 @@
   },
   {
     "id": "DIBOL",
-    "name": "|| RNAV"
+    "name": null
   },
   {
     "id": "DIBVY",
@@ -14594,6 +14578,10 @@
   {
     "id": "DORIS",
     "name": "|| RNAV"
+  },
+  {
+    "id": "DORKU",
+    "name": "FLY OVER WPT"
   },
   {
     "id": "DORMR",
@@ -16700,6 +16688,10 @@
     "name": "|| RNAV"
   },
   {
+    "id": "ELTEX",
+    "name": "FLY OVER WPT"
+  },
+  {
     "id": "ELUBA",
     "name": "FLY OVER WPT"
   },
@@ -17026,10 +17018,6 @@
   {
     "id": "ENJOY",
     "name": "|| RNAV"
-  },
-  {
-    "id": "ENKOW",
-    "name": null
   },
   {
     "id": "ENL",
@@ -17905,10 +17893,6 @@
   },
   {
     "id": "EZIZI",
-    "name": null
-  },
-  {
-    "id": "EZKUP",
     "name": null
   },
   {
@@ -20693,6 +20677,10 @@
   },
   {
     "id": "GALOO",
+    "name": null
+  },
+  {
+    "id": "GALRD",
     "name": null
   },
   {
@@ -24036,10 +24024,6 @@
     "name": "|| RNAV"
   },
   {
-    "id": "HEBEL",
-    "name": "|| RNAV"
-  },
-  {
     "id": "HEBIP",
     "name": null
   },
@@ -26596,10 +26580,6 @@
     "name": null
   },
   {
-    "id": "ICADA",
-    "name": "|| RNAV"
-  },
-  {
     "id": "ICADI",
     "name": null
   },
@@ -27205,7 +27185,7 @@
   },
   {
     "id": "INDEX",
-    "name": null
+    "name": "|| RNAV"
   },
   {
     "id": "INDIA",
@@ -28921,7 +28901,7 @@
   },
   {
     "id": "JERYY",
-    "name": null
+    "name": "|| COMPULSORY LOW"
   },
   {
     "id": "JERZY",
@@ -29005,7 +28985,7 @@
   },
   {
     "id": "JETSO",
-    "name": null
+    "name": "|| RNAV"
   },
   {
     "id": "JETTS",
@@ -30389,7 +30369,7 @@
   },
   {
     "id": "JYBEE",
-    "name": "|| RNAV"
+    "name": null
   },
   {
     "id": "JYMBO",
@@ -38120,10 +38100,6 @@
     "name": null
   },
   {
-    "id": "LESSY",
-    "name": "|| RNAV"
-  },
-  {
     "id": "LESTE",
     "name": "|| RNAV"
   },
@@ -39909,7 +39885,7 @@
   },
   {
     "id": "MACEY",
-    "name": "|| RNAV"
+    "name": null
   },
   {
     "id": "MACHU",
@@ -41928,10 +41904,6 @@
     "name": "|| RNAV"
   },
   {
-    "id": "MIXNN",
-    "name": null
-  },
-  {
     "id": "MIXUP",
     "name": "|| RNAV"
   },
@@ -43740,6 +43712,10 @@
     "name": "|| RNAV"
   },
   {
+    "id": "NATEA",
+    "name": null
+  },
+  {
     "id": "NATEE",
     "name": null
   },
@@ -44584,6 +44560,10 @@
     "name": null
   },
   {
+    "id": "NOCCS",
+    "name": null
+  },
+  {
     "id": "NOCHI",
     "name": null
   },
@@ -45146,6 +45126,10 @@
   {
     "id": "NUJLE",
     "name": null
+  },
+  {
+    "id": "NUKAL",
+    "name": "FLY OVER WPT"
   },
   {
     "id": "NUKIE",
@@ -45970,6 +45954,10 @@
   {
     "id": "OHZUF",
     "name": "|| RNAV"
+  },
+  {
+    "id": "OI",
+    "name": null
   },
   {
     "id": "OILEE",
@@ -46932,10 +46920,6 @@
     "name": null
   },
   {
-    "id": "OSEGO",
-    "name": "|| RNAV"
-  },
-  {
     "id": "OSH",
     "name": null
   },
@@ -47246,6 +47230,10 @@
   {
     "id": "OVIDO",
     "name": "|| RNAV"
+  },
+  {
+    "id": "OVIPO",
+    "name": "FLY OVER WPT"
   },
   {
     "id": "OVIXI",
@@ -47673,7 +47661,7 @@
   },
   {
     "id": "PAITN",
-    "name": "|| RNAV"
+    "name": null
   },
   {
     "id": "PAJET",
@@ -48156,10 +48144,6 @@
     "name": null
   },
   {
-    "id": "PECOK",
-    "name": "|| RNAV"
-  },
-  {
     "id": "PECON",
     "name": "|| RNAV"
   },
@@ -48213,7 +48197,7 @@
   },
   {
     "id": "PEEPS",
-    "name": null
+    "name": "|| RNAV"
   },
   {
     "id": "PEETT",
@@ -49569,7 +49553,7 @@
   },
   {
     "id": "POMPE",
-    "name": null
+    "name": "|| RNAV"
   },
   {
     "id": "POMPY",
@@ -49709,10 +49693,6 @@
   },
   {
     "id": "PORTE",
-    "name": "|| RNAV"
-  },
-  {
-    "id": "POSIE",
     "name": "|| RNAV"
   },
   {
@@ -50956,10 +50936,6 @@
     "name": null
   },
   {
-    "id": "RAINE",
-    "name": "|| RNAV"
-  },
-  {
     "id": "RAINN",
     "name": null
   },
@@ -51312,6 +51288,10 @@
     "name": null
   },
   {
+    "id": "RBLAU",
+    "name": null
+  },
+  {
     "id": "RBLEW",
     "name": null
   },
@@ -51337,10 +51317,6 @@
   },
   {
     "id": "RBV",
-    "name": null
-  },
-  {
-    "id": "RBX",
     "name": null
   },
   {
@@ -51378,6 +51354,10 @@
   {
     "id": "RDFLG",
     "name": "|| RNAV"
+  },
+  {
+    "id": "RDHLS",
+    "name": null
   },
   {
     "id": "RDHOT",
@@ -52438,10 +52418,6 @@
   {
     "id": "ROAST",
     "name": "|| RNAV"
-  },
-  {
-    "id": "ROB",
-    "name": null
   },
   {
     "id": "ROBBB",
@@ -53796,10 +53772,6 @@
     "name": "|| RNAV"
   },
   {
-    "id": "SALES",
-    "name": "|| RNAV"
-  },
-  {
     "id": "SALFE",
     "name": null
   },
@@ -53870,10 +53842,6 @@
   {
     "id": "SAMIK",
     "name": "FLY OVER WPT"
-  },
-  {
-    "id": "SAMME",
-    "name": "|| RNAV"
   },
   {
     "id": "SAMMI",
@@ -54937,6 +54905,10 @@
   },
   {
     "id": "SGRRO",
+    "name": null
+  },
+  {
+    "id": "SGURA",
     "name": null
   },
   {
@@ -57856,6 +57828,10 @@
     "name": null
   },
   {
+    "id": "SULII",
+    "name": null
+  },
+  {
     "id": "SULLI",
     "name": "|| RNAV"
   },
@@ -58377,6 +58353,10 @@
   },
   {
     "id": "TAARZ",
+    "name": null
+  },
+  {
+    "id": "TAATR",
     "name": null
   },
   {
@@ -59928,10 +59908,6 @@
     "name": "|| COMPULSORY"
   },
   {
-    "id": "TOG",
-    "name": null
-  },
-  {
     "id": "TOI",
     "name": null
   },
@@ -60784,10 +60760,6 @@
     "name": null
   },
   {
-    "id": "TUDPE",
-    "name": null
-  },
-  {
     "id": "TUFFY",
     "name": "|| RNAV"
   },
@@ -61454,10 +61426,6 @@
   {
     "id": "UDUSE",
     "name": null
-  },
-  {
-    "id": "UFDUH",
-    "name": "|| RNAV"
   },
   {
     "id": "UFFDA",
@@ -63136,10 +63104,6 @@
     "name": null
   },
   {
-    "id": "VQK",
-    "name": null
-  },
-  {
     "id": "VRAIN",
     "name": null
   },
@@ -63717,7 +63681,7 @@
   },
   {
     "id": "WARPI",
-    "name": "|| RNAV"
+    "name": null
   },
   {
     "id": "WARRD",
@@ -65037,7 +65001,7 @@
   },
   {
     "id": "WISMO",
-    "name": "|| RNAV"
+    "name": null
   },
   {
     "id": "WISOM",
@@ -65804,10 +65768,6 @@
     "name": null
   },
   {
-    "id": "WUBSU",
-    "name": "|| RNAV"
-  },
-  {
     "id": "WUDDY",
     "name": null
   },
@@ -66077,10 +66037,6 @@
   },
   {
     "id": "WYYIT",
-    "name": null
-  },
-  {
-    "id": "WYYNR",
     "name": null
   },
   {
@@ -67397,7 +67353,7 @@
   },
   {
     "id": "ZATON",
-    "name": "|| RNAV"
+    "name": null
   },
   {
     "id": "ZATRO",
@@ -68104,10 +68060,6 @@
     "name": null
   },
   {
-    "id": "ZOLOX",
-    "name": "|| RNAV"
-  },
-  {
     "id": "ZOLUN",
     "name": null
   },
@@ -68494,10 +68446,6 @@
   {
     "id": "ZWICK",
     "name": null
-  },
-  {
-    "id": "ZX",
-    "name": "FLY OVER WPT"
   },
   {
     "id": "ZYDCO",
